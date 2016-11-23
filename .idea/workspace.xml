@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5649569e-0ba5-4d8a-b4b1-2cbd4202e481" name="Default" comment="alterar background">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/ebec_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/laranjaseta.png" />
+    <list default="true" id="5649569e-0ba5-4d8a-b4b1-2cbd4202e481" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/scroll to top button .jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/scrollToTop.js" afterPath="$PROJECT_DIR$/application/controllers/scrollToTop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/header.php" afterPath="$PROJECT_DIR$/application/views/include/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site.php" afterPath="$PROJECT_DIR$/application/views/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/scrollToTop.css" afterPath="$PROJECT_DIR$/assets/css/scrollToTop.css" />
     </list>
     <ignored path="ebec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +67,8 @@
       <file leaf-file-name="site.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/site.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="323">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -439,7 +434,7 @@
       <workItem from="1479661725059" duration="1589000" />
       <workItem from="1479763105955" duration="3665000" />
       <workItem from="1479914591011" duration="22000" />
-      <workItem from="1479917241460" duration="6918000" />
+      <workItem from="1479917241460" duration="7623000" />
     </task>
     <task id="LOCAL-00001" summary="alterar background">
       <created>1479650137268</created>
@@ -455,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1479917848370</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="alterar background">
+      <created>1479924193425</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1479924193426</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28851000" />
+    <option name="totallyTimeSpent" value="29556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -862,8 +864,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
