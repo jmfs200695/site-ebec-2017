@@ -11,7 +11,7 @@
     top:75px;
     right:40px;
     display:none;
-    background: url('laranjaseta.jpg') no-repeat 0px 20px;
+    background: url() no-repeat 0px 20px;
 }
 .scrollToTop:hover{
     text-decoration:none;
