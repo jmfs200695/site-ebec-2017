@@ -56,7 +56,7 @@
           <div class="container">
               <div class="navbar-header pull-left">                  
                   <a class="navbar-brand" href="<?php echo base_url('index.php/frontpage/index')?>">
-                    <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>">
+                    <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>align="left"">
                   </a>
               </div>
               <div class="navbar-header pull-right clearfix">

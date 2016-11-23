@@ -261,6 +261,8 @@
 
         </div>
 
+        <div class="cold-md"
+
         <!-- Facebook page plugin -->
         <div class="col-md-5" id="posts-right">
           <div class="fb-page" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline" 
@@ -269,8 +271,13 @@
         </div>
 
       </div>
+
+
+
   </div>
+    <a href="" class="scrollToTop">Scroll To Top</a>
 </section>
+
 
 
 
