@@ -7,13 +7,14 @@
 	    </div>
 	</header>-->
 	<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+
 <script>
 	$(document).ready(function(){
 
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-			console.log()
-			if (window.innerHeight - $(this).scrollTop() < 1) {
+			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
+			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -2) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -278,7 +279,7 @@
 	              <a class="btn btn-new" href="<?php echo base_url('index.php/frontpage/news_xlm')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
 	          </div>
 	        </div>
-	        <a href="" class="scrollToTop">Scroll To Top</a>
+	        <a href="" class="scrollToTop"></a>
 
         </div>
 
@@ -289,7 +290,6 @@
           data-width="500" data-height="710" data-small-header="false" data-adapt-container-width="true" 
           data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
         </div>
-		<a href="" class="scrollToTop"></a>
       </div>
 
 	  <p>olá</p>
