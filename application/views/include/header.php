@@ -56,7 +56,7 @@
           <div class="container">
               <div class="navbar-header pull-left">                  
                   <a class="navbar-brand" href="<?php echo base_url('index.php/frontpage/index')?>">
-                    <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>align="left"">
+                    <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>">
                   </a>
               </div>
               <div class="navbar-header pull-right clearfix">
@@ -121,8 +121,7 @@
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
                       <li>
-                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso parceiro?</a>
-                      </li>
+                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso par</a>
                   </ul>
               </div>
               <!-- /.navbar-collapse -->
