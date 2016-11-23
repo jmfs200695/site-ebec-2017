@@ -6,7 +6,28 @@
 	        </div>
 	    </div>
 	</header>-->
+	<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+<script>
+	$(document).ready(function(){
 
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			console.log()
+			if (window.innerHeight - $(this).scrollTop() < 1) {
+				$('.scrollToTop').fadeIn();
+			} else {
+				$('.scrollToTop').fadeOut();
+			}
+		});
+
+		//Click event to scroll to top
+		$('.scrollToTop').click(function(){
+			$('html, body').animate({scrollTop : 0},800);
+			return false;
+		});
+
+	});
+</script>
 
 	<!-- Slider -->
 	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden; visibility: hidden;">
@@ -261,7 +282,6 @@
 
         </div>
 
-        <div class="cold-md"
 
         <!-- Facebook page plugin -->
         <div class="col-md-5" id="posts-right">
@@ -269,15 +289,16 @@
           data-width="500" data-height="710" data-small-header="false" data-adapt-container-width="true" 
           data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
         </div>
-
+		<a href="" class="scrollToTop"></a>
       </div>
 
 	  <p>olá</p>
 
 	  <p>Scroll To Top</p>
 
+
   </div>
-    <a href="" class="scrollToTop">Scroll To Top</a>
+
 </section>
 
 
