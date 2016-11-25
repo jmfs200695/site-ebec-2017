@@ -192,91 +192,66 @@
             <!-- New -->
 	        <div class="row well news-post" style="margin-right:5px">
 	          <div class="col-md-12">
-	            <h4>Inova-Ria presente na feira de empresas</h4>
-	            <p><span class="fa fa-clock-o"></span>&nbsp; 3 MARÇO 2016</p>
+
 	          </div>
 	          <div class="col-md-4" style="vertical-align: middle;">
-	              <a href="<?php echo base_url('index.php/frontpage/news_inovaria')?>">
-	                  <img class="img-responsive " 
-	                  src="<?php echo base_url('assets/img/news/news-inovaria.jpg') ?>" alt="">
-	              </a>
+
 	          </div>
 	          <div class="col-md-8">                
-	              <p class="text-justify">Inova-Ria presente na feira de empresas da EBEC Aveiro 2016.</p>
-	              <a class="btn btn-new" href="<?php echo base_url('index.php/frontpage/news_inovaria')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
+
 	          </div>
 	        </div> 
 
             <!-- New -->
           <div class="row well news-post" style="margin-right:5px">
             <div class="col-md-12">
-              <h4>BEST Aveiro associa-se à Cáritas Diocesana de Aveiro</h4>
-              <p><span class="fa fa-clock-o"></span>&nbsp; 2 MARÇO 2016</p>
+
             </div>
             <div class="col-md-4" style="vertical-align: middle;">
-                <a href="<?php echo base_url('index.php/frontpage/news_caritas_aveiro')?>">
-                    <img class="img-responsive " 
-                    src="<?php echo base_url('assets/img/news/news-caritas-aveiro.jpg') ?>" alt="">
-                </a>
+
             </div>
             <div class="col-md-8">                
-                <p class="text-justify">Ajuda-nos a ajudar, contribuindo para a recolha de alimentos para a 
-                Cáritas Diocesana de Aveiro, na feira de empresas, dia 3 de março no Complexo Pedagógico e 
-                Científico.</p>
-                <a class="btn btn-new" href="<?php echo base_url('index.php/frontpage/news_caritas_aveiro')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
+
             </div>
           </div>
         	<!-- New -->
 	        <div class="row well news-post" style="margin-right:5px">
 	          <div class="col-md-12">
-	            <h4>Grupo Visabeira presente na feira de empresas</h4>
-	            <p><span class="fa fa-clock-o"></span>&nbsp; 1 MARÇO 2016</p>
+
 	          </div>
 	          <div class="col-md-4" style="vertical-align: middle;">
-	              <a href="<?php echo base_url('index.php/frontpage/news_grupo_visabeira')?>">
-	                  <img class="img-responsive " 
-	                  src="<?php echo base_url('assets/img/news/news-grupo-visabeira.jpg') ?>" alt="">
+
 	              </a>
 	          </div>
 	          <div class="col-md-8">                
-	              <p class="text-justify">Grupo Visabeira presente na feira de empresas da EBEC Aveiro 2016.</p>
-	              <a class="btn btn-new" href="<?php echo base_url('index.php/frontpage/news_grupo_visabeira')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
+
 	          </div>
 	        </div> 
 
         	<!-- New -->
 	        <div class="row well news-post" style="margin-right:5px">
 	          <div class="col-md-12">
-	            <h4>The Navigator Company na feira de empresas</h4>
-	            <p><span class="fa fa-clock-o"></span>&nbsp; 28 FEVEREIRO 2016</p>
+
 	          </div>
 	          <div class="col-md-4" style="vertical-align: middle;">
-	              <a href="<?php echo base_url('index.php/frontpage/news_the_navigator_company')?>">
-	                  <img class="img-responsive " 
-	                  src="<?php echo base_url('assets/img/news/news-the-navigator-company.jpg') ?>" alt="">
-	              </a>
+
 	          </div>
 	          <div class="col-md-8">                
-	              <p class="text-justify">The Navigator Company presente na feira de empresas da EBEC Aveiro 2016.</p>
-	              <a class="btn btn-new" href="<?php echo base_url('index.php/frontpage/news_the_navigator_company')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
+
 	          </div>
 	        </div> 
 
         	<!-- New -->
 	        <div class="row well news-post" style="margin-right:5px">
 	          <div class="col-md-12">
-	            <h4>XLM na Feira de Empresas</h4>
-	            <p><span class="fa fa-clock-o"></span>&nbsp; 26 FEVEREIRO 2016</p>
+
 	          </div>
 	          <div class="col-md-4" style="vertical-align: middle;">
-	              <a href="<?php echo base_url('index.php/frontpage/news_xlm')?>">
-	                  <img class="img-responsive " 
-	                  src="<?php echo base_url('assets/img/news/news-xlm.jpg') ?>" alt="">
-	              </a>
+
 	          </div>
 	          <div class="col-md-8">                
-	              <p class="text-justify">XLM presente na feira de empresas da EBEC Aveiro 2016.</p>
-	              <a class="btn btn-new" href="<?php echo base_url('index.php/frontpage/news_xlm')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
+
+
 	          </div>
 	        </div>
 	        <a href="" class="scrollToTop"></a>
@@ -292,9 +267,7 @@
         </div>
       </div>
 
-	  <p>olá</p>
 
-	  <p>Scroll To Top</p>
 
 
   </div>

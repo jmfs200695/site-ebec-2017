@@ -7,7 +7,7 @@
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
 			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.945) {
+			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.9) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -39,8 +39,8 @@
 	    <div class="row">	    	     
 	        <div class="col-md-12">                
 	            <p class="text-muted text-justify">
-	            	O <b>BEST - Board of European Students of Technology -</b> é uma organização europeia sem fins lucrativos 
-	            	e apolítica de estudantes de Ciências, Engenharia e Tecnologia, presente em 96 universidades de 
+	            	O <b>BEST - Board of European Students of Technology -</b> é uma organização europeia sem fins lucrativos
+	            	e apolítica de estudantes de Ciências, Engenharia e Tecnologia, presente em 96 universidades de
 	            	33 países, com cerca de 3000 membros e abrangendo aproximadamente 1 milhão de estudantes.
 	            </p>
 	        </div>
@@ -67,6 +67,7 @@
 	            <img class="img-responsive img-center" alt="" src="<?php echo base_url('assets/img/best/best_triangle.png')?>">	            
 	        </div>
 	    </div>
+
     </div>
 </section>
 
@@ -89,25 +90,23 @@
 	    <br/>
 	    <div class="row">	    	     
 	        <div class="col-md-6">
-	        	<img class="img-responsive img-center" alt="" src="<?php echo base_url('assets/img/best/best_aveiro_1.jpg')?>">
+				<div class="fotorama" data-width="400" ata-ratio="4/3" data-nav="thumbs" data-thumbheight="48" data-allowfullscreen="true" data-loop="true" data-autoplay="true" data-stopautoplayontouch="false">
+					<img src="<?php echo base_url('assets/img/best/MW.jpg')?>">
+					<img src="<?php echo base_url('assets/img/best/summer.jpg')?>">
+					<img src="<?php echo base_url('assets/img/best/best.jpg')?>">
+
+				</div>
 	            <br/>
-	            <p class="text-muted text-justify">
-	            	O <b>BEST Aveiro</b> é um dos 96 grupos locais do <b>BEST</b>.
-	            </p>
-	            <p class="text-muted text-justify">
-	            	O grupo local do BEST em Aveiro foi fundado em 2008, sob a liderança de Eric Bosne, que tinha como 
-	            	objectivo desenvolver as suas capacidades académicas, partilhar experiências e conhecer novas pessoas, 
-	            	tanto em Portugal como no estrangeiro, contagiando alguns colegas com a mesma vontade. O projecto 
-	            	arrancou como BEST Observer group com apenas alguns membros, mas rapidamente evoluiu para o estatuto 
-	            	de Baby Member e neste momento o grupo local de Aveiro possui o estatuto de Full Member.
-	            </p>            
+
 	        </div>
 	        <div class="col-md-6">
 	        	<p class="text-muted text-justify">
-	            	Esta é uma organização de e para estudantes, trabalhando em prol do desenvolvimento pessoal, 
-	            	académico e cultural dos mesmos, oferecendo diversas oportunidades de formação complementar e 
-	            	intercâmbio. Para tal, o BEST Aveiro organiza anualmente:
-	            </p>
+					Fundado oficialmente em 2010, o Grupo Local BEST Aveiro, sediado na Universidade de Aveiro, conta com cerca de 45 membros ativos das áreas de Ciências, Tecnologias e Engenharias. Ao longo dos seus 6 anos de história, distingue-se pela diversidade e qualidade de eventos organizados. Estes abrangem tanto os estudantes a nível local, como nacional e europeu, focando-se ainda no próprio desenvolvimento dos membros da Associação, para que estes estejam em constante progressão e aprendizagem.
+					O BEST Aveiro oferece aos estudantes a
+					oportunidade de participar em eventos que visam a
+					complementaridade dos seus estudos, organizando
+					anualmente competições, como:
+				</p>
 	            <ul class="fa-ul">
 					<li class="text-muted">
 						<i class="fa fa-arrow-right"></i>&nbsp; Curso Sazonal;
@@ -129,7 +128,7 @@
 					</li>
 				</ul>
 				<br/>
-	            <img class="img-responsive img-center" alt="" src="<?php echo base_url('assets/img/best/activities.jpg')?>">	            
+
 	        </div>
 	    </div>
     </div>
