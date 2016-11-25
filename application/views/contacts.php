@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/contacts/Pedro Reis.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <img src="<?php echo base_url('assets/img/contacts/PedroReis.jpg')?>" class="img-responsive img-circle img-contact" alt="">
                     <h4>Pedro Reis</h4>
                     <p class="text-muted">Coordenador da EBEC Aveiro</p>
                     <p>
@@ -42,6 +42,17 @@
                     </p>
                 </div>
             </div>
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="<?php echo base_url('assets/img/contacts/Catarina Jorge.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Catarina Jorge</h4>
+                    <p class="text-muted">Responsável de Relações Empresariais</p>
+                    <p>
+                        <i class="fa fa-envelope"></i><a href="mailto:nuno.marques@BEST.eu.org"> nuno.marques@BEST.eu.org </a><br/>
+                        <i class="fa fa-phone"></i> <b>939478947</b>
+                    </p>
+                </div>
+             </div>
         </div>
     </div>
 </section>
