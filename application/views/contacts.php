@@ -22,7 +22,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/contacts/Miguel Oliveira.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <img src="<?php echo base_url('assets/img/contacts/MiguelOliveira.jpg')?>" class="img-responsive img-circle img-contact" alt="">
                     <h4>Miguel Oliveira</h4>
                     <p class="text-muted">Presidente do BEST Aveiro</p>
                     <p>
