@@ -16,7 +16,7 @@
                     <p class="text-muted">Coordenador da EBEC Aveiro</p>
                     <p>
                         <i class="fa fa-envelope"></i><a href="mailto:pedromlsreis@gmail.com" > pedromlsreis@gmail.com  </a><br/>
-                        <i class="fa fa-phone"></i> <b></b>
+                        <i class="fa fa-phone"></i> <b>919 433 150</b>
                     </p>
                 </div>
             </div>
@@ -27,7 +27,7 @@
                     <p class="text-muted">Presidente do BEST Aveiro</p>
                     <p>
                         <i class="fa fa-envelope"></i><a href="mailto:orlando.pinheiro@BEST.eu.org"> orlando.pinheiro@BEST.eu.org </a><br/>
-                        <i class="fa fa-phone"></i> <b>938313255</b>
+                        <i class="fa fa-phone"></i> <b>918 570 425</b>
                     </p>
                 </div>
             </div>
@@ -49,7 +49,7 @@
                     <p class="text-muted">Responsável de Relações Empresariais</p>
                     <p>
                         <i class="fa fa-envelope"></i><a href="mailto:nuno.marques@BEST.eu.org"> nuno.marques@BEST.eu.org </a><br/>
-                        <i class="fa fa-phone"></i> <b>939478947</b>
+                        <i class="fa fa-phone"></i> <b>918 945 397</b>
                     </p>
                 </div>
              </div>
