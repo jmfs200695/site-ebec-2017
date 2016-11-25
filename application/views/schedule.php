@@ -7,7 +7,7 @@
 	        </div>
 	        <div class="row">        	        
 		        <div class="col-md-12">
-		        	<img class="img-responsive" src="<?php echo base_url('assets/img/schedule/schedule.png')?>">
+		        	<img class="img-responsive" src="<?php echo base_url('assets/img/schedule/Schedule.jpg')?>">
 		        </div>
 	        </div>
 	    </div>

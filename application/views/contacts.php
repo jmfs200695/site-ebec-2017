@@ -1,4 +1,5 @@
 <!-- Contacts -->
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
 <section class="">
     <div class="container">
         <div class="row">
@@ -10,19 +11,19 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/contacts/mo.png')?>" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Miguel Oliveira</h4>
+                    <img src="<?php echo base_url('assets/img/contacts/Pedro Reis.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Pedro Reis</h4>
                     <p class="text-muted">Coordenador da EBEC Aveiro</p>
                     <p>
-                        <i class="fa fa-envelope"></i><a href="mailto:miguel.guimaraes.oliveira@BEST.eu.org"> miguel.guimaraes.oliveira@BEST.eu.org </a><br/>
-                        <i class="fa fa-phone"></i> <b>918570425</b>
+                        <i class="fa fa-envelope"></i><a href="mailto:pedromlsreis@gmail.com" > pedromlsreis@gmail.com  </a><br/>
+                        <i class="fa fa-phone"></i> <b></b>
                     </p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/contacts/president.png')?>" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Orlando Pinheiro</h4>
+                    <img src="<?php echo base_url('assets/img/contacts/Miguel Oliveira.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Miguel Oliveira</h4>
                     <p class="text-muted">Presidente do BEST Aveiro</p>
                     <p>
                         <i class="fa fa-envelope"></i><a href="mailto:orlando.pinheiro@BEST.eu.org"> orlando.pinheiro@BEST.eu.org </a><br/>
@@ -32,8 +33,8 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/contacts/treasurer.png')?>" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Nuno Marques</h4>
+                    <img src="<?php echo base_url('assets/img/contacts/ebec_logo.png')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Filipe Silva</h4>
                     <p class="text-muted">Tesoureiro do BEST Aveiro</p>
                     <p>
                         <i class="fa fa-envelope"></i><a href="mailto:nuno.marques@BEST.eu.org"> nuno.marques@BEST.eu.org </a><br/>
@@ -134,7 +135,7 @@
         </div>
     </div>
 </section>
-
+<a href="" class="scrollToTop"></a>
 <!-- Map javascript -->
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
@@ -159,3 +160,28 @@
  
     google.maps.event.addDomListener(window, 'load', init_map);
 </script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568b1027a1f2a864" async="async"></script>
+<script>
+    $(document).ready(function(){
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
+            if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.07) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+
+    });
+ </script>

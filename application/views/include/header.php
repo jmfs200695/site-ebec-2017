@@ -49,6 +49,8 @@
 <body>
 
 
+
+
    <div id="holder">
 
       <!-- Navigation -->
@@ -63,6 +65,8 @@
                   <a href="http://bestaveiro.web.ua.pt/" class="navbar-brand">
                      <img class="nav_logo" src="<?php echo base_url('assets/img/logos/best_aveiro_logo.png') ?>">
                   </a>
+                  <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">English</a>
+
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
@@ -70,6 +74,7 @@
                       <span class="icon-bar"></span>
                   </button>
               </div>
+
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
                       <li>
@@ -121,14 +126,14 @@
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
                       <li>
-                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso par</a>
+                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso parceiro?</a>
+                      </li>
+
                   </ul>
+
               </div>
               <!-- /.navbar-collapse -->
           </div>
           <!-- /.container-fluid -->
       </nav>
-
-
-	  <!-- Go to www.addthis.com/dashboard to customize your tools -->
-	  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568b1027a1f2a864" async="async"></script>
+    </div>

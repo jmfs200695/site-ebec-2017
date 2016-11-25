@@ -3,7 +3,7 @@
  */
 
 body {
-  padding-top: 37px;
+  padding-top: 50px;
 }
 
 .navbar {
@@ -132,7 +132,7 @@ margin-top: 15px;
 #about_best {
   background-image: url('../img/backgrounds/pw_maze_white.png');
   background-repeat:repeat-y repeat-x;
-  margin-top: 30px;
+  margin-top: 60px;
   border-top-color: #D4D4D4;
   border-top-style: solid;
   border-top-width: 1px;
@@ -365,7 +365,7 @@ a#slide_button4{
 }
 
 div.navbar-fixed-top{
-  line-height: 16px;
+  line-height: 10px;
 }
 
 
@@ -393,7 +393,7 @@ div.navbar-fixed-top{
 }
 
 #best_logo_img {
-  background: url('../img/best_logo_242x123.png') center center no-repeat;
+  background: url('../img/best_logo_242x123.png') ;
   height: 270px;
 }
 
@@ -585,7 +585,7 @@ header {
 }
 
 header .intro-text {
-    margin-top: 150px;
+    margin-top: 50px;
     padding-top: 100px;
     padding-bottom: 50px;
 }
@@ -948,23 +948,6 @@ p.large {
     margin: 0 auto;
 }
 
-.scrollToTop{
-  width:100px;
-  height:130px;
-  padding:10px;
-  text-align:center;
-  background: whiteSmoke;
-  font-weight: bold;
-  color: #444;
-  text-decoration: none;
-  position:fixed;
-  top:75px;
-  right:40px;
-  display:none;
-  background: url('../img/laranjaseta.jpg') no-repeat 0px 20px;
-}
-.scrollToTop:hover{
-  text-decoration:none;
-}
+
 
 
