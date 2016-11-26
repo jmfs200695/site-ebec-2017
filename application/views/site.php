@@ -6,7 +6,38 @@
 	        </div>
 	    </div>
 	</header>-->
-	<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+
+    <link name="author" href="Faisal Russel(russel365)" />
+    <meta name="description" content="Coming soon, Bootstrap, Bootstrap 3.0, Free Coming Soon, free coming soon, free template, coming soon template, Html template, html template, html5">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Mobile -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+
+    <!-- CSS start here -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <!-- CSS end here -->
+    <!-- Google fonts start here -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <!-- Google fonts end here -->
+
+
+
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css') ?>"/>
+
+
+
 
 <script>
 	$(document).ready(function(){
@@ -29,88 +60,20 @@
 
 	});
 </script>
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 img-center">
+                    <img src="<?php echo base_url('assets/img/home/ebec.jpg')?>"
+                         width="1100" height="500">
+                    <br/>
+                </div>
+            </div>
 
-	<!-- Slider -->
-	<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden; visibility: hidden;">
-        <!-- Loading Screen -->
-        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
-            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
-            <div style="position:absolute;display:block;background:url('<?php echo base_url('assets/full-width-slider/img/loading.gif') ?>') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
         </div>
-        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden;">
-            <div data-p="225.00" style="display: none;">
-                <img data-u="image" src="<?php echo base_url('assets/img/home/ebec.png') ?>" />                
-            </div>
-            <div data-p="225.00" style="display: none;">
-                <img data-u="image" src="<?php echo base_url('assets/img/home/case_study.png') ?>" />
-            </div>
-            <div data-p="225.00" style="display: none;">
-                <img data-u="image" src="<?php echo base_url('assets/img/home/team_design.png') ?>" />
-            </div>
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb05" style="bottom:10px;right:10px;" data-autocenter="1">
-            <!-- bullet navigator item prototype -->
-            <div data-u="prototype" style="width:10px;height:10px;"></div>
-        </div>
-        <!-- Arrow Navigator -->
-        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span>
-        <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span>
-    </div>
 
-<!-- Slider script -->
-<script>
-  jQuery(document).ready(function ($) {
-      
-      var jssor_1_SlideoTransitions = [
-        [{b:5500.0,d:3000.0,o:-1.0,r:240.0,e:{r:2.0}}],
-        [{b:-1.0,d:1.0,o:-1.0,c:{x:51.0,t:-51.0}},{b:0.0,d:1000.0,o:1.0,c:{x:-51.0,t:51.0},e:{o:7.0,c:{x:7.0,t:7.0}}}],
-        [{b:-1.0,d:1.0,o:-1.0,sX:9.0,sY:9.0},{b:1000.0,d:1000.0,o:1.0,sX:-9.0,sY:-9.0,e:{sX:2.0,sY:2.0}}],
-        [{b:-1.0,d:1.0,o:-1.0,r:-180.0,sX:9.0,sY:9.0},{b:2000.0,d:1000.0,o:1.0,r:180.0,sX:-9.0,sY:-9.0,e:{r:2.0,sX:2.0,sY:2.0}}],
-        [{b:-1.0,d:1.0,o:-1.0},{b:3000.0,d:2000.0,y:180.0,o:1.0,e:{y:16.0}}],
-        [{b:-1.0,d:1.0,o:-1.0,r:-150.0},{b:7500.0,d:1600.0,o:1.0,r:150.0,e:{r:3.0}}],
-        [{b:10000.0,d:2000.0,x:-379.0,e:{x:7.0}}],
-        [{b:10000.0,d:2000.0,x:-379.0,e:{x:7.0}}],
-        [{b:-1.0,d:1.0,o:-1.0,r:288.0,sX:9.0,sY:9.0},{b:9100.0,d:900.0,x:-1400.0,y:-660.0,o:1.0,r:-288.0,sX:-9.0,sY:-9.0,e:{r:6.0}},{b:10000.0,d:1600.0,x:-200.0,o:-1.0,e:{x:16.0}}]
-      ];
-      
-      var jssor_1_options = {
-        $AutoPlay: true,
-        $SlideDuration: 800,
-        $SlideEasing: $Jease$.$OutQuint,
-        $CaptionSliderOptions: {
-          $Class: $JssorCaptionSlideo$,
-          $Transitions: jssor_1_SlideoTransitions
-        },
-        $ArrowNavigatorOptions: {
-          $Class: $JssorArrowNavigator$
-        },
-        $BulletNavigatorOptions: {
-          $Class: $JssorBulletNavigator$
-        }
-      };
-      
-      var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-      
-      //responsive code begin
-      //you can remove responsive code if you don't want the slider scales while window resizing
-      function ScaleSlider() {
-          var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
-          if (refSize) {
-              refSize = Math.min(refSize, 1920);
-              jssor_1_slider.$ScaleWidth(refSize);
-          }
-          else {
-              window.setTimeout(ScaleSlider, 30);
-          }
-      }
-      ScaleSlider();
-      $(window).bind("load", ScaleSlider);
-      $(window).bind("resize", ScaleSlider);
-      $(window).bind("orientationchange", ScaleSlider);
-      //responsive code end
-  });
-</script>
+    </section>
+
 
 <style>        
     /* jssor slider bullet navigator skin 05 css */
@@ -164,6 +127,40 @@
     .jssora22l.jssora22ldn { background-position: -250px -31px; }
     .jssora22r.jssora22rdn { background-position: -310px -31px; }
 </style>
+
+    <!-- Count Down start here -->
+    <section class="count-down-wrapper fade-down">
+        <ul class="row count-down">
+            <li class="col-md-3 col-sm-6">
+                <input class="knob days" data-readonly=true data-min="0" data-max="365" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#34aadc" data-bgColor="#e1e2e6" data-angleOffset="180">
+                <span id="days-title">days</span>
+            </li>
+            <li class="col-md-3 col-sm-6">
+                <input class="knob hour" data-readonly=true data-min="0" data-max="24" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#4cd964" data-bgColor="#e1e2e6" data-angleOffset="180">
+                <span id="hours-title">hours</span>
+            </li>
+            <li class="col-md-3 col-sm-6">
+                <input class="knob minute" data-readonly=true data-min="0" data-max="60" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#ff9500" data-bgColor="#e1e2e6" data-angleOffset="180">
+                <span id="mins-title">minutes</span>
+            </li>
+            <li class="col-md-3 col-sm-6">
+                <input class="knob second" data-readonly=true data-min="0" data-max="60" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#ff3b30" data-bgColor="#e1e2e6" data-angleOffset="180">
+                <span id="secs-title">seconds</span>
+            </li>
+        </ul>
+    </section>
+    <!-- Count Down end here -->
+
+    <!-- Javascript framework and plugins start here -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.knob.js"></script>
+    <script src="js/jquery.ccountdown.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/general.js"></script>
+    <!-- Javascript framework and plugins end here -->
+
+
 
 <!-- Teaser -->
 <section class="bg-light-gray">

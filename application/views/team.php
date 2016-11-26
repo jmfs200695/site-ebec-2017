@@ -10,10 +10,10 @@
         <div class="row">
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/mo.png')?>" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Miguel Oliveira</h4>
+                    <img src="<?php echo base_url('assets/img/contacts/PedroReis.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Pedro Reis</h4>
                     <p class="text-muted">Coordenador da EBEC Aveiro</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:miguel.guimaraes.oliveira@BEST.eu.org"> miguel.guimaraes.oliveira@BEST.eu.org </a></p>
+                    <p><i class="fa fa-envelope"></i><a href="mailto:pedro.reis@best.eu.org"> pedro.reis@best.eu.org </a></p>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -26,10 +26,12 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/fr.png')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle imag-contact" alt="">
-                    <h4>Raquel Dantas</h4>
+                    <img src="<?php echo base_url('assets/img/contacts/Catarina Jorge.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle imag-contact" alt="">
+                    <h4>Catarina Jorge</h4>
                     <p class="text-muted">Responsável de Relações Empresariais</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:raqueeldaantas.96@gmail.com"> raqueeldaantas.96@gmail.com</a></p>
+                    <p><i class="fa fa-envelope"></i><a href="mailto:catarina.jorge@best.eu.org
+"> catarina.jorge@best.eu.org
+                        </a></p>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -47,27 +49,7 @@
                     <p class="text-muted">Responsável de Information Technology</p>
                     <p><i class="fa fa-envelope"></i><a href="mailto:andre.jeronimo.santos@BEST.eu.org"> andre.jeronimo.santos@BEST.eu.org</a></p>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/part.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Cátia Guimarães</h4>
-                    <p class="text-muted">Responsável de Participantes</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:catiaguimaraes.19@gmail.com"> catiaguimaraes.19@gmail.com</a></p>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/log.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Carolina Conceição</h4>
-                    <p class="text-muted">Responsável de Logística</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:carolina.concei.o@BEST.eu.org"> carolina.concei.o@BEST.eu.org</a></p>
-                </div>
+
             </div>
         </div>
     </div>

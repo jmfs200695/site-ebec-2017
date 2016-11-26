@@ -36,43 +36,36 @@
 	            <br/>
 	        </div>
 	    </div>
-	    <div class="row">	    	     
-	        <div class="col-md-12">                
-	            <p class="text-muted text-justify">
-	            	O <b>BEST - Board of European Students of Technology -</b> é uma organização europeia sem fins lucrativos
-	            	e apolítica de estudantes de Ciências, Engenharia e Tecnologia, presente em 96 universidades de
-	            	33 países, com cerca de 3000 membros e abrangendo aproximadamente 1 milhão de estudantes.
-	            </p>
-	        </div>
-	    </div>
-	    <br/>
-	    <div class="row">	    	     
-	        <div class="col-md-6">
-	        	<img class="img-responsive img-center" alt="" src="<?php echo base_url('assets/img/best/best_map.png')?>">
-	            <p class="text-muted text-justify">
-	            	A visão do BEST é baseada na criação de um ambiente de diversidade, entre os estudantes, propício 
-	            	à aprendizagem, compreensão e respeito pelas diferentes culturas e backgrounds sociais, bem como à 
-	            	preparação dos estudantes para um mercado de trabalho global, fazendo com que apliquem todo o seu 
-	            	potencial e atuem de forma responsável. O BEST acredita que os ambientes culturalmente enriquecidos 
-	            	aumentam a probabilidade de sucesso de um grupo de trabalho.
-	            </p>	            
-	        </div>
-	        <div class="col-md-6">
-	        	<p class="text-muted text-justify">
-	            	A missão do BEST é desenvolver os estudantes, dando-lhes a oportunidade de complementar o seu 
-	            	percurso académico e desenvolver soft-skills, num ambiente multicultural para compreensão da 
-	            	sociedade e melhor adaptação a um mercado de trabalho globalizado. Assim, o BEST visa, através 
-	            	dos seus eventos, aproximar estudantes, universidades e empresas.
-	            </p>
-	            <img class="img-responsive img-center" alt="" src="<?php echo base_url('assets/img/best/best_triangle.png')?>">	            
-	        </div>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="fotorama" data-width="400" ata-ratio="4/3" data-nav="thumbs" data-thumbheight="48" data-allowfullscreen="true" data-loop="true" data-autoplay="true" data-stopautoplayontouch="false">
+					<img src="<?php echo base_url('assets/img/best/tri.png')?>">
+					<img src="<?php echo base_url('assets/img/best/pm.jpg')?>">
+					<img src="<?php echo base_url('assets/img/best/rm.jpg')?>">
+
+				</div>
+				<br/>
+
+			</div>
+			<div class="col-md-6">
+				<p class="text-muted text-justify">
+					O BEST (Board of European Students of Technology) é uma organização europeia sem fins lucrativos, não-governamental e apolítica para estudantes das áreas de Ciências, Tecnologias e Engenharias. Através dos 95 grupos locais presentes em 33 países de toda a Europa, construímos uma rede de estudantes inovadora, flexível e dinâmica em constante crescimento.
+				</p>
+				<p class="text-muted text-justify">
+					Desde 1989 que temos vindo a fortalecer uma relação de cooperação entre estudantes, empresas e universidades, sustentando um desenvolvimento de competências cruciais para um futuro profissional de sucesso. Através de uma educação complementar, de um apoio à carreira e de um aumento do interesse pela análise do sistema educacional, permitimos uma formação de jovens proativos, ambiciosos e versáteis. Para além disso, um dos pontos fundamentais num desenvolvimento de qualidade é ser capaz de interagir com diferentes culturas e adaptar-se a novas circunstâncias. Para tal, criamos oportunidades de progressão académica em ambiente intercultural, providenciando troca de conhecimento e experiências entre jovens de toda a Europa.
+				</p>
+				<br/>
+
+			</div>
+		</div>
+	</div>
 	    </div>
 
     </div>
 </section>
 
 <!-- BEST Aveiro -->
-<section class="bg-gray">
+<section class="bg-ebec-orange">
 	<div class="container">
 		<div class="row">
 	        <div class="col-lg-12 text-center">

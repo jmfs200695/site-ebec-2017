@@ -15,7 +15,7 @@
                     <h4>Pedro Reis</h4>
                     <p class="text-muted">Coordenador da EBEC Aveiro</p>
                     <p>
-                        <i class="fa fa-envelope"></i><a href="mailto:pedro.reis@best.eu.org" > pedromlsreis@gmail.com  </a><br/>
+                        <i class="fa fa-envelope"></i><a href="mailto:pedro.reis@best.eu.org" > pedro.reis@best.eu.org  </a><br/>
                         <i class="fa fa-phone"></i> <b>919 433 150</b>
                     </p>
                 </div>
@@ -26,7 +26,7 @@
                     <h4>Miguel Oliveira</h4>
                     <p class="text-muted">Presidente do BEST Aveiro</p>
                     <p>
-                        <i class="fa fa-envelope"></i><a href="mailto:miguel.guimaraes.oliveira@best.eu.org"> orlando.pinheiro@BEST.eu.org </a><br/>
+                        <i class="fa fa-envelope"></i><a href="mailto:miguel.guimaraes.oliveira@best.eu.org"> miguel.guimaraes.oliveira@best.eu.org</a><br/>
                         <i class="fa fa-phone"></i> <b>918 570 425</b>
                     </p>
                 </div>
@@ -48,7 +48,7 @@
                     <h4>Catarina Jorge</h4>
                     <p class="text-muted">Responsável de Relações Empresariais</p>
                     <p>
-                        <i class="fa fa-envelope"></i><a href="catarina.jorge@best.eu.org"> nuno.marques@BEST.eu.org </a><br/>
+                        <i class="fa fa-envelope"></i><a href="catarina.jorge@best.eu.org"> catarina.jorge@best.eu.org </a><br/>
                         <i class="fa fa-phone"></i> <b>918 945 397</b>
                     </p>
                 </div>
