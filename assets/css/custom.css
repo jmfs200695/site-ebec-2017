@@ -3,16 +3,21 @@
  */
 
 body {
-  padding-top: 50px;
+  padding-top: 10px;
+
 }
 
 .navbar {
-  background-color: #EEA225;
-  border-color: #B26912;
+  background-color: black;
+  border-color: black;
+  opacity: 0.7;
+
 }
 
 .navbar .nav > li {
-  padding: 0px 7px;
+  margin-left: 5px;
+
+
 }
 
 .navbar .nav,
@@ -25,11 +30,12 @@ body {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  color: #666666;
+  color: grey;
 }
 
 .navbar .nav > li a:hover {
   color: #FFFFFF;
+  background: orange;
 }
 
 /* Dropdown menu */
@@ -55,7 +61,7 @@ body {
 }
 
 .nav_logo {
-	height: 45px;
+	height: 30px;
 }
 
 .navbar .navbar-nav {
@@ -298,7 +304,7 @@ div.fill_bottom{
 
 .vertical_align {
   margin-bottom: 0px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .img_container {
@@ -581,7 +587,7 @@ header {
     background-size: cover;
     -o-background-size: cover;
     text-align: center;
-    color: #fff;
+    color: #ccc;
 }
 
 header .intro-text {
@@ -602,13 +608,13 @@ header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 50px;
     margin-bottom: 25px
 }
 
 header .btn {
-    color: #FFF;
+    color: #ccc;
     background-color: #FED136;
     border-color: #FED136;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -977,8 +983,21 @@ p.large {
   z-index: 9 !important;
   list-style-type: none;
 }
+
 /*Countdown end here*/
+.back{
+  background-color: orange;
+}
+.c{
+  background: url("U.jpg");
+  width: 1200px;
+  background-size: cover;
+}
 
-
-
+.t{
+  text-decoration-color: grey;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+}
 

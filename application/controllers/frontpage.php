@@ -184,7 +184,7 @@ class Frontpage extends Main_Controller {
 	public function querparceiro()
     	{
     		$this->load->view('include/header');
-          	$this->load->view('querparceiro');
+          	$this->load->view('querparceiro.php');
           	$this->load->view('include/footer');
     	}
     public function tradutor()

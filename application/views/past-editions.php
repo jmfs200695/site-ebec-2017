@@ -1,3 +1,30 @@
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+<script>
+	$(document).ready(function(){
+
+		//Check to see if the window is top if not then display button
+		$(window).scroll(function(){
+			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
+			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.2) {
+				$('.scrollToTop').fadeIn();
+			} else {
+				$('.scrollToTop').fadeOut();
+			}
+		});
+
+		//Click event to scroll to top
+		$('.scrollToTop').click(function(){
+			$('html, body').animate({scrollTop : 0},800);
+			return false;
+		});
+
+	});
+</script>
+
+
+
+
+
 <!-- VII Edição -->
 <section class="">
 	<div class="container">
@@ -281,3 +308,4 @@
 		</div>
     </div>
 </section>
+<a href="" class="scrollToTop"></a>

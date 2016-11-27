@@ -1,13 +1,13 @@
 <!-- BEST Internacional -->
 
-
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
 <script>
 	$(document).ready(function(){
 
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
 			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.9) {
+			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.2) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -31,7 +31,7 @@
 <section class="">
 	<div class="container">
 		<div class="row">
-	        <div class="col-lg-12 text-center">
+	        <div class="col-lg-12 text-center text-orange">
 	            <h2 class="section-heading">BEST Internacional</h2>
 	            <br/>
 	        </div>
@@ -68,7 +68,7 @@
 <section class="bg-ebec-orange">
 	<div class="container">
 		<div class="row">
-	        <div class="col-lg-12 text-center">
+	        <div class="col-lg-12 text-center text-white">
 	            <h2 class="section-heading">BEST Aveiro</h2>
 	            <br/>
 	        </div>
@@ -93,7 +93,7 @@
 
 	        </div>
 	        <div class="col-md-6">
-	        	<p class="text-muted text-justify">
+	        	<p class="text-muted text-justify text-white">
 					Fundado oficialmente em 2010, o Grupo Local BEST Aveiro, sediado na Universidade de Aveiro, conta com cerca de 45 membros ativos das áreas de Ciências, Tecnologias e Engenharias. Ao longo dos seus 6 anos de história, distingue-se pela diversidade e qualidade de eventos organizados. Estes abrangem tanto os estudantes a nível local, como nacional e europeu, focando-se ainda no próprio desenvolvimento dos membros da Associação, para que estes estejam em constante progressão e aprendizagem.
 					O BEST Aveiro oferece aos estudantes a
 					oportunidade de participar em eventos que visam a
@@ -101,23 +101,23 @@
 					anualmente competições, como:
 				</p>
 	            <ul class="fa-ul">
-					<li class="text-muted">
-						<i class="fa fa-arrow-right"></i>&nbsp; Curso Sazonal;
+					<li class="text-muted text-white">
+						<i class="fa fa-arrow-right text-white"></i>&nbsp; Curso Sazonal;
 					</li>
-					<li class="text-muted">
-						<i class="fa fa-arrow-right"></i>&nbsp; Competição de engenharia EBEC Aveiro - European BEST Engineering Competition;
+					<li class="text-muted text-white">
+						<i class="fa fa-arrow-right text-white"></i>&nbsp; Competição de engenharia EBEC Aveiro - European BEST Engineering Competition;
 					</li>
-					<li class="text-muted">
-						<i class="fa fa-arrow-right"></i>&nbsp; InnovationNow;
+					<li class="text-muted text-white">
+						<i class="fa fa-arrow-right text-white"></i>&nbsp; InnovationNow;
 					</li>
-					<li class="text-muted">
-						<i class="fa fa-arrow-right"></i>&nbsp; BEST Training Days, durante todo o ano;
+					<li class="text-muted text-white">
+						<i class="fa fa-arrow-right text-white"></i>&nbsp; BEST Training Days, durante todo o ano;
 					</li>
-					<li class="text-muted">
-						<i class="fa fa-arrow-right"></i>&nbsp; ABCs - Aveiro BEST Competititons;
+					<li class="text-muted text-white">
+						<i class="fa fa-arrow-right text-white"></i>&nbsp; ABCs - Aveiro BEST Competititons;
 					</li>
-					<li class="text-muted">
-						<i class="fa fa-arrow-right"></i>&nbsp; Workshops.
+					<li class="text-muted text-white">
+						<i class="fa fa-arrow-righttext-white "></i>&nbsp; Workshops.
 					</li>
 				</ul>
 				<br/>
@@ -127,4 +127,3 @@
     </div>
 	<a href="" class="scrollToTop"></a>
 </section>
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>

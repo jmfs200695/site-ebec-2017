@@ -3,7 +3,7 @@
 <section class="">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center text-orange">
                 <h2 class="section-heading">Contactos</h2>
                 <br/>
             </div>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/contacts/ebec_logo.png')?>" class="img-responsive img-circle img-contact" alt="">
+                    <img src="<?php echo base_url('assets/img/contacts/Filipe.jpg')?>" class="img-responsive img-circle img-contact" alt="">
                     <h4>Filipe Silva</h4>
                     <p class="text-muted">Tesoureiro do BEST Aveiro</p>
                     <p>
@@ -58,10 +58,10 @@
 </section>
 
 <!-- BEST Aveiro -->
-<section class="bg-light-gray">
+<section class="bg-ebec-orange">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center text-white">
                 <h2 class="section-heading">BEST Aveiro</h2>
                 <br/>
             </div>
@@ -77,18 +77,18 @@
             </div>
             <div class="col-md-6 text-center team-member">
                 <h4><i class="fa fa-home"></i> Morada</h4>
-                <p class="text-muted">
+                <p class="text-muted text-white">
                     Incubadora de Empresas da Universidade de Aveiro<br/>
                     Campus Universitário de Santiago, Edifício 1<br/>
                     3810-193 Aveiro<br/>
                     Portugal
                 </p>
                 <h4><i class="fa fa-phone"></i> Telefone</h4>
-                <p class="text-muted">
+                <p class="text-muted text-white">
                     +351 938 313 255
                 </p>
                 <h4><i class="fa fa-envelope"></i> Email</h4>
-                <p class="text-muted">
+                <p class="text-muted text-white">
                     <a href="mailto:aveiro@BEST.eu.org">aveiro@BEST.eu.org</a><br/>
                 </p>
                 <br/>

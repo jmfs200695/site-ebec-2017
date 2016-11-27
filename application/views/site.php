@@ -45,7 +45,7 @@
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
 			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -2) {
+			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -1.5) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -63,9 +63,14 @@
     <section class="">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 img-center">
-                    <img src="<?php echo base_url('assets/img/home/ebec.jpg')?>"
-                         width="1100" height="500">
+                <div class="col-lg-6 img-center c">
+                    <img src="<?php echo base_url('assets/img/home/ebec.png')?>"
+
+                         width="1100" height="400">
+
+                        <p class="t">10,11,12,14 e 15 de Março de 2017</p>
+
+
                     <br/>
                 </div>
             </div>
@@ -163,7 +168,7 @@
 
 
 <!-- Teaser -->
-<section class="bg-light-gray">
+<section class="bg-ebec-orange">
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-md-offset-1">            
@@ -270,7 +275,7 @@
   </div>
 
 </section>
-
+    <a href="" class="scrollToTop"></a>
 
 
 

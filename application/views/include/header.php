@@ -45,6 +45,7 @@
    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
 
+
 </head>
 <body>
 
@@ -56,24 +57,6 @@
       <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
-              <div class="navbar-header pull-left">                  
-                  <a class="navbar-brand" href="<?php echo base_url('index.php/frontpage/index')?>">
-                    <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>">
-                  </a>
-              </div>
-              <div class="navbar-header pull-right clearfix">
-                  <a href="http://bestaveiro.web.ua.pt/" class="navbar-brand">
-                     <img class="nav_logo" src="<?php echo base_url('assets/img/logos/best_aveiro_logo.png') ?>">
-                  </a>
-                  <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">English</a>
-
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                  </button>
-              </div>
 
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
@@ -126,8 +109,14 @@
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
                       <li>
-                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso parceiro?</a>
+                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro.php')?>">Quer ser nosso parceiro?</a>
                       </li>
+                      <li>
+                          <a class="page-scroll " href="<?php echo base_url('index.php/frontpage/index')?>">
+                              <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>">
+                          </a>
+                      </li>
+
 
                   </ul>
 
@@ -137,3 +126,5 @@
           <!-- /.container-fluid -->
       </nav>
     </div>
+
+
