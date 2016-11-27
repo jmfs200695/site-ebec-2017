@@ -63,7 +63,7 @@
               </div>
               <div class="navbar-header pull-right clearfix">
                   <a href="http://bestaveiro.web.ua.pt/" class="navbar-brand">
-                     <img class="nav_logo" src="<?php echo base_url('assets/img/logos/best_aveiro_logo.png') ?>">
+                     <img class="nav_logo_right" src="<?php echo base_url('assets/img/logos/best_aveiro_logo.png') ?>">
                   </a>
                   <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">English</a>
 

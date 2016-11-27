@@ -26,6 +26,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   color: #666666;
+  padding: 10px 8px;
 }
 
 .navbar .nav > li a:hover {
@@ -56,6 +57,12 @@ body {
 
 .nav_logo {
 	height: 45px;
+  margin-left: -55px;
+}
+
+.nav_logo_right {
+  height: 45px;
+  margin-right: -100px;
 }
 
 .navbar .navbar-nav {
