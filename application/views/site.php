@@ -233,20 +233,6 @@
   </div>
 </section>
 
-
-<!-- Teaser -->
-<section class="bg-ebec-orange">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">            
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/hPOjZ_0Iyr0" allowfullscreen="" frameborder="0" width="300px" height="400px"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- News section -->
 <section class="bg-gray">
   <div class="container">
