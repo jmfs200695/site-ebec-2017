@@ -4,10 +4,13 @@
 <script>
 	$(document).ready(function(){
 
+
+        $('.scrollToTop').hide();
+
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
 			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.2) {
+			if($(window).scrollTop() + $(window).height() == $(document).height()) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();

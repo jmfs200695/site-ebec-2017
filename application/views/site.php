@@ -133,7 +133,7 @@
     .jssora22r.jssora22rdn { background-position: -310px -31px; }
 </style>
 
-    <!-- Count Down start here -->
+    <!-- Count Down starts here -->
     <section class="count-down-wrapper fade-down">
         <ul class="row count-down">
             <li class="col-md-3 col-sm-6">
