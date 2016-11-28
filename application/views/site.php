@@ -21,10 +21,6 @@
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
 
     <!-- CSS start here -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="css/styles.css" />
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <!-- CSS end here -->
     <!-- Google fonts start here -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -33,8 +29,12 @@
 
 
 
-    <link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+    <link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
     <link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css') ?>"/>
+
+    <!-- Countdown -->
+    <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/demo/js/kinetic.js') ?>"></script>
+    <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/jquery.final-countdown.js') ?>"></script>
 
 
 
@@ -44,8 +44,7 @@
 
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -1.5) {
+        	if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -1.5) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -60,6 +59,7 @@
 
 	});
 </script>
+
     <section class="">
         <div class="container">
             <div class="row">
@@ -133,38 +133,107 @@
     .jssora22r.jssora22rdn { background-position: -310px -31px; }
 </style>
 
-    <!-- Count Down start here -->
-    <section class="count-down-wrapper fade-down">
-        <ul class="row count-down">
-            <li class="col-md-3 col-sm-6">
-                <input class="knob days" data-readonly=true data-min="0" data-max="365" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#34aadc" data-bgColor="#e1e2e6" data-angleOffset="180">
-                <span id="days-title">days</span>
-            </li>
-            <li class="col-md-3 col-sm-6">
-                <input class="knob hour" data-readonly=true data-min="0" data-max="24" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#4cd964" data-bgColor="#e1e2e6" data-angleOffset="180">
-                <span id="hours-title">hours</span>
-            </li>
-            <li class="col-md-3 col-sm-6">
-                <input class="knob minute" data-readonly=true data-min="0" data-max="60" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#ff9500" data-bgColor="#e1e2e6" data-angleOffset="180">
-                <span id="mins-title">minutes</span>
-            </li>
-            <li class="col-md-3 col-sm-6">
-                <input class="knob second" data-readonly=true data-min="0" data-max="60" data-width="200" data-height="200" data-thickness="0.07" data-fgcolor="#ff3b30" data-bgColor="#e1e2e6" data-angleOffset="180">
-                <span id="secs-title">seconds</span>
-            </li>
-        </ul>
-    </section>
-    <!-- Count Down end here -->
 
-    <!-- Javascript framework and plugins start here -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.knob.js"></script>
-    <script src="js/jquery.ccountdown.js"></script>
-    <script src="js/init.js"></script>
-    <script src="js/general.js"></script>
-    <!-- Javascript framework and plugins end here -->
 
+<!-- Countdown starts here -->
+<section class="bg-darkest-gray" style="margin-bottom:-260px">
+    <div class="countdown countdown-container container">
+        <div class="clock row" style="margin-top:250px;">
+            <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas-days" class="clock-canvas"></div>
+
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-days type-time">DAYS</p>
+                        </div><!-- /.text -->
+                    </div><!-- /.inner -->
+                </div><!-- /.wrap -->
+            </div><!-- /.clock-item -->
+
+            <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas-hours" class="clock-canvas"></div>
+
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-hours type-time">HOURS</p>
+                        </div><!-- /.text -->
+                    </div><!-- /.inner -->
+                </div><!-- /.wrap -->
+            </div><!-- /.clock-item -->
+
+            <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas-minutes" class="clock-canvas"></div>
+
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-minutes type-time">MINUTES</p>
+                        </div><!-- /.text -->
+                    </div><!-- /.inner -->
+                </div><!-- /.wrap -->
+            </div><!-- /.clock-item -->
+
+            <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
+                <div class="wrap">
+                    <div class="inner">
+                        <div id="canvas-seconds" class="clock-canvas"></div>
+
+                        <div class="text">
+                            <p class="val">0</p>
+                            <p class="type-seconds type-time">SECONDS</p>
+                        </div><!-- /.text -->
+                    </div><!-- /.inner -->
+                </div><!-- /.wrap -->
+            </div><!-- /.clock-item -->
+        </div><!-- /.clock -->
+    </div><!-- /.countdown-wrapper -->
+</section>
+
+<!-- Countdown starts here -->
+<script type="text/javascript">
+    $(document).ready(function() {
+    $('.countdown').final_countdown({
+        'start': $.now() / 1000,
+        'end': 1489104000,
+        'now': $.now() / 1000,
+        seconds: {
+            borderColor: '#3C6F9B',
+            borderWidth: '20'
+        },
+        minutes: {
+            borderColor: '#69963F',
+            borderWidth: '20'
+        },
+        hours: {
+            borderColor: '#EEA225',
+            borderWidth: '20'
+        },
+        days: {
+            borderColor: '#B26912',
+            borderWidth: '20'
+        }}, function() {
+        // Finish callback
+        });
+    });
+</script>
+
+<!-- Teaser -->
+<section class="bg-ebec-orange">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">            
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/hPOjZ_0Iyr0" allowfullscreen="" frameborder="0" width="300px" height="400px"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 <!-- Teaser -->

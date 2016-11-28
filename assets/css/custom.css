@@ -948,37 +948,49 @@ p.large {
     margin: 0 auto;
 }
 
-/*Countdown start here*/
-
-.count-down {
-  margin: 0 0 85px 0;
-  padding: 0;
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  height: 240px;
-  height: auto;
+.countdown-container {
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+transform: translateY(-50%);
 }
-
-@media(max-width:767px){
-
-  .count-down {
-    display: none;
-  }
+.clock-item .inner {
+height: 0px;
+padding-bottom: 100%;
+position: relative;
+width: 100%;
 }
-#days-title,
-#hours-title,
-#mins-title,
-#secs-title {
-  display: block;
-  text-transform: uppercase;
-  margin-top: -100px;
-  font-size: 15px;
-  position: relative;
-  z-index: 9 !important;
-  list-style-type: none;
+.clock-canvas {
+background-color: rgba(255, 255, 255, .1);
+border-radius: 50%;
+height: 0px;
+padding-bottom: 100%;
 }
-/*Countdown end here*/
-
-
-
-
+.text {
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+margin-top: -50px;
+position: absolute;
+top: 50%;
+text-align: center;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+width: 100%;
+}
+.text .val {
+font-size: 50px;
+}
+.text .type-time {
+font-size: 20px;
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+.clock-item {
+margin-bottom: 30px;
+}
+}
+ @media (max-width: 767px) {
+.clock-item {
+margin: 0px 30px 30px 30px;
+}
+}
