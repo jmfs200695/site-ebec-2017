@@ -130,3 +130,11 @@
     </div>
 	<a href="" class="scrollToTop"></a>
 </section>
+
+
+<script>
+	$( document ).ready(function() {
+		console.log("IIIII");
+    	$("#nav-best").trigger('mouseover');
+	});
+</script>

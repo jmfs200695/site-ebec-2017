@@ -44,7 +44,7 @@
 
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-        	if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -1.5) {
+        	if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < 1) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -63,8 +63,9 @@
     <section class="">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 img-center img-responsive">
+                <div class="col-lg-12">
                     <img class="img-center img-responsive" src="<?php echo base_url('assets/img/home/ebec1.jpg')?>"
+                         width="600px"
 
                          >
 
@@ -134,7 +135,7 @@
 </style>
 
 <!-- Countdown starts here -->
-<section class="bg-darkest-gray" style="margin-bottom:-260px">
+<section class="bg-ebec-gray" style="margin-bottom:-260px">
     <div class="countdown countdown-container container">
         <div class="clock row" style="margin-top:250px;">
             <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
@@ -234,70 +235,19 @@
 </section>
 
 <!-- News section -->
-<section class="bg-gray">
+<!--<section class="bg-gray">
   <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center">
               <h2 class="section-heading">Notícias</h2> 
               <br/>                   
-          </div>              
+        </div>-->              
             
         <!-- News section -->
-        <div class="col-md-7" id="posts-left">
-            <!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
-	          <div class="col-md-12">
-
-	          </div>
-	          <div class="col-md-4" style="vertical-align: middle;">
-
-	          </div>
-	          <div class="col-md-8">                
-
-	          </div>
-	        </div> 
-
-            <!-- New -->
-          <div class="row well news-post" style="margin-right:5px">
-            <div class="col-md-12">
-
-            </div>
-            <div class="col-md-4" style="vertical-align: middle;">
-
-            </div>
-            <div class="col-md-8">                
-
-            </div>
-          </div>
+        <!--<div class="col-md-7" id="posts-left">-->
+            
         	<!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
-	          <div class="col-md-12">
-
-	          </div>
-	          <div class="col-md-4" style="vertical-align: middle;">
-
-	              </a>
-	          </div>
-	          <div class="col-md-8">                
-
-	          </div>
-	        </div> 
-
-        	<!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
-	          <div class="col-md-12">
-
-	          </div>
-	          <div class="col-md-4" style="vertical-align: middle;">
-
-	          </div>
-	          <div class="col-md-8">                
-
-	          </div>
-	        </div> 
-
-        	<!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
+	        <!--<div class="row well news-post" style="margin-right:5px">
 	          <div class="col-md-12">
 
 	          </div>
@@ -309,13 +259,14 @@
 
 	          </div>
 	        </div>
-	        <a href="" class="scrollToTop"></a>
+	        -->
+            <a href="" class="scrollToTop"></a>
 
-        </div>
+        <!--</div>-->
 
 
         <!-- Facebook page plugin -->
-        <div class="col-md-5" id="posts-right">
+        <!--<div class="col-md-5" id="posts-right">
           <div class="fb-page" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline" 
           data-width="500" data-height="710" data-small-header="false" data-adapt-container-width="true" 
           data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
