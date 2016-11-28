@@ -1,5 +1,4 @@
-﻿
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+﻿<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
 <script>
     $(document).ready(function(){
 
@@ -24,7 +23,7 @@
 
 <!-- Videos -->
 
-<section class="bg-gray">
+<section class="bg-gray" style="margin-top:-20px">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
