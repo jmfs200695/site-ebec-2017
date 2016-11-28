@@ -234,70 +234,19 @@
 </section>
 
 <!-- News section -->
-<section class="bg-gray">
+<!--<section class="bg-gray">
   <div class="container">
     <div class="row">
         <div class="col-lg-12 text-center">
               <h2 class="section-heading">Notícias</h2> 
               <br/>                   
-          </div>              
+        </div>-->              
             
         <!-- News section -->
-        <div class="col-md-7" id="posts-left">
-            <!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
-	          <div class="col-md-12">
-
-	          </div>
-	          <div class="col-md-4" style="vertical-align: middle;">
-
-	          </div>
-	          <div class="col-md-8">                
-
-	          </div>
-	        </div> 
-
-            <!-- New -->
-          <div class="row well news-post" style="margin-right:5px">
-            <div class="col-md-12">
-
-            </div>
-            <div class="col-md-4" style="vertical-align: middle;">
-
-            </div>
-            <div class="col-md-8">                
-
-            </div>
-          </div>
+        <!--<div class="col-md-7" id="posts-left">-->
+            
         	<!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
-	          <div class="col-md-12">
-
-	          </div>
-	          <div class="col-md-4" style="vertical-align: middle;">
-
-	              </a>
-	          </div>
-	          <div class="col-md-8">                
-
-	          </div>
-	        </div> 
-
-        	<!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
-	          <div class="col-md-12">
-
-	          </div>
-	          <div class="col-md-4" style="vertical-align: middle;">
-
-	          </div>
-	          <div class="col-md-8">                
-
-	          </div>
-	        </div> 
-
-        	<!-- New -->
-	        <div class="row well news-post" style="margin-right:5px">
+	        <!--<div class="row well news-post" style="margin-right:5px">
 	          <div class="col-md-12">
 
 	          </div>
@@ -309,13 +258,14 @@
 
 	          </div>
 	        </div>
-	        <a href="" class="scrollToTop"></a>
+	        -->
+            <a href="" class="scrollToTop"></a>
 
-        </div>
+        <!--</div>-->
 
 
         <!-- Facebook page plugin -->
-        <div class="col-md-5" id="posts-right">
+        <!--<div class="col-md-5" id="posts-right">
           <div class="fb-page" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline" 
           data-width="500" data-height="710" data-small-header="false" data-adapt-container-width="true" 
           data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
