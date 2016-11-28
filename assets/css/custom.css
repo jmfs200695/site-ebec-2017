@@ -7,12 +7,14 @@ body {
 }
 
 .navbar {
-  background-color: #EEA225;
-  border-color: #B26912;
+  background-color: black;
+  border-color: black;
+  opacity: 0.6;
 }
 
 .navbar .nav > li {
-  padding: 0px 7px;
+  padding: 0px 3px;
+
 }
 
 .navbar .nav,
@@ -25,21 +27,22 @@ body {
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  color: #666666;
+  color: white;
 }
 
 .navbar .nav > li a:hover {
-  color: #FFFFFF;
+  color: white;
+  background: orange;
 }
 
 /* Dropdown menu */
 .dropdown-menu {
-  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0);
+  background: grey;
   border-color: #B26912;  
 }
 
 .dropdown-menu li a:hover {
-   background-color: #EEA225;
+   background-color: grey;
 }
 
 .navbar-inner {
@@ -51,21 +54,24 @@ body {
   display:inline-block;
   float:none;
   padding: 5px 5px;
-  margin: 0px 0px 0px 0px; 
+  margin: 0px 0px 0px 0px;
+
 }
 
 .nav_logo {
-	height: 45px;
+	height: 30px;
 }
 
 .navbar .navbar-nav {
   display: inline-block;
   float: none;
   vertical-align: top;
+
 }
 
 .navbar .navbar-collapse {
   text-align: center;
+
 }
 
 /* navbar menu when collapsed */
@@ -608,7 +614,7 @@ header .intro-text .intro-heading {
 }
 
 header .btn {
-    color: #FFF;
+    color: orange;
     background-color: #FED136;
     border-color: #FED136;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -978,7 +984,11 @@ p.large {
   list-style-type: none;
 }
 /*Countdown end here*/
-
+.c{
+    background: url("U.jpg");
+    background-size: cover;
+    width: 1000px;
+}
 
 
 
