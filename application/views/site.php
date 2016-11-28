@@ -133,8 +133,6 @@
     .jssora22r.jssora22rdn { background-position: -310px -31px; }
 </style>
 
-
-
 <!-- Countdown starts here -->
 <section class="bg-darkest-gray" style="margin-bottom:-260px">
     <div class="countdown countdown-container container">
