@@ -119,15 +119,19 @@
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/media')?>">Media</a>
                       </li>
                       <li>
-                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/partners')?>">Parceiros</a>
+                        <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#" id="dropdown-ebec">Parcerias <b class="caret"></b></a>
+                          <ul class="dropdown-menu dropdown-menu-2">
+                            <li>
+                              <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/partners')?>">Parceiros</a>
+                           </li>
+                           <li>
+                              <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso parceiro?</a>
+                           </li>
+                          </ul>
                       </li>
                       <li>
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
-                      <li>
-                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso parceiro?</a>
-                      </li>
-
                   </ul>
 
               </div>
