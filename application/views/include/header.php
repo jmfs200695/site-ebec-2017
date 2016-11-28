@@ -57,6 +57,22 @@
       <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
+              <div class="navbar-header pull-left">                  
+                  <a class="navbar-brand" href="<?php echo base_url('index.php/frontpage/index')?>">
+                    <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>">
+                  </a>
+              </div>
+              <div class="navbar-header pull-right clearfix">
+                  <a href="http://bestaveiro.web.ua.pt/" class="navbar-brand">
+                     <img class="nav_logo_right" src="<?php echo base_url('assets/img/logos/best_aveiro_logo.png') ?>">
+                  </a>
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              </div>
 
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav">
@@ -65,7 +81,7 @@
                       </li>
                       <li>
                         <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#" id="dropdown-ebec">EBEC Aveiro <b class="caret"></b></a>
-                          <ul class="dropdown-menu"> 
+                          <ul class="dropdown-menu dropdown-menu-2"> 
                               <li>
                               <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/event')?>">Evento</a>
                            </li>
@@ -109,14 +125,8 @@
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
                       <li>
-                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro.php')?>">Quer ser nosso parceiro?</a>
+                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso parceiro?</a>
                       </li>
-                      <li>
-                          <a class="page-scroll " href="<?php echo base_url('index.php/frontpage/index')?>">
-                              <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>">
-                          </a>
-                      </li>
-
 
                   </ul>
 
@@ -124,7 +134,7 @@
               <!-- /.navbar-collapse -->
           </div>
           <!-- /.container-fluid -->
-      </nav>
+        </nav>
     </div>
 
 

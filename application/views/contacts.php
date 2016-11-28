@@ -43,6 +43,10 @@
                 </div>
             </div>
             <div class="col-sm-4">
+
+
+             </div>
+                <div class="col-sm-4">
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/img/contacts/Catarina Jorge.jpg')?>" class="img-responsive img-circle img-contact" alt="">
                     <h4>Catarina Jorge</h4>
@@ -52,7 +56,7 @@
                         <i class="fa fa-phone"></i> <b>918 945 397</b>
                     </p>
                 </div>
-             </div>
+                </div>
         </div>
     </div>
 </section>

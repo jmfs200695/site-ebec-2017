@@ -9,7 +9,7 @@ body {
 .navbar {
   background-color: black;
   border-color: black;
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 .navbar .nav > li {
@@ -28,6 +28,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   color: white;
+  padding: 10px 8px;
 }
 
 .navbar .nav > li a:hover {
@@ -37,8 +38,13 @@ body {
 
 /* Dropdown menu */
 .dropdown-menu {
-  background: grey;
-  border-color: #B26912;  
+  background: gray;
+  border-color: #B26912;
+}
+
+.dropdown-menu-2 {
+  float: none;
+  background: #111;
 }
 
 .dropdown-menu li a:hover {
@@ -59,7 +65,13 @@ body {
 }
 
 .nav_logo {
-	height: 30px;
+	height: 45px;
+  margin-left: 2px;
+}
+
+.nav_logo_right {
+  height: 45px;
+  margin-right: 2px;
 }
 
 .navbar .navbar-nav {
@@ -954,6 +966,53 @@ p.large {
     margin: 0 auto;
 }
 
+.countdown-container {
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+transform: translateY(-50%);
+}
+.clock-item .inner {
+height: 0px;
+padding-bottom: 100%;
+position: relative;
+width: 100%;
+}
+.clock-canvas {
+background-color: rgba(255, 255, 255, .1);
+border-radius: 50%;
+height: 0px;
+padding-bottom: 100%;
+}
+.text {
+color: #fff;
+font-size: 30px;
+font-weight: bold;
+margin-top: -50px;
+position: absolute;
+top: 50%;
+text-align: center;
+text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+width: 100%;
+}
+.text .val {
+font-size: 50px;
+}
+.text .type-time {
+font-size: 20px;
+}
+ @media (min-width: 768px) and (max-width: 991px) {
+.clock-item {
+margin-bottom: 30px;
+}
+}
+ @media (max-width: 767px) {
+.clock-item {
+margin: 0px 30px 30px 30px;
+}
+}
+=======
 /*Countdown start here*/
 
 .count-down {
@@ -984,11 +1043,6 @@ p.large {
   list-style-type: none;
 }
 /*Countdown end here*/
-.c{
-    background: url("U.jpg");
-    background-size: cover;
-    width: 1000px;
+.d{
+    margin-left: 40px;
 }
-
-
-

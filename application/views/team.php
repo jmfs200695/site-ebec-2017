@@ -2,7 +2,7 @@
 <section class="bg-light-gray">
     <div class="container">
         <div class="row">
-            <div class="col-lg-12 text-center">
+            <div class="col-lg-12 text-center text-orange">
                 <h2 class="section-heading">Equipa</h2>
                 <br/>
             </div>
@@ -18,10 +18,10 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/tg.jpg')?>" class="img-responsive img-circle img-contact" alt="">
-                    <h4>João Milheiro</h4>
+                    <img src="<?php echo base_url('assets/img/team/Ana Malta.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Ana Malta</h4>
                     <p class="text-muted">Responsável da Competição</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:joao.milheiro@BEST.eu.org"> joao.milheiro@BEST.eu.org </a></p>
+                    <p><i class="fa fa-envelope"></i><a href="mailto:ana.m.c1424@gmail.com "> ana.m.c1424@gmail.com  </a></p>
                 </div>
             </div>
             <div class="col-sm-4">
@@ -36,18 +36,18 @@
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/mk.png')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Lígia Ferreira</h4>
+                    <img src="<?php echo base_url('assets/img/team/Rita Sardão.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Rita Sardão</h4>
                     <p class="text-muted">Responsável de Marketing</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:ligiaferreira2012@gmail.com"> ligiaferreira2012@gmail.com</a></p>
+                    <p><i class="fa fa-envelope"></i><a href="mailto:ritasardao@gmail.com "> ritasardao@gmail.com </a></p>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/it.png')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
-                    <h4>André Santos</h4>
+                    <img src="<?php echo base_url('assets/img/team/Jorge Silva.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Jorge silva</h4>
                     <p class="text-muted">Responsável de Information Technology</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:andre.jeronimo.santos@BEST.eu.org"> andre.jeronimo.santos@BEST.eu.org</a></p>
+                    <p><i class="fa fa-envelope"></i><a href="jmfs200695@gmail.com"> jmfs200695@gmail.com</a></p>
                 </div>
 
             </div>
