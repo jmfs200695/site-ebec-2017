@@ -9,7 +9,7 @@ body {
 .navbar {
   background-color: black;
   border-color: black;
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 .navbar .nav > li {
@@ -28,6 +28,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   color: white;
+  padding: 10px 8px;
 }
 
 .navbar .nav > li a:hover {
@@ -37,8 +38,13 @@ body {
 
 /* Dropdown menu */
 .dropdown-menu {
-  background: grey;
-  border-color: #B26912;  
+  background: gray;
+  border-color: #B26912;
+}
+
+.dropdown-menu-2 {
+  float: none;
+  background: #111;
 }
 
 .dropdown-menu li a:hover {
@@ -59,7 +65,13 @@ body {
 }
 
 .nav_logo {
-	height: 30px;
+	height: 45px;
+  margin-left: 2px;
+}
+
+.nav_logo_right {
+  height: 45px;
+  margin-right: 2px;
 }
 
 .navbar .navbar-nav {
