@@ -38,9 +38,15 @@
 		<div class="row">        	        
             <div class="col-md-8">                
                 <p class="text-muted text-justify">
-                	A EBEC <b>- European BEST Engineering Competition -</b> é uma competição de engenharia europeia, organizada todos os anos 
-                	em 88 universidades de topo em 32 países europeus. O projecto pretende atingir os seguintes objectivos:
+					Sendo o desenvolvimento extracurricular dos estudantes da Europa o rumo da organização
+					BEST, surge a European BEST Engineering Competition (EBEC) como projeto internacional,
+					onde estudantes de vários ramos de engenharia colocam a sua criatividade em prática,
+					tendo um contacto mais direto com o mundo empresarial.
               	</p>
+				<p class="text-muted text-justify">
+					Sendo esta a maior competição de engenharia da Europa, conta com mais de 7000
+					participantes e tem como objetivos:
+				</p>
               	<ul class="fa-ul">
 					<li class="text-muted">
 						<i class="fa fa-arrow-right"></i>&nbsp; Promover a engenharia através de aplicações práticas;
@@ -50,7 +56,7 @@
 						estudantes, desafiando a criatividade, imaginação e o conhecimento;
 					</li>
 					<li class="text-muted">
-						<i class="fa fa-arrow-right"></i>&nbsp; Incentivar o contacto entre estudantes, universidade e empresas.
+						<i class="fa fa-arrow-right"></i>&nbsp;  Dinamizar o contacto entre estudantes, empresas e universidade.
 					</li>
 				</ul> 
             	<p class="text-muted text-justify">
@@ -80,26 +86,18 @@
         	</div>        
             <div class="col-md-7">                
                 <p class="text-muted text-justify text-white">
-                	A EBEC Aveiro é a fase local do projeto europeu EBEC desenvolvido 
-                	pelo BEST. Este ano, o BEST Aveiro realiza a 8ª edição da competição e vem desafiar-te a aceitar o desafio 
-                	novamente, oferecendo duas categorias distintas de prova (Case Study e Team Design). Tal como na edição 
-                	anterior, a competição terá uma duração de 24h.
+
+					O BEST Aveiro organiza anualmente uma das 88 fases locais do projeto EBEC, com a duração de 24 horas.
                 </p>
             	<p class="text-muted text-justify text-white">
-					Este é um dos eventos de maior destaque do BEST Aveiro, direcionado aos alunos da UA e após várias edições, 
-					tem vindo a crescer consideravelmente, pretendendo ser um marco no ano académico.
+					Com a nona edição da competição a ocorrer em março de 2017, o evento contará com o maior número de participantes de todas edições. Considerado um dos eventos de maior destaque do BEST Aveiro, direcionado aos alunos da Universidade de Aveiro, a EBEC Aveiro pretende ser um momento onde criatividade, desafio, energia, flexibilidade e espírito de equipa são postos em prática.
             	</p>
             	<p class="text-muted text-justify text-white">
-            		A competição pretende pôr à prova os conhecimentos teóricos dos alunos, a sua criatividade na resolução 
-            		de problemas e a sua capacidade para trabalhar em equipa, para além de ser uma oportunidade para os 
-            		alunos contactarem com as empresas parceiras num âmbito mais profissional.
-            	</p>
-            	<p class="text-muted text-justify text-white">
-            		Assim, se estás à procura de um desafio que te permita promover, ao mesmo tempo, os teus dotes técnicos e 
-            		capacidades intelectuais,  esta é a tua competição! Vão ser 24 horas de trabalho em equipa, envolvidas num 
-            		espirito dinâmico e acolhedor que serão, com certeza, "do BEST"!
-            	</p>
-            	<p class="text-muted text-justify text-white">
+					No sentido de promover uma melhor relação entre estudantes e empresas, a EBEC Aveiro organizará, à parte da competição, uma feira de empresas seguida  de uma cocktail network no dia 14 de março.
+
+				</p>
+
+            	<p class="text-muted text-justify text-white size ">
             		<a href="<?php echo base_url('index.php/frontpage/apply')?>" style="color: inherit;">
             			<b>Não percas esta competição. Inscreve-te!</b>
             		</a>
@@ -120,14 +118,10 @@
     						Case Study
     					</h3>
     					<p class="text-muted text-justify text-white">
-		                	Consiste na resolução de um problema teórico sobre problemas técnicos e/ou de gestão, 
-		                	baseados em fatos reais e fornecido por uma empresa. Para resolver a prova, deverás usar 
-		                	toda a informação que te é facultada.
+							Os participantes terão a oportunidade de resolver dois casos de estudo fornecidos por empresas, que  deverão consistir num problema que poderá advir da necessidade da empresa em inovar ou otimizar processos. Cada um dos casos de estudo deverá estar preparado para corresponder a 12 horas de prova, sendo entregue aos participantes no início da competição.
 		                </p>
-		                <p class="text-muted text-justify text-white">
-		                	Além de desenvolveres o trabalho/discussão de ideias em equipa e as tuas capacidades 
-		                	intelectuais, esta será também uma ótima oportunidade para entrares em contacto com as 
-		                	empresas parceiras da competição.
+						<p>
+
 		                </p>
     				</div>
     			</div>
@@ -137,15 +131,10 @@
     						Team Design
     					</h3>
     					<p class="text-muted text-justify text-white">
-		                	Consiste na construção de um protótipo, com materiais limitados, para a resolução 
-		                	de um problema técnico proposto. Terás então de encontrar uma solução técnica, em 
-		                	conjunto com os membros da tua equipa, dentro das 24h de competição.
+							Os participantes terão a oportunidade de construir um protótipo que solucione um desafio, colocado por uma empresa, com acesso a recursos limitados. Os protótipos serão posteriormente avaliados por um júri com base em parâmetros previamente definidos pela organização.
 		                </p>
 		                <p class="text-muted text-justify text-white">
-		                	Esta é portanto uma prova que exige toda a tua criatividade, toda a tua capacidade 
-		                	técnica e intelectual para, em equipa, chegares a uma solução bem-sucedida e que convença
-		                	os júris que a tua solução é a melhor.
-		                </p>		                
+
     				</div>
     			</div>
             <br/>
@@ -362,10 +351,7 @@
 	        		Na fase Nacional irão competir os vencedores das diferentes competições locais, de 5 Universidades 
 	        		Portuguesas.
 	        	</p>
-	        	<p class="text-muted text-justify text-white">
-	        		Este ano a fase nacional irá decorrer em Coimbra, durante os dias 15, 16 e 17 de Abril.
-	        	</p>
-	        	<a class="text-white img-center" href="http://www.ebecportugal.pt/"><b>Sabe mais ...</b></a>
+
 	        </div>
 	    </div>
     </div>
@@ -381,18 +367,14 @@
             </div>
         </div>
         <div class="row">        	        
-            <div class="col-md-8">                
-                <p class="text-muted text-justify text-white">
+            <div class="col-md-6">
+                <p class="text-muted text-justify text-white ">
                 	Na final Europeia, as equipas vencedoras de todas as fases nacionais/regionais, entre elas a EBEC Portugal, 
                 	competem entre si pelo título de Campeões Europeus de Engenharia.
               	</p>
-            	<p class="text-muted text-justify text-white">
-            		Este ano a fase final irá realizar-se em Belgrado, Sérvia, e decorrerá durante o mês de agosto. Contará 
-            		com a presença de todas as equipas vencedoras das fases nacionais.
-            	</p>
-            	<a class="text-white" href="http://ebec.best.eu.org/"><b>Sabe mais ...</b></a>
+
             </div>
-            <div class="col-md-4"> 
+            <div class="col-md-4">
         		<img class="img-responsive img-center" src="<?php echo base_url('assets/img/event/ebec_final.png')?>" style="padding-top:30px">
         	</div>
         </div>

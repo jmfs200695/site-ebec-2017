@@ -193,8 +193,9 @@ class Frontpage extends Main_Controller {
         $this->load->view('english');
         $this->load->view('include/footer');
     }
+
+
+
 }
-
-
 /* End of file frontpage.php */
 /* Location: ./application/controllers/frontpage.php */

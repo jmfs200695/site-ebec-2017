@@ -90,7 +90,8 @@
                            </li> 
                            <li>
                               <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/jobfair')?>">Feira de Empresas</a>
-                           </li> 
+                           </li>
+
                            <li>
                               <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/schedule')?>">Programa</a>
                            </li> 
@@ -132,9 +133,9 @@
                       <li>
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
+
                   </ul>
 
-              </div>
               <!-- /.navbar-collapse -->
           </div>
           <!-- /.container-fluid -->

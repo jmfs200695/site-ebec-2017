@@ -65,7 +65,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img class="img-center img-responsive" src="<?php echo base_url('assets/img/home/ebec1.jpg')?>"
-                         width="600px"
+
 
                          >
 
