@@ -39,40 +39,47 @@
 
 
 
-<script>
-	$(document).ready(function(){
+    <script>
+        $(document).ready(function(){
 
-		//Check to see if the window is top if not then display button
-		$(window).scroll(function(){
-        	if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < 1) {
-				$('.scrollToTop').fadeIn();
-			} else {
-				$('.scrollToTop').fadeOut();
-			}
-		});
 
-		//Click event to scroll to top
-		$('.scrollToTop').click(function(){
-			$('html, body').animate({scrollTop : 0},800);
-			return false;
-		});
+            $('.scrollToTop').hide();
 
-	});
-</script>
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function(){
+                console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
+                if($(window).scrollTop() + $(window).height() == $(document).height()) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
 
-    <section class="">
+            //Click event to scroll to top
+            $('.scrollToTop').click(function(){
+                $('html, body').animate({scrollTop : 0},800);
+                return false;
+            });
+
+        });
+    </script>
+
+    <section class="d">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-center img-responsive" src="<?php echo base_url('assets/img/home/ebec1.jpg')?>"
+
+                    <div class="cold-md-12">
+                        <img class="left"  width="550px" height="350px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
+
+                        >
+                        <div class="fotorama" data-width="500" ata-ratio="4/3" data-nav="" data-thumbheight="48"  data-loop="true" data-autoplay="true" data-stopautoplayontouch="false">
+                            <img src="<?php echo base_url('assets/img/home/inicial')?>">
+                            <img src="<?php echo base_url('assets/img/home/ebec.jpg')?>">
 
 
-                         >
+                        </div>
 
 
-
-
-                    <br/>
                 </div>
             </div>
 
@@ -227,7 +234,7 @@
     <div class="row">
       <div class="col-md-10 col-md-offset-1">            
         <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/hPOjZ_0Iyr0" allowfullscreen="" frameborder="0" width="300px" height="400px"></iframe>
+          <iframe src="https://www.youtube.com/embed/hPOjZ_0Iyr0?autoplay=1" allowfullscreen="" frameborder="0" width="200px" height="300px"></iframe>
         </div>
       </div>
     </div>

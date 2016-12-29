@@ -63,7 +63,7 @@
                   </a>
               </div>
               <div class="navbar-header pull-right clearfix">
-                  <a href="http://bestaveiro.web.ua.pt/" class="navbar-brand">
+                  <a href="http://bestaveiro.web.ua.pt/" class="navbar-brand" target="_blank">
                      <img class="nav_logo_right" src="<?php echo base_url('assets/img/logos/best_aveiro_logo.png') ?>">
                   </a>
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -107,7 +107,6 @@
                            <li>
                               <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/faqs')?>">FAQs</a>
                            </li>
-
                           </ul>
                       </li>
                       <li>
@@ -119,6 +118,7 @@
                       <li>
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/media')?>">Media</a>
                       </li>
+
                       <li>
                         <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#" id="dropdown-ebec">Parcerias <b class="caret"></b></a>
                           <ul class="dropdown-menu dropdown-menu-2">
@@ -128,13 +128,16 @@
                            <li>
                               <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Quer ser nosso parceiro?</a>
                            </li>
+
                           </ul>
                       </li>
                       <li>
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
 
+
                   </ul>
+
 
               <!-- /.navbar-collapse -->
           </div>

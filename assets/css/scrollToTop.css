@@ -11,8 +11,8 @@
     top:75px;
     right:40px;
     /*display:none;*/
-    background: url('scrolltotopbutton.png') no-repeat  ;
-    background-size: 100% auto;
+    background: url('back.png') no-repeat  ;
+    background-size: 50% auto;
     margin-top: 300px;
 }
 .scrollToTop:hover{

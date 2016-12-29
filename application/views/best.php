@@ -9,8 +9,7 @@
 
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-			if($(window).scrollTop() + $(window).height() == $(document).height()) {
+			if($(window).scrollTop() + $(window).height() > $(document).height()-10) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -101,7 +100,7 @@
 					O BEST Aveiro oferece aos estudantes a
 					oportunidade de participar em eventos que visam a
 					complementaridade dos seus estudos, organizando
-					anualmente competições, como:
+					anualmente eventos como:
 				</p>
 	            <ul class="fa-ul">
 					<li class="text-muted text-white">

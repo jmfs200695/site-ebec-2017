@@ -1,13 +1,17 @@
 
 <!-- EBEC (geral) -->
 <link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+
+
 <script>
 	$(document).ready(function(){
 
+
+		$('.scrollToTop').hide();
+
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-			console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-			if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -2) {
+			if($(window).scrollTop() + $(window).height() > $(document).height()-10) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -120,9 +124,7 @@
     					<p class="text-muted text-justify text-white">
 							Os participantes terão a oportunidade de resolver dois casos de estudo fornecidos por empresas, que  deverão consistir num problema que poderá advir da necessidade da empresa em inovar ou otimizar processos. Cada um dos casos de estudo deverá estar preparado para corresponder a 12 horas de prova, sendo entregue aos participantes no início da competição.
 		                </p>
-						<p>
 
-		                </p>
     				</div>
     			</div>
     			<div class="col-md-6">
@@ -132,8 +134,10 @@
     					</h3>
     					<p class="text-muted text-justify text-white">
 							Os participantes terão a oportunidade de construir um protótipo que solucione um desafio, colocado por uma empresa, com acesso a recursos limitados. Os protótipos serão posteriormente avaliados por um júri com base em parâmetros previamente definidos pela organização.
-		                </p>
-		                <p class="text-muted text-justify text-white">
+
+						</p>
+
+
 
     				</div>
     			</div>
@@ -210,16 +214,16 @@
 	               <div class="col-sm-8">
 	                  <p class="text-justify">
 	                  	Tendo já participado em edições anteriores, a decisão de participar na edição da EBEC 2014 deveu-se 
-	                  	sobretudo ao espírito de competição saudável, sem nunca esquecer o objetivo final de alcançar o 
+	                  	sobretudo ao espírito de competição saudável, sem nunca esquecer o objetivo final de alcançar a
 	                  	EBEC Internacional. Após a vitória na fase local, onde a competição foi muito disputada até ao fim, 
-	                  	fomos para o EBEC Lisboa com um peso de responsabilidade muito grande por representar a UA. Nunca 
+	                  	fomos para a EBEC Portugal com um peso de responsabilidade muito grande por representar a UA. Nunca
 	                  	desistimos e realizando um excelente trabalho de equipa, e fazendo uso de todo o conhecimento 
 	                  	transmitido tanto pelos workshops, como pelas empresas presentes no evento, conseguimos triunfar! 
 	                  	Chegando à fase Internacional, foi um sonho tornado realidade: representar a UA numa competição 
 	                  	europeia! Foi uma experiência inesquecível, tanto no âmbito competitivo como em experiência 
 	                  	profissional e pessoal. Contactamos com empresas internacionais de renome e, sobretudo, 
 	                  	aprendemos com elas e com todos os participantes de diferentes nacionalidades!<br/>
-	                  	Resumindo, participar no EBEC é uma experiência muito gratificante e enriquecedora que 
+	                  	Resumindo, participar na EBEC é uma experiência muito gratificante e enriquecedora que
 	                  	melhora-nos como pessoas e como profissionais!<br/>
 	                  	É um evento excelente onde é possível redescobrir-nos e aumentar os nossos limites!
 					  </p>
@@ -298,7 +302,7 @@
 	                </div>
 	               <div class="col-sm-8">
 	                  <p class="text-justify">
-	                  	Participar como júri da prova “Team Design” do EBEC Portugal 2015 foi um verdadeiro prazer. Como 
+	                  	Participar como júri da prova “Team Design” da EBEC Portugal 2015 foi um verdadeiro prazer. Como
 	                  	docente do curso de Engenharia Física da Universidade de Aveiro fico sempre muito satisfeito 
 	                  	quando vejo jovens a trabalhar em equipa para solucionarem problemas de engenharia. E que 
 	                  	problemas… A prova permitiu-lhes colocar em prática os conhecimentos previamente adquiridos 
@@ -306,7 +310,7 @@
 	                  	focado na resolução de problemas, tal como irão encontrar na sua futura carreira profissional. As 
 	                  	soluções apresentadas, estudadas e concretizadas “non-stop” em contra relógio e com recursos 
 	                  	limitados, demonstraram as capacidades de raciocínio, técnica e de invenção dos concorrentes, 
-	                  	tanto individualmente como em equipa. Parabéns EBEC Aveiro e venha o próximo, pois eventos como 
+	                  	tanto individualmente como em equipa. Parabéns EBEC Aveiro e venha a próxima, pois eventos como
 	                  	este são essenciais para o fortalecimento do futuro tecido empresarial inovador do país.
 					  </p>
 	                  <small>
@@ -351,6 +355,10 @@
 	        		Na fase Nacional irão competir os vencedores das diferentes competições locais, de 5 Universidades 
 	        		Portuguesas.
 	        	</p>
+				<p class="text-muted text-justify text-white">
+					Para mais informações visite o <a href="http://ebecportugal.pt/"style="color: black "target="_blank">site</a>.
+				</p>
+
 
 	        </div>
 	    </div>
@@ -372,6 +380,9 @@
                 	Na final Europeia, as equipas vencedoras de todas as fases nacionais/regionais, entre elas a EBEC Portugal, 
                 	competem entre si pelo título de Campeões Europeus de Engenharia.
               	</p>
+				<p class="text-muted text-justify text-white">
+					Para mais informações visite o <a href="http://ebec.best.eu.org/index.php"style="color: black"target="_blank">site</a>.
+				</p>
 
             </div>
             <div class="col-md-4">
@@ -387,6 +398,6 @@
 	  //Set the carousel options
 	  $('#quote-carousel').carousel({
 	    pause: true,
-	    interval: 30000, // 30 seconds
+	    interval: 31000, // 30 seconds
 	  });
 });</script>

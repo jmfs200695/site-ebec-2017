@@ -28,7 +28,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   color: white;
-  padding: 10px 20px;
+  padding: 10px 15px;
 }
 
 .navbar .nav > li a:hover {
@@ -985,7 +985,7 @@ height: 0px;
 padding-bottom: 100%;
 }
 .text {
-color: #fff;
+color: white;
 font-size: 30px;
 font-weight: bold;
 margin-top: -50px;
@@ -997,6 +997,7 @@ width: 100%;
 }
 .text .val {
 font-size: 50px;
+
 }
 .text .type-time {
 font-size: 20px;
@@ -1056,4 +1057,21 @@ margin: 0px 30px 30px 30px;
 .c{
   padding: 10px 20px;
   color: white;
+}
+.l{
+  color:black;
+}
+.left{
+  float: left;
+  margin-left: 0px;
+}
+.textsize{
+  font-size: 17px;
+}
+.imgsize{
+  width: 350px;
+  height: 50%;
+}
+.imgsize2{
+  width: 500px;
 }

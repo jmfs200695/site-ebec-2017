@@ -15,7 +15,7 @@
                     <h4>Pedro Reis</h4>
                     <p class="text-muted">Coordenador da EBEC Aveiro</p>
                     <p>
-                        <i class="fa fa-envelope"></i><a href="mailto:pedro.reis@best.eu.org" > pedro.reis@best.eu.org  </a><br/>
+                        <i class="fa fa-envelope"></i><a href="mailto:pedro.reis@BEST.eu.org" > pedro.reis@BEST.eu.org  </a><br/>
                         <i class="fa fa-phone"></i> <b>919 433 150</b>
                     </p>
                 </div>
@@ -26,7 +26,7 @@
                     <h4>Miguel Oliveira</h4>
                     <p class="text-muted">Presidente do BEST Aveiro</p>
                     <p>
-                        <i class="fa fa-envelope"></i><a href="mailto:miguel.guimaraes.oliveira@best.eu.org"> miguel.guimaraes.oliveira@best.eu.org</a><br/>
+                        <i class="fa fa-envelope"></i><a href="mailto:miguel.guimaraes.oliveira@BEST.eu.org"> miguel.guimaraes.oliveira@BEST.eu.org</a><br/>
                         <i class="fa fa-phone"></i> <b>918 570 425</b>
                     </p>
                 </div>
@@ -38,7 +38,7 @@
                     <p class="text-muted">Tesoureiro do BEST Aveiro</p>
                     <p>
                         <i class="fa fa-envelope"></i><a href="mailto:filipe.silva@BEST.eu.org"> filipe.silva@BEST.eu.org </a><br/>
-                        <i class="fa fa-phone"></i> <b>932155968</b>
+                        <i class="fa fa-phone"></i> <b>932 155 968</b>
                     </p>
                 </div>
             </div>
@@ -51,7 +51,7 @@
                     <h4>Catarina Jorge</h4>
                     <p class="text-muted">Responsável de Relações Empresariais</p>
                     <p>
-                        <i class="fa fa-envelope"></i><a href="catarina.jorge@best.eu.org"> catarina.jorge@best.eu.org </a><br/>
+                        <i class="fa fa-envelope"></i><a href="mailto:catarina.jorge@BEST.eu.org"> catarina.jorge@BEST.eu.org </a><br/>
                         <i class="fa fa-phone"></i> <b>918 945 397</b>
                     </p>
                 </div>
@@ -88,7 +88,7 @@
                 </p>
                 <h4><i class="fa fa-phone"></i> Telefone</h4>
                 <p class="text-muted text-white">
-                    +351 938 313 255
+                    +351 918 570 425
                 </p>
                 <h4><i class="fa fa-envelope"></i> Email</h4>
                 <p class="text-muted text-white">
@@ -97,7 +97,7 @@
                 <br/>
                 <ul class="list-inline">
                     <li>
-                        <a href="http://bestaveiro.web.ua.pt/">
+                        <a href="http://bestaveiro.web.ua.pt/" target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
@@ -105,7 +105,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/BESTaveiro/">
+                        <a href="https://www.facebook.com/BESTaveiro/"target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x" style="color:#3b5998"></i>
                                 <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
@@ -113,23 +113,16 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://instagram.com/best.aveiro/">
+                        <a href="https://instagram.com/best.aveiro/"target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x" style="color:#3f729b"></i>
                                 <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
                             </span>
                         </a>
                     </li>
+
                     <li>
-                        <a href="https://twitter.com/bestaveiro">
-                            <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x" style="color:#55acee"></i>
-                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/best-aveiro-a2965b44/">
+                        <a href="https://www.linkedin.com/company/best-aveiro"target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x" style="color:#0077b5"></i>
                                 <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -137,7 +130,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.flickr.com/photos/bestaveiro">
+                        <a href="https://www.flickr.com/photos/bestaveiro"target="_blank">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x" style="color:#0063dc"></i>
                                 <i class="fa fa-flickr fa-stack-1x fa-inverse"></i>
@@ -178,13 +171,16 @@
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568b1027a1f2a864" async="async"></script>
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
 <script>
     $(document).ready(function(){
 
+
+        $('.scrollToTop').hide();
+
         //Check to see if the window is top if not then display button
         $(window).scroll(function(){
-            console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-            if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -0.07) {
+            if($(window).scrollTop() + $(window).height() > $(document).height()-10) {
                 $('.scrollToTop').fadeIn();
             } else {
                 $('.scrollToTop').fadeOut();
@@ -198,4 +194,4 @@
         });
 
     });
- </script>
+</script>
