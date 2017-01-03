@@ -794,6 +794,14 @@ p.large {
   padding-top: 10px;
   margin: 20px;
 }
+.orange-box2 {
+  background: #EEA225;
+  padding: 30px;
+  padding-top: 10px;
+  margin: 20px;
+  height: 200px;
+}
+
 
 .blue-box {
   background: #3C6F9B;
@@ -842,8 +850,13 @@ p.large {
 
 /* Footer logos */
 .img-footer {
-    max-height: 100px;
-    padding: 10px;    
+    max-height: 110px;
+    padding: 5px;
+}
+.img-footer2{
+  max-width: 200px ;
+  max-height: 150px;
+  padding: 5px;
 }
 
 .img-center {
@@ -1074,4 +1087,7 @@ margin: 0px 30px 30px 30px;
 }
 .imgsize2{
   width: 500px;
+}
+.imgsize4{
+  width: 900px;
 }

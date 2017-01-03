@@ -11,7 +11,7 @@
 
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-			if($(window).scrollTop() + $(window).height() > $(document).height()-10) {
+			if($(window).scrollTop() + $(window).height() > $(document).height()-20) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();
@@ -123,12 +123,12 @@
     					</h3>
     					<p class="text-muted text-justify text-white">
 							Os participantes terão a oportunidade de resolver dois casos de estudo fornecidos por empresas, que  deverão consistir num problema que poderá advir da necessidade da empresa em inovar ou otimizar processos. Cada um dos casos de estudo deverá estar preparado para corresponder a 12 horas de prova, sendo entregue aos participantes no início da competição.
-		                </p>
+
 
     				</div>
     			</div>
     			<div class="col-md-6">
-    				<div class="orange-box">
+    				<div class="orange-box2">
     					<h3 class="text-white text-justify">
     						Team Design
     					</h3>
@@ -136,6 +136,7 @@
 							Os participantes terão a oportunidade de construir um protótipo que solucione um desafio, colocado por uma empresa, com acesso a recursos limitados. Os protótipos serão posteriormente avaliados por um júri com base em parâmetros previamente definidos pela organização.
 
 						</p>
+
 
 
 
@@ -374,8 +375,14 @@
                 <br/>
             </div>
         </div>
-        <div class="row">        	        
-            <div class="col-md-6">
+        <div class="row">
+			<div class="col-md-4">
+				<img class="img-responsive img-center" src="<?php echo base_url('assets/img/event/ebec_final.png')?>" style="padding-top:30px">
+			</div>
+            <div class="col-md-8">
+				<p class="text-muted text-justify text-white ">
+
+				</p>
                 <p class="text-muted text-justify text-white ">
                 	Na final Europeia, as equipas vencedoras de todas as fases nacionais/regionais, entre elas a EBEC Portugal, 
                 	competem entre si pelo título de Campeões Europeus de Engenharia.
@@ -385,9 +392,7 @@
 				</p>
 
             </div>
-            <div class="col-md-4">
-        		<img class="img-responsive img-center" src="<?php echo base_url('assets/img/event/ebec_final.png')?>" style="padding-top:30px">
-        	</div>
+
         </div>
 </section>
 <a href="" class="scrollToTop"></a>

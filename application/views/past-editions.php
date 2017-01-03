@@ -36,24 +36,24 @@
 		<div class="row">
 			<div class="col-md-12">
 				<p class="text-muted text-justify">
-					Nos dias 15, 16 e 19 de março de 2014 decorreu no campus da Universidade de Aveiro a <b>VI Edição da
-						EBEC Aveiro</b> que contou com a participação de 96 estudantes de ciências e tecnologias.
+					Nos dias 5,6 e 9 de março de 2016 decorreu no campus da Universidade de Aveiro a <b>VIII Edição da
+						EBEC Aveiro</b> que contou com a participação de 104 estudantes de ciências e tecnologias e 26 equipas.
 				</p>
 				<p class="text-muted text-justify">
-					À semelhança da VII Edição, os vencedores da EBEC Aveiro garantiram também a vitória na fase nacional
-					da competição, conseguindo assim marcar presença na fase final europeia que se realizou em Riga, na
-					Letónia.
+					A competição de Team Design foi apoiada pela Uniactiva, enquanto que a competição de Case Study pela
+					ergostart. Os vencedores da EBEC Aveiro 2016 representaram Aveiro na fase nacional da competição, que se
+					realizou em Coimbra.
 				</p>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-6" style="padding:30px">
 				<h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Case Study</b></h3>
-				<img class="img-responsive" alt="" src="<?php echo base_url('assets/img/past-editions/cs_winners_2014.jpg')?>">
+				<img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/48')?>">
 			</div>
 			<div class="col-md-6" style="padding:30px">
 				<h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Team Design</b></h3>
-				<img class="img-responsive" alt="" src="<?php echo base_url('assets/img/past-editions/td_winners_2014.jpg')?>">
+				<img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/49')?>">
 			</div>
 		</div>
 		<div class="row">

@@ -2,10 +2,12 @@
 <script>
     $(document).ready(function(){
 
+
+        $('.scrollToTop').hide();
+
         //Check to see if the window is top if not then display button
         $(window).scroll(function(){
-            console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
-            if ((window.innerHeight - $(this).scrollTop())/window.innerHeight < -2) {
+            if($(window).scrollTop() + $(window).height() > $(document).height()-20) {
                 $('.scrollToTop').fadeIn();
             } else {
                 $('.scrollToTop').fadeOut();
@@ -20,6 +22,7 @@
 
     });
 </script>
+
 
 <!-- Videos -->
 
@@ -85,26 +88,7 @@
                 <img src="<?php echo base_url('assets/img/media/2016/33.jpg')?>">
                 <img src="<?php echo base_url('assets/img/media/2016/34.jpg')?>">
                 <img src="<?php echo base_url('assets/img/media/2016/35.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/36.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/37.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/38.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/39.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/40.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/41.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/42.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/43.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/44.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/45.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/46.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/47.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/48.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/49.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/50.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/51.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/52.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/53.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/54.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2016/55.jpg')?>">
+
             </div>
         </div>
     </div>

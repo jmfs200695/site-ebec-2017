@@ -5,11 +5,11 @@
 	$(document).ready(function(){
 
 
-        $('.scrollToTop').hide();
+		$('.scrollToTop').hide();
 
 		//Check to see if the window is top if not then display button
 		$(window).scroll(function(){
-			if($(window).scrollTop() + $(window).height() > $(document).height()-10) {
+			if($(window).scrollTop() + $(window).height() > $(document).height()-20) {
 				$('.scrollToTop').fadeIn();
 			} else {
 				$('.scrollToTop').fadeOut();

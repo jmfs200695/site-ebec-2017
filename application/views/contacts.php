@@ -1,5 +1,29 @@
 <!-- Contacts -->
 <link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+<script>
+    $(document).ready(function(){
+
+
+        $('.scrollToTop').hide();
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            if($(window).scrollTop() + $(window).height() > $(document).height()-20) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+
+    });
+</script>
+
 <section class="">
     <div class="container">
         <div class="row">
@@ -81,9 +105,9 @@
             <div class="col-md-6 text-center team-member">
                 <h4><i class="fa fa-home"></i> Morada</h4>
                 <p class="text-muted text-white">
-                    Incubadora de Empresas da Universidade de Aveiro<br/>
-                    Campus Universitário de Santiago, Edifício 1<br/>
-                    3810-193 Aveiro<br/>
+                    Fábrica Centro Ciência Viva de Aveiro<br/>
+                    Rua de Calouste Gulbenkian 3<br/>
+                    3810-164 Aveiro<br/>
                     Portugal
                 </p>
                 <h4><i class="fa fa-phone"></i> Telefone</h4>
@@ -147,7 +171,7 @@
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
     function init_map() {
-        var var_location = new google.maps.LatLng(40.636002, -8.657700);
+        var var_location = new google.maps.LatLng(40.637751,-8.657996);
  
         var var_mapoptions = {
           center: var_location,
@@ -172,26 +196,5 @@
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568b1027a1f2a864" async="async"></script>
 <link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
-<script>
-    $(document).ready(function(){
 
 
-        $('.scrollToTop').hide();
-
-        //Check to see if the window is top if not then display button
-        $(window).scroll(function(){
-            if($(window).scrollTop() + $(window).height() > $(document).height()-10) {
-                $('.scrollToTop').fadeIn();
-            } else {
-                $('.scrollToTop').fadeOut();
-            }
-        });
-
-        //Click event to scroll to top
-        $('.scrollToTop').click(function(){
-            $('html, body').animate({scrollTop : 0},800);
-            return false;
-        });
-
-    });
-</script>
