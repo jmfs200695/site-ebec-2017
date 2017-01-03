@@ -73,7 +73,7 @@
 
                         >
                         <div class="fotorama" data-width="500" ata-ratio="4/3" data-nav="" data-thumbheight="48"  data-loop="true" data-autoplay="true" data-stopautoplayontouch="false">
-                            <img src="<?php echo base_url('assets/img/home/inicial')?>">
+                            <img src="<?php echo base_url('assets/img/home/inicial.jpg')?>">
                             <img src="<?php echo base_url('assets/img/home/ebec.jpg')?>">
 
 

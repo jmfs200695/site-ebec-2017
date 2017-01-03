@@ -83,9 +83,9 @@
             </div>
             <div class="col-md-4">
                 <div class="fotorama" data-width="400" ata-ratio="4/3" data-nav="thumbs" data-thumbheight="48"  data-loop="true" data-autoplay="true" data-stopautoplayontouch="false">
-                    <img src="<?php echo base_url('assets/img/media/2016/23')?>">
-                    <img src="<?php echo base_url('assets/img/media/2016/24')?>">
-                    <img src="<?php echo base_url('assets/img/media/2016/25')?>">
+                    <img src="<?php echo base_url('assets/img/media/2016/23.jpg')?>">
+                    <img src="<?php echo base_url('assets/img/media/2016/24.jpg')?>">
+                    <img src="<?php echo base_url('assets/img/media/2016/25.jpg')?>">
 
                 </div>
 

@@ -13,7 +13,7 @@
     /*display:none;*/
     background: url('back.png') no-repeat  ;
     background-size: 50% auto;
-    margin-top: 500px;
+    margin-top: 300px;
 }
 .scrollToTop:hover{
     text-decoration:none;
