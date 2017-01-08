@@ -4,12 +4,12 @@
    <meta http-equiv="Content-Type" content="text/html" charset="utf-9">
    <link type="image/x-icon" href="<?php echo base_url('assets/img/best_icon.png') ?>" rel="shortcut icon">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="description" content="Website of EBEC Aveiro 2016 - A students engineering competition organized by BEST Aveiro.">
+   <meta name="description" content="Website of EBEC Aveiro 2017 - A students engineering competition organized by BEST Aveiro.">
    <meta name="keywords" content="EBEC">
    <meta name="author" content="ITBugs">
 
 
-   <title>EBEC Aveiro 2016 - BEST Aveiro</title>
+   <title>EBEC Aveiro 2017 - BEST Aveiro</title>
 
    <link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
    <link rel="stylesheet" href="<?php echo base_url('assets/form-validation/css/formValidation.min.css') ?>"/>

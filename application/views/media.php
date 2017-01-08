@@ -221,56 +221,7 @@
     </div>    
 </section>
 
-<!-- EBEC Aveiro 2013 -->
-<section class="bg-light-gray">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">EBEC Aveiro 2013</h2>
-            </div>
 
-            <!-- Slider -->
-            <div class="fotorama" data-width="800" ata-ratio="4/3" data-nav="thumbs" data-thumbheight="48" data-allowfullscreen="true" data-loop="true" data-autoplay="true" data-stopautoplayontouch="false">
-                <img src="<?php echo base_url('assets/img/media/2013/10.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/19.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/29.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/34.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/48.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/71.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/72.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/77.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/79.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/85.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/94.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/113.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/120.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/122.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/124.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/126.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/128.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/132.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/136.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/156.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/159.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/161.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/164.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/171.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/176.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/179.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/230.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/238.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/259.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/260.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/277.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/278.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/280.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/284.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/288.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2013/308.jpg')?>">                
-            </div>
-        </div>
-    </div>    
-</section>
 
 
 <a href="" class="scrollToTop"></a>
