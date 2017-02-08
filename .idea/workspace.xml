@@ -2,29 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5649569e-0ba5-4d8a-b4b1-2cbd4202e481" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/best-en.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/en.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/event-en.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/include/headeren.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/past-editions-en.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/beourpartner.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/img/schedule/schedule.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/img/schedule/Schedule.jpg" afterPath="$PROJECT_DIR$/assets/img/schedule/Schedule.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/frontpage.php" afterPath="$PROJECT_DIR$/application/controllers/frontpage.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/apply.php" afterPath="$PROJECT_DIR$/application/views/apply.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/best.php" afterPath="$PROJECT_DIR$/application/views/best.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/contacts.php" afterPath="$PROJECT_DIR$/application/views/contacts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/event.php" afterPath="$PROJECT_DIR$/application/views/event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/footer.php" afterPath="$PROJECT_DIR$/application/views/include/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/header.php" afterPath="$PROJECT_DIR$/application/views/include/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/job-fair.php" afterPath="$PROJECT_DIR$/application/views/job-fair.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/media.php" afterPath="$PROJECT_DIR$/application/views/media.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/past-editions.php" afterPath="$PROJECT_DIR$/application/views/past-editions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/querparceiro.php" afterPath="$PROJECT_DIR$/application/views/querparceiro.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site.php" afterPath="$PROJECT_DIR$/application/views/site.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/team.php" afterPath="$PROJECT_DIR$/application/views/team.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/custom.css" afterPath="$PROJECT_DIR$/assets/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/btd.php" afterPath="$PROJECT_DIR$/application/views/btd.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/faqs.php" afterPath="$PROJECT_DIR$/application/views/faqs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/headeren.php" afterPath="$PROJECT_DIR$/application/views/include/headeren.php" />
     </list>
     <ignored path="ebec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,16 +49,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="media.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/media.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="querparceiro.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/querparceiro.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -88,21 +59,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="frontpage.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/frontpage.php">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="207" column="33" selection-start-line="207" selection-start-column="33" selection-end-line="207" selection-end-column="33" />
+            <state relative-caret-position="166">
+              <caret line="61" column="34" selection-start-line="61" selection-start-column="20" selection-end-line="63" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
+      <file leaf-file-name="headeren.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/include/headeren.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="62" column="92" selection-start-line="62" selection-start-column="92" selection-end-line="62" selection-end-column="92" />
+            <state relative-caret-position="162">
+              <caret line="62" column="165" selection-start-line="62" selection-start-column="165" selection-end-line="62" selection-end-column="165" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="btd.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/btd.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -128,21 +109,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="team.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="team.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/team.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+            <state relative-caret-position="472">
+              <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="event.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/event.php">
+      <file leaf-file-name="faqs.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/faqs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="98" column="62" selection-start-line="98" selection-start-column="62" selection-end-line="98" selection-end-column="62" />
+            <state relative-caret-position="136">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -189,7 +170,6 @@
         <option value="$PROJECT_DIR$/application/views/best.php" />
         <option value="$PROJECT_DIR$/application/views/site.php" />
         <option value="$PROJECT_DIR$/application/views/apply.php" />
-        <option value="$PROJECT_DIR$/application/views/include/headeren.php" />
         <option value="$PROJECT_DIR$/application/views/media.php" />
         <option value="$PROJECT_DIR$/application/views/event.php" />
         <option value="$PROJECT_DIR$/application/views/event-en.php" />
@@ -199,6 +179,9 @@
         <option value="$PROJECT_DIR$/application/views/include/header.php" />
         <option value="$PROJECT_DIR$/application/views/contacts.php" />
         <option value="$PROJECT_DIR$/application/views/team.php" />
+        <option value="$PROJECT_DIR$/application/views/faqs.php" />
+        <option value="$PROJECT_DIR$/application/views/include/headeren.php" />
+        <option value="$PROJECT_DIR$/application/views/btd.php" />
       </list>
     </option>
   </component>
@@ -342,6 +325,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-ebec-2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-ebec-2017" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="include" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -514,7 +519,7 @@
       <workItem from="1485351712732" duration="9637000" />
       <workItem from="1485535683302" duration="9687000" />
       <workItem from="1485802344174" duration="3195000" />
-      <workItem from="1486566028989" duration="13186000" />
+      <workItem from="1486566028989" duration="14314000" />
     </task>
     <task id="LOCAL-00001" summary="alterar background">
       <created>1479650137268</created>
@@ -628,11 +633,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483885951123</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="atualizaçoes3">
+      <created>1486579958522</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1486579958522</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="240052000" />
+    <option name="totallyTimeSpent" value="241180000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -653,18 +665,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36750787" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1724392" sideWeight="0.43217665" order="0" side_tool="true" content_ui="combo" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10252366" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1719243" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10252366" sideWeight="0.49707174" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -702,27 +714,14 @@
     <MESSAGE value="alterar background" />
     <MESSAGE value="atualizaçoes" />
     <MESSAGE value="atualizaçoes2" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualizaçoes2" />
+    <MESSAGE value="atualizaçoes3" />
+    <option name="LAST_COMMIT_MESSAGE" value="atualizaçoes3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/errors/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/hooks/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/language/english/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -995,14 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/include/headeren.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="112" column="120" selection-start-line="112" selection-start-column="120" selection-end-line="112" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/frontpage.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
@@ -1064,14 +1055,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="62" column="92" selection-start-line="62" selection-start-column="92" selection-end-line="62" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -1082,8 +1065,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/team.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="34" selection-end-line="57" selection-end-column="34" />
+        <state relative-caret-position="472">
+          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/faqs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="61" column="34" selection-start-line="61" selection-start-column="20" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/include/headeren.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="62" column="165" selection-start-line="62" selection-start-column="165" selection-end-line="62" selection-end-column="165" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/btd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
           <folding />
         </state>
       </provider>
