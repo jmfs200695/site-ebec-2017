@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5649569e-0ba5-4d8a-b4b1-2cbd4202e481" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/btd.php" afterPath="$PROJECT_DIR$/application/views/btd.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/faqs.php" afterPath="$PROJECT_DIR$/application/views/faqs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/headeren.php" afterPath="$PROJECT_DIR$/application/views/include/headeren.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/header.php" afterPath="$PROJECT_DIR$/application/views/include/header.php" />
     </list>
     <ignored path="ebec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -59,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="61" column="34" selection-start-line="61" selection-start-column="20" selection-end-line="63" selection-end-column="22" />
+            <state relative-caret-position="119">
+              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -79,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btd.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="btd.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/btd.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
@@ -176,12 +174,12 @@
         <option value="$PROJECT_DIR$/application/views/past-editions.php" />
         <option value="$PROJECT_DIR$/application/views/querparceiro.php" />
         <option value="$PROJECT_DIR$/assets/css/custom.css" />
-        <option value="$PROJECT_DIR$/application/views/include/header.php" />
         <option value="$PROJECT_DIR$/application/views/contacts.php" />
         <option value="$PROJECT_DIR$/application/views/team.php" />
         <option value="$PROJECT_DIR$/application/views/faqs.php" />
         <option value="$PROJECT_DIR$/application/views/include/headeren.php" />
         <option value="$PROJECT_DIR$/application/views/btd.php" />
+        <option value="$PROJECT_DIR$/application/views/include/header.php" />
       </list>
     </option>
   </component>
@@ -519,7 +517,7 @@
       <workItem from="1485351712732" duration="9637000" />
       <workItem from="1485535683302" duration="9687000" />
       <workItem from="1485802344174" duration="3195000" />
-      <workItem from="1486566028989" duration="14314000" />
+      <workItem from="1486566028989" duration="14640000" />
     </task>
     <task id="LOCAL-00001" summary="alterar background">
       <created>1479650137268</created>
@@ -640,11 +638,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486579958522</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="atualizaçoes3">
+      <created>1486580974776</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1486580974776</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241180000" />
+    <option name="totallyTimeSpent" value="241506000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1079,14 +1084,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="61" column="34" selection-start-line="61" selection-start-column="20" selection-end-line="63" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/include/headeren.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1099,6 +1096,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding />
         </state>
       </provider>
