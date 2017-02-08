@@ -230,8 +230,7 @@
     window.onload = function(){       
         window.controller = new YTV('responsive', {
             playlist: 'PLcxPfsT_Awdymh1nR9z1R6zm44IqR-jyr,PLcxPfsT_AwdwqVb6xSvAS-lnGQYrXUsJ8,PLcxPfsT_AwdxGvCiQ2QRLmHk2MmMF1UXa,PLcxPfsT_AwdwHwynjUIT8JloazbAz8-6e',             
-            accent: '#EEA225',                  
-            autoplay: true,                 
+            accent: '#EEA225',
             responsive: true,
             chainVideos: true
         });        

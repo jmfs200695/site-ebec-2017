@@ -132,9 +132,9 @@
                         </div><!-- /.wrap -->
                     </div><!-- /.clock-item -->
                 </div><!-- /.clock -->
+
             </div><!-- /.countdown-wrapper -->
 
-            </div>
         </div>
 
     </section>
@@ -219,7 +219,7 @@
         });
     });
 </script>
-
+    <a href="" class="scrollToTop"></a>
 
 
 <!-- News section -->
@@ -248,7 +248,7 @@
 	          </div>
 	        </div>
 	        -->
-            <a href="" class="scrollToTop"></a>
+
 
         <!--</div>-->
 

@@ -34,8 +34,6 @@
    <script type="text/javascript" src="<?php echo base_url('assets/full-width-slider/js/jssor.slider.mini.js') ?>"></script>
    <script type="text/javascript" src="<?php echo base_url('assets/fotorama-slider/fotorama.js') ?>"></script>
 
-   <script type="text/javascript" src="http://www.parsecdn.com/js/parse-latest.js"></script>
-
    <script type="text/javascript" src="<?php echo base_url('assets/pnotify/js/pnotify.custom.min.js') ?>"></script>
    <link href="<?php echo base_url('assets/pnotify/css/pnotify.custom.min.css') ?>" media="all" rel="stylesheet" type="text/css"/>
 

@@ -219,18 +219,7 @@
     });
 </script>
 
-<!-- Teaser -->
-<section class="bg-ebec-orange">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/hPOjZ_0Iyr0?autoplay=1" allowfullscreen="" frameborder="0" width="200px" height="300px"></iframe>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 
 <!-- News section -->
 <!--<section class="bg-gray">

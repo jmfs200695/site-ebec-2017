@@ -41,7 +41,7 @@
         </div>
 		<div class="row">        	        
             <div class="col-md-8">                
-                <p class="text-muted text-justify fadeIn">
+                <p class="text-muted text-justify">
 					Sendo o desenvolvimento extracurricular dos estudantes da Europa o rumo da organização
 					BEST, surge a European BEST Engineering Competition (EBEC) como projeto internacional,
 					onde estudantes de vários ramos de engenharia colocam a sua criatividade em prática,
