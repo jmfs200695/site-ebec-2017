@@ -187,10 +187,28 @@ class Frontpage extends Main_Controller {
           	$this->load->view('querparceiro.php');
           	$this->load->view('include/footer');
     	}
-    public function english()
+    public function en()
     {
-        $this->load->view('include/header');
-        $this->load->view('siteEN');
+        $this->load->view('include/headeren');
+        $this->load->view('en');
+        $this->load->view('include/footer');
+    }
+    public function besten()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('best-en');
+        $this->load->view('include/footer');
+    }
+    public function eventen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('event-en');
+        $this->load->view('include/footer');
+    }
+    public function pasteditionen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('past-editions-en');
         $this->load->view('include/footer');
     }
 

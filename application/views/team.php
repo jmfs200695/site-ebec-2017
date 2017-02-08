@@ -50,7 +50,7 @@
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/img/team/Jorge Silva.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
                     <h4>Jorge Silva</h4>
-                    <p class="text-muted">Responsável de Informação e Tecnologia</p>
+                    <p class="text-muted">Responsável de Tecnologia da Informação</p>
                     <p><i class="fa fa-envelope"></i><a href="mailto:jorge.silva@BEST.eu.org"> jorge.silva@BEST.eu.org</a></p>
                 </div>
 

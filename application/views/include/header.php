@@ -57,12 +57,13 @@
       <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
-              <div class="navbar-header pull-left">                  
+              <div class="navbar-header">
                   <a class="navbar-brand" href="<?php echo base_url('index.php/frontpage/index')?>">
-                    <img class="nav_logo" src="<?php echo base_url('assets/img/logos/ebec_aveiro_logo.png') ?>">
+                    <img class="nav_logo" onmouseover="this.src='../../assets/img/logos/roldana laranja-01.png'"
+                         onmouseout="this.src='../../assets/img/logos/roldana branca-01.png'" src="<?php echo base_url('assets/img/logos/roldana branca-01.png') ?>">
                   </a>
               </div>
-              <div class="navbar-header pull-right clearfix">
+              <div class="navbar-header clearfix pull-right">
                   <a href="http://bestaveiro.web.ua.pt/" class="navbar-brand" target="_blank">
                      <img class="nav_logo_right" src="<?php echo base_url('assets/img/logos/best_aveiro_logo.png') ?>">
                   </a>
@@ -134,12 +135,18 @@
                       <li>
                           <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contactos</a>
                       </li>
-
-
                   </ul>
 
+                  <ul class="nav2 navbar-nav pull-right">
+                      <li>
+                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/en')?>">EN</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/index')?>">PT</a>
+                      </li>
+                  </ul>
 
-              <!-- /.navbar-collapse -->
+                  <!-- /.navbar-collapse -->
           </div>
           <!-- /.container-fluid -->
         </nav>

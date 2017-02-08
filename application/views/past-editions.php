@@ -29,18 +29,18 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12 text-center">
-				<h2 class="section-heading">VIII Edição</h2>
+				<h2 class="section-heading">Edição 2016</h2>
 				<br/>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-12">
 				<p class="text-muted text-justify">
-					Nos dias 5,6 e 9 de março de 2016 decorreu no campus da Universidade de Aveiro a <b>VIII Edição da
+					Nos dias 5, 6 e 9 de março de 2016 decorreu no campus da Universidade de Aveiro a <b>VIII Edição da
 						EBEC Aveiro</b> que contou com a participação de 104 estudantes de ciências e tecnologias e 26 equipas.
 				</p>
 				<p class="text-muted text-justify">
-					A competição de Team Design foi apoiada pela Uniactiva, enquanto que a competição de Case Study pela
+					A competição de Team Design foi apoiada pela empresa Uniactiva, enquanto que a competição de Case Study pela empresa
 					ergostart. Os vencedores da EBEC Aveiro 2016 representaram Aveiro na fase nacional da competição, que se
 					realizou em Coimbra.
 				</p>
@@ -80,7 +80,7 @@
 
 										<small>
 											Miguel Oliveira<br/>
-											Coordenadora da EBEC Aveiro 2016
+											Coordenador da EBEC Aveiro 2016
 										</small>
 									</div>
 								</div>
@@ -99,7 +99,7 @@
 	<div class="container">
 		<div class="row">
 	        <div class="col-lg-12 text-center">
-	            <h2 class="section-heading">VII Edição</h2>
+	            <h2 class="section-heading">Edição 2015</h2>
 	            <br/>
 	        </div>
 	    </div>
@@ -110,7 +110,7 @@
 	            	de Aveiro (UA), esta edição contou com a participação de 96 estudantes de variados cursos da UA.
 	            </p>
 	        	<p class="text-muted text-justify">
-					A competição de Team Design foi apoiada pela Bosch e REN, enquanto que a competição de Case Study pela
+					A competição de Team Design foi apoiada pelas empresas Bosch e REN, enquanto que a competição de Case Study pela empresa
 					Roboplan. Os vencedores da EBEC Aveiro 2015 representaram Aveiro na fase nacional da competição, que se
 					realizou em Aveiro, tendo ambas as equipas obtido a vitória competindo contra as equipas vencedoras de
 					Lisboa, Porto, Coimbra e Almada e assim avançaram à fase final da competição - EBEC Final - que se
@@ -177,7 +177,7 @@
 	<div class="container">
 		<div class="row">
 	        <div class="col-lg-12 text-center">
-	            <h2 class="section-heading">VI Edição</h2>
+	            <h2 class="section-heading">Edição 2014</h2>
 	            <br/>
 	        </div>
 	    </div>
@@ -248,7 +248,7 @@
 	<div class="container">
 		<div class="row">
 	    	<div class="col-lg-12 text-center">
-	            <h2 class="section-heading">V Edição</h2>
+	            <h2 class="section-heading">Edição 2013</h2>
 	            <br/>
 	        </div>
 	    </div>
@@ -259,7 +259,7 @@
 		            	a participação de 92 participantes.
 		            </p>
 		            <p class="text-muted text-justify">
-		            	A competição de Case Study contou com o apoio da Bosch, que pelo 2º ano consecutivo foi parceira 
+		            	A competição de Case Study contou com o apoio da empresa Bosch, que pelo 2º ano consecutivo foi parceira
 		            	da EBEC Aveiro.
 		            </p>
 		        </div>
@@ -315,7 +315,7 @@
 	<div class="container">
 		<div class="row">
 	        <div class="col-lg-12 text-center">
-	            <h2 class="section-heading">IV Edição</h2>
+	            <h2 class="section-heading">Edição 2012</h2>
 	            <br/>
 	        </div>
 	    </div>
@@ -329,7 +329,7 @@
 	            	manter-se para as edições seguintes.
 	            </p>
 	            <p class="text-muted text-justify">
-	            	A competição de Case Study foi apoiada pela Bosch e a competição de Team Design foi desenvolvida 
+	            	A competição de Case Study foi apoiada pela empresa Bosch e a competição de Team Design foi desenvolvida
 	            	apenas pelos membros do BEST Aveiro. O evento contou com a participação de 72 estudantes, num total 
 	            	de 18 equipas. 
 	            </p>

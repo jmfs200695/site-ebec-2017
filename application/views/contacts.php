@@ -105,9 +105,9 @@
             <div class="col-md-6 text-center team-member">
                 <h4><i class="fa fa-home"></i> Morada</h4>
                 <p class="text-muted text-white">
-                    Fábrica Centro Ciência Viva de Aveiro<br/>
-                    Rua de Calouste Gulbenkian 3<br/>
-                    3810-164 Aveiro<br/>
+                    Incubadora de Empresas da Universidade de Aveiro<br/>
+                    Campus Universitário de Santiago, Edifício 1<br/>
+                    3810-193 Aveiro<br/>
                     Portugal
                 </p>
                 <h4><i class="fa fa-phone"></i> Telefone</h4>
@@ -171,7 +171,7 @@
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
     function init_map() {
-        var var_location = new google.maps.LatLng(40.637751,-8.657996);
+        var var_location = new google.maps.LatLng(40.636002,-8.6577);
  
         var var_mapoptions = {
           center: var_location,

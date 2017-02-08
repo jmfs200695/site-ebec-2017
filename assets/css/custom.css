@@ -4,6 +4,7 @@
 
 body {
   padding-top: 60px;
+
 }
 
 .navbar {
@@ -28,7 +29,8 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   color: white;
-  padding: 10px 15px;
+  padding: 10px 10px;
+
 }
 
 .navbar .nav > li a:hover {
@@ -38,8 +40,8 @@ body {
 
 /* Dropdown menu */
 .dropdown-menu {
-  background: gray;
-  border-color: #B26912;
+  background: white;
+
 }
 
 .dropdown-menu-2 {
@@ -59,18 +61,19 @@ body {
 .navbar-brand {
   display:inline-block;
   float:none;
-  padding: 5px 5px;
+  padding: 5px 3px;
   margin: 0px 0px 0px 0px;
 
 }
 
 .nav_logo {
-	height: 45px;
-  margin-left: 2px;
+	height: 50px;
+  margin-left: 70px;
+
 }
 
 .nav_logo_right {
-  height: 45px;
+  height: 40px;
   margin-right: 2px;
 }
 
@@ -142,7 +145,7 @@ margin-top: 15px;
 }
 
 #holder {
-  min-height: 100%;
+  min-height: 40%;
   position:relative;
 }
 
@@ -278,7 +281,7 @@ div.fill_bottom{
 }
 
 .about_nav{
-  margin-top: 15px;
+  margin-top: 10px;
   margin-bottom: 0px;
 }
 
@@ -603,14 +606,14 @@ header {
 
 header .intro-text {
     margin-top: 50px;
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 22px;
+    font-size: 15px;
     line-height: 22px;
     margin-bottom: 25px
 }
@@ -619,7 +622,7 @@ header .intro-text .intro-heading {
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 15px;
     line-height: 50px;
     margin-bottom: 25px
 }
@@ -644,7 +647,7 @@ header .btn {
     header .intro-text .intro-lead-in {
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-style: italic;
-        font-size: 40px;
+        font-size: 30px;
         line-height: 40px;
         margin-bottom: 25px
     }
@@ -855,7 +858,7 @@ p.large {
 }
 .img-footer2{
   max-width: 190px ;
-  max-height: 100px;
+  max-height: 90px;
   padding: 10px;
 }
 
@@ -959,8 +962,8 @@ p.large {
 /* Responsive video */
 .video-container {
   position:relative;
-  padding-bottom:56.25%;
-  padding-top:30px;
+  padding-bottom:40%;
+  padding-top:0px;
   height:0;
   overflow:hidden;
 }
@@ -980,28 +983,31 @@ p.large {
 
 .countdown-container {
 position: relative;
-top: 50%;
 -webkit-transform: translateY(-50%);
 -moz-transform: translateY(-50%);
 transform: translateY(-50%);
+margin-top: 35px;
+padding: 100px;
+
 }
 .clock-item .inner {
 height: 0px;
 padding-bottom: 100%;
 position: relative;
-width: 100%;
+width: 75%;
 }
 .clock-canvas {
-background-color: rgba(255, 255, 255, .1);
+background-color: rgb(140, 140, 140);
 border-radius: 50%;
 height: 0px;
 padding-bottom: 100%;
+
 }
 .text {
 color: white;
-font-size: 30px;
+font-size: 20px;
 font-weight: bold;
-margin-top: -50px;
+margin-top: -80px;
 position: absolute;
 top: 50%;
 text-align: center;
@@ -1009,32 +1015,32 @@ text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
 width: 100%;
 }
 .text .val {
-font-size: 50px;
-
+font-size: 30px;
+color: white;
 }
 .text .type-time {
 font-size: 20px;
+  color: #ffffff;
 }
  @media (min-width: 768px) and (max-width: 991px) {
 .clock-item {
-margin-bottom: 30px;
+margin-bottom: 10px;
 }
 }
- @media (max-width: 767px) {
+ @media (max-width: 500px) {
 .clock-item {
-margin: 0px 30px 30px 30px;
+margin: 0px 10px 10px 10px;
 }
 }
 =======
 /*Countdown start here*/
 
 .count-down {
-  margin: 0 0 85px 0;
-  padding: 0;
+  margin: 0px 0 20px 0;
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  height: 240px;
   height: auto;
+  margin-top: 100px;
 }
 
 @media(max-width:767px){
@@ -1050,10 +1056,11 @@ margin: 0px 30px 30px 30px;
   display: block;
   text-transform: uppercase;
   margin-top: -100px;
-  font-size: 15px;
+  font-size: 10px;
   position: relative;
   z-index: 9 !important;
   list-style-type: none;
+
 }
 /*Countdown end here*/
 
@@ -1077,6 +1084,7 @@ margin: 0px 30px 30px 30px;
 .left{
   float: left;
   margin-left: 0px;
+    margin-top: 0px;
 }
 .textsize{
   font-size: 17px;
@@ -1090,4 +1098,40 @@ margin: 0px 30px 30px 30px;
 }
 .imgsize4{
   width: 900px;
+}
+.navbar .nav2,
+.navbar .nav2 > li a {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: white;
+  padding: 10px 10px;
+  list-style-type: none;
+
+}
+.navbar .nav2 > li {
+  padding: 0px 1px;
+
+}
+.navbar .nav2 > li a:hover {
+  color: orange;
+}
+.background{
+  background-image: url("fundo7.jpg");
+
+}
+.text2{
+  color: orange;
+  font-size: large;
+}
+.c{
+  margin-top: 1px;
+}
+.d{
+  margin-top: 50px;
 }

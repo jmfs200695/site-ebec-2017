@@ -34,7 +34,7 @@
 	<div class="container">
 		<div class="row">
 	        <div class="col-lg-12 text-center text-orange">
-	            <h2 class="section-heading">BEST Internacional</h2>
+	            <h2 class="section-heading">BEST</h2>
 	            <br/>
 	        </div>
 	    </div>
@@ -51,7 +51,7 @@
 			</div>
 			<div class="col-md-6">
 				<p class="text-muted text-justify text-black">
-					O BEST (Board of European Students of Technology) é uma organização europeia sem fins lucrativos, não-governamental e apolítica para estudantes das áreas de Ciências, Tecnologias e Engenharias. Através dos 95 grupos locais presentes em 33 países de toda a Europa, construímos uma rede de estudantes inovadora, flexível e dinâmica em constante crescimento.
+					O BEST (Board of European Students of Technology) é uma organização europeia sem fins lucrativos, não-governamental e apolítica para estudantes das áreas de Ciências, Tecnologias e Engenharias. Através dos 94 grupos locais presentes em 33 países de toda a Europa, construímos uma rede de estudantes inovadora, flexível e dinâmica em constante crescimento.
 				</p>
 				<p class="text-muted text-justify text-black">
 					Desde 1989 que temos vindo a fortalecer uma relação de cooperação entre estudantes, empresas e universidades, sustentando um desenvolvimento de competências cruciais para um futuro profissional de sucesso. Através de uma educação complementar, de um apoio à carreira e de um aumento do interesse pela análise do sistema educacional, permitimos uma formação de jovens proativos, ambiciosos e versáteis. Para além disso, um dos pontos fundamentais num desenvolvimento de qualidade é ser capaz de interagir com diferentes culturas e adaptar-se a novas circunstâncias. Para tal, criamos oportunidades de progressão académica em ambiente intercultural, providenciando troca de conhecimento e experiências entre jovens de toda a Europa.
@@ -107,7 +107,7 @@
 						<i class="fa fa-arrow-right text-white"></i>&nbsp; Curso Sazonal;
 					</li>
 					<li class="text-muted text-white">
-						<i class="fa fa-arrow-right text-white"></i>&nbsp; Competição de engenharia EBEC Aveiro - European BEST Engineering Competition;
+						<i class="fa fa-arrow-right text-white"></i>  EBEC Aveiro - European BEST Engineering Competition;
 					</li>
 					<li class="text-muted text-white">
 						<i class="fa fa-arrow-right text-white"></i>&nbsp; InnovationNow;
@@ -115,12 +115,7 @@
 					<li class="text-muted text-white">
 						<i class="fa fa-arrow-right text-white"></i>&nbsp; BEST Training Days, durante todo o ano;
 					</li>
-					<li class="text-muted text-white">
-						<i class="fa fa-arrow-right text-white"></i>&nbsp; ABCs - Aveiro BEST Competititons;
-					</li>
-					<li class="text-muted text-white">
-						<i class="fa fa-arrow-righttext-white "></i>&nbsp; Workshops.
-					</li>
+
 				</ul>
 				<br/>
 

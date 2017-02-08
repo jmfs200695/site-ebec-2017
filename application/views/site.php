@@ -64,25 +64,77 @@
         });
     </script>
 
-    <section class="d">
-        <div class="container">
-            <div class="row">
 
-                    <div class="cold-md-12">
-                        <img class="left"  width="550px" height="350px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
 
+    <section class="background ">
+        <div class="container ">
+            <div class="row ">
+                    <div class="center">
+                        <img width="400px" height="250px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
                         >
-                        <div class="fotorama" data-width="500" ata-ratio="4/3" data-nav="" data-thumbheight="48"  data-loop="true" data-autoplay="true" data-stopautoplayontouch="false">
-                            <img src="<?php echo base_url('assets/img/home/inicial.jpg')?>">
-                            <img src="<?php echo base_url('assets/img/home/ebec.jpg')?>">
-
-
-                        </div>
-
+                        <img  width="200px" height="250px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
+                        >
 
                 </div>
             </div>
 
+            <div class="countdown countdown-container container">
+                <div class="clock row" style="margin-top:250px;">
+                    <div class="clock-item clock-days countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                        <div class="wrap">
+                            <div class="inner">
+                                <div id="canvas-days" class="clock-canvas"></div>
+
+                                <div class="text">
+                                    <p class="val">0</p>
+                                    <p class="type-days type-time">DIAS</p>
+                                </div><!-- /.text -->
+                            </div><!-- /.inner -->
+                        </div><!-- /.wrap -->
+                    </div><!-- /.clock-item -->
+
+                    <div class="clock-item clock-hours countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                        <div class="wrap">
+                            <div class="inner">
+                                <div id="canvas-hours" class="clock-canvas"></div>
+
+                                <div class="text">
+                                    <p class="val">0</p>
+                                    <p class="type-hours type-time">HORAS</p>
+                                </div><!-- /.text -->
+                            </div><!-- /.inner -->
+                        </div><!-- /.wrap -->
+                    </div><!-- /.clock-item -->
+
+                    <div class="clock-item clock-minutes countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                        <div class="wrap">
+                            <div class="inner">
+                                <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                <div class="text">
+                                    <p class="val">0</p>
+                                    <p class="type-minutes type-time">MINUTOS</p>
+                                </div><!-- /.text -->
+                            </div><!-- /.inner -->
+                        </div><!-- /.wrap -->
+                    </div><!-- /.clock-item -->
+
+                    <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3 hidden-xs">
+                        <div class="wrap">
+                            <div class="inner">
+                                <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                <div class="text">
+                                    <p class="val">0</p>
+                                    <p class="type-seconds type-time">SEGUNDOS</p>
+                                </div><!-- /.text -->
+                            </div><!-- /.inner -->
+                        </div><!-- /.wrap -->
+                    </div><!-- /.clock-item -->
+                </div><!-- /.clock -->
+            </div><!-- /.countdown-wrapper -->
+
+            </div>
         </div>
 
     </section>
@@ -140,66 +192,6 @@
     .jssora22l.jssora22ldn { background-position: -250px -31px; }
     .jssora22r.jssora22rdn { background-position: -310px -31px; }
 </style>
-
-<!-- Countdown starts here -->
-<section class="bg-ebec-gray" style="margin-bottom:-260px">
-    <div class="countdown countdown-container container">
-        <div class="clock row" style="margin-top:250px;">
-            <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
-                <div class="wrap">
-                    <div class="inner">
-                        <div id="canvas-days" class="clock-canvas"></div>
-
-                        <div class="text">
-                            <p class="val">0</p>
-                            <p class="type-days type-time">DAYS</p>
-                        </div><!-- /.text -->
-                    </div><!-- /.inner -->
-                </div><!-- /.wrap -->
-            </div><!-- /.clock-item -->
-
-            <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-                <div class="wrap">
-                    <div class="inner">
-                        <div id="canvas-hours" class="clock-canvas"></div>
-
-                        <div class="text">
-                            <p class="val">0</p>
-                            <p class="type-hours type-time">HOURS</p>
-                        </div><!-- /.text -->
-                    </div><!-- /.inner -->
-                </div><!-- /.wrap -->
-            </div><!-- /.clock-item -->
-
-            <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-                <div class="wrap">
-                    <div class="inner">
-                        <div id="canvas-minutes" class="clock-canvas"></div>
-
-                        <div class="text">
-                            <p class="val">0</p>
-                            <p class="type-minutes type-time">MINUTES</p>
-                        </div><!-- /.text -->
-                    </div><!-- /.inner -->
-                </div><!-- /.wrap -->
-            </div><!-- /.clock-item -->
-
-            <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-                <div class="wrap">
-                    <div class="inner">
-                        <div id="canvas-seconds" class="clock-canvas"></div>
-
-                        <div class="text">
-                            <p class="val">0</p>
-                            <p class="type-seconds type-time">SECONDS</p>
-                        </div><!-- /.text -->
-                    </div><!-- /.inner -->
-                </div><!-- /.wrap -->
-            </div><!-- /.clock-item -->
-        </div><!-- /.clock -->
-    </div><!-- /.countdown-wrapper -->
-</section>
-
 <!-- Countdown starts here -->
 <script type="text/javascript">
     $(document).ready(function() {
@@ -228,18 +220,7 @@
     });
 </script>
 
-<!-- Teaser -->
-<section class="bg-ebec-orange">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-10 col-md-offset-1">            
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/hPOjZ_0Iyr0?autoplay=1" allowfullscreen="" frameborder="0" width="200px" height="300px"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+
 
 <!-- News section -->
 <!--<section class="bg-gray">

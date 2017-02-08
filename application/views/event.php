@@ -33,15 +33,15 @@
 
 <section class="bg-light-gray">
 	<div class="container">
-		<div class="row">
-            <div class="col-lg-12 text-center">
+		<div class="row fadeIn">
+            <div class="col-lg-12 text-center ">
                 <h2 class="section-heading">EBEC</h2>
                 <br/>
             </div>
         </div>
 		<div class="row">        	        
             <div class="col-md-8">                
-                <p class="text-muted text-justify">
+                <p class="text-muted text-justify fadeIn">
 					Sendo o desenvolvimento extracurricular dos estudantes da Europa o rumo da organização
 					BEST, surge a European BEST Engineering Competition (EBEC) como projeto internacional,
 					onde estudantes de vários ramos de engenharia colocam a sua criatividade em prática,
@@ -89,14 +89,14 @@
         		<img class="img-responsive" src="<?php echo base_url('assets/img/event/ebec_aveiro_2015.png')?>">
         	</div>        
             <div class="col-md-7">                
-                <p class="text-muted text-justify text-white">
+                <p class="text-muted text-justify text-white c">
 
 					O BEST Aveiro organiza anualmente uma das 88 fases locais do projeto EBEC, com a duração de 24 horas.
                 </p>
-            	<p class="text-muted text-justify text-white">
+            	<p class="text-muted text-justify text-white c">
 					Com a nona edição da competição a ocorrer em março de 2017, o evento contará com o maior número de participantes de todas edições. Considerado um dos eventos de maior destaque do BEST Aveiro, direcionado aos alunos da Universidade de Aveiro, a EBEC Aveiro pretende ser um momento onde criatividade, desafio, energia, flexibilidade e espírito de equipa são postos em prática.
             	</p>
-            	<p class="text-muted text-justify text-white">
+            	<p class="text-muted text-justify text-white c">
 					No sentido de promover uma melhor relação entre estudantes e empresas, a EBEC Aveiro organizará, à parte da competição, uma feira de empresas seguida  de uma cocktail network no dia 14 de março.
 
 				</p>
@@ -380,7 +380,7 @@
 				<img class="img-responsive img-center" src="<?php echo base_url('assets/img/event/ebec_final.png')?>" style="padding-top:30px">
 			</div>
             <div class="col-md-8">
-				<p class="text-muted text-justify text-white ">
+				<p class="text-muted text-justify text-white c">
 
 				</p>
                 <p class="text-muted text-justify text-white ">
