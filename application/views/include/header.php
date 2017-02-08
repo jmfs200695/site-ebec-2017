@@ -9,7 +9,7 @@
    <meta name="author" content="ITBugs">
 
 
-   <title>EBEC Aveiro 2017 - BEST Aveiro</title>
+   <title>EBEC Aveiro 2017</title>
 
    <link href="<?php echo base_url('assets/css/bootstrap.min.css') ?>" rel="stylesheet">
    <link rel="stylesheet" href="<?php echo base_url('assets/form-validation/css/formValidation.min.css') ?>"/>

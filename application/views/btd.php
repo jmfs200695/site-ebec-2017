@@ -13,13 +13,8 @@
                     nas atividades da EBEC Aveiro terás a oportunidade de desenvolver as tuas capacidades numa
                     formação.
                 <p class="text-muted text-justify">
-                    A formação decorrerá durante a tarde do dia <b>2 de março</b> e é restrita aos participantes, tendo
+                    A formação decorrerá durante a tarde do dia <b>10 de março</b> e é restrita aos participantes, tendo
                     como objetivo preparar as equipas para as apresentações incluídas na prova.
-                </p>
-                <p class="text-muted text-justify">
-                    Nas três rondas do projeto EBEC, um dos parâmetros de avaliação é a capacidade dos participantes
-                    exporem a solução para o problema, por isso este BTD em <i><b>"Presentation Skills"</b></i> será de grande utilidade
-                    para uma melhor performance na competição.
                 </p>
                 <p class="text-muted text-justify">
                     Todos os participantes do <b>BEST Training Day</b> receberão um certificado de participação na formação.

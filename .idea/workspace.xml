@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5649569e-0ba5-4d8a-b4b1-2cbd4202e481" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/btd.php" afterPath="$PROJECT_DIR$/application/views/btd.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/header.php" afterPath="$PROJECT_DIR$/application/views/include/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/include/headeren.php" afterPath="$PROJECT_DIR$/application/views/include/headeren.php" />
     </list>
     <ignored path="ebec.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +42,7 @@
       <file leaf-file-name="event-en.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/event-en.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
+            <state relative-caret-position="1581">
               <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding />
             </state>
@@ -57,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="187">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -70,18 +72,18 @@
       <file leaf-file-name="headeren.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/include/headeren.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="62" column="165" selection-start-line="62" selection-start-column="165" selection-end-line="62" selection-end-column="165" />
+            <state relative-caret-position="187">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="btd.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="btd.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/btd.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+            <state relative-caret-position="194">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -178,8 +180,8 @@
         <option value="$PROJECT_DIR$/application/views/team.php" />
         <option value="$PROJECT_DIR$/application/views/faqs.php" />
         <option value="$PROJECT_DIR$/application/views/include/headeren.php" />
-        <option value="$PROJECT_DIR$/application/views/btd.php" />
         <option value="$PROJECT_DIR$/application/views/include/header.php" />
+        <option value="$PROJECT_DIR$/application/views/btd.php" />
       </list>
     </option>
   </component>
@@ -517,7 +519,7 @@
       <workItem from="1485351712732" duration="9637000" />
       <workItem from="1485535683302" duration="9687000" />
       <workItem from="1485802344174" duration="3195000" />
-      <workItem from="1486566028989" duration="14640000" />
+      <workItem from="1486566028989" duration="14926000" />
     </task>
     <task id="LOCAL-00001" summary="alterar background">
       <created>1479650137268</created>
@@ -645,11 +647,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486580974776</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="atualizaçoes3">
+      <created>1486581296363</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1486581296363</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="241506000" />
+    <option name="totallyTimeSpent" value="241792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1044,14 +1053,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/event-en.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1084,26 +1085,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/include/headeren.php">
+    <entry file="file://$PROJECT_DIR$/application/views/event-en.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="62" column="165" selection-start-line="62" selection-start-column="165" selection-end-line="62" selection-end-column="165" />
+        <state relative-caret-position="1581">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/btd.php">
+    <entry file="file://$PROJECT_DIR$/application/views/include/headeren.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/include/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/btd.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
           <folding />
         </state>
       </provider>
