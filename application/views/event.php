@@ -31,7 +31,7 @@
 
 
 
-<section class="bg-light-gray">
+<section class="bg-white">
 	<div class="container">
 		<div class="row fadeIn">
             <div class="col-lg-12 text-center ">

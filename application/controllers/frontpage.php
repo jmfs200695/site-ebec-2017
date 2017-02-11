@@ -212,8 +212,69 @@ class Frontpage extends Main_Controller {
         $this->load->view('include/footer');
     }
 
-
-
+    /**
+     * @return mixed
+     */
+    public function wannabe()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('wannabe');
+        $this->load->view('include/footer');
+    }
+    public function jobfairen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('job-fair-en');
+        $this->load->view('include/footer');
+    }
+    public function contactsen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('contacts-en');
+        $this->load->view('include/footer');
+    }
+    public function applyen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('apply-en');
+        $this->load->view('include/footer');
+    }
+    public function teamen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('team-en');
+        $this->load->view('include/footer');
+    }
+    public function btden()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('btd-en');
+        $this->load->view('include/footer');
+    }
+    public function sheduleen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('shedule-en');
+        $this->load->view('include/footer');
+    }
+    public function faqsen()
+    {
+        $this->load->view('include/headeren');
+        $this->load->view('faqs-en');
+        $this->load->view('include/footer');
+    }
+    public function newsen()
+    {
+        $this->load->view('include/header');
+        $this->load->view('news-en');
+        $this->load->view('include/footer');
+    }
+    public function mediaen()
+    {
+        $this->load->view('include/header');
+        $this->load->view('media-en');
+        $this->load->view('include/footer');
+    }
 }
 /* End of file frontpage.php */
 /* Location: ./application/controllers/frontpage.php */

@@ -1,4 +1,4 @@
-﻿<section class="bg-white">
+<section class="bg-white">
     <div class="row">
         <div class="col-lg-12 text-center">
             <h2 class="section-heading">FAQ</h2>
@@ -14,15 +14,15 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                Quando tempo dura a competição?
+                                How long does the competition last?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse1" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Tens 24 horas para construir o teu protótipo ou arranjar uma solução para o problema de
-                            <i>Case Study</i>. A apresentação do teu projeto será apenas na quarta-feira seguinte
-                            (15 de março).
+                            You have 24 hours to build your prototype or get a solution your
+                            <i>Case Study</i>. The presentation of your project will be on the next wednesday
+                            (march 15).
                         </div>
                     </div>
                 </div>
@@ -30,14 +30,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
-                                Quando é que saberemos qual é a prova que teremos que realizar?
+                                When will we know what challenge we will have?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse2" class="panel-collapse collapse">
                         <div class="panel-body">
-                            A prova será apresentada na sessão de abertura, no entanto, o guião será apenas distribuído
-                            quando a competição se iniciar.
+                            The chalenge will be presented at the opening session, however, the script will only be distributed when the competition starts.
                         </div>
                     </div>
                 </div>
@@ -45,14 +44,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                Podemos sair da Universidade durante a prova?
+                                Can we leave the University during the challenge?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse3" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Apenas serão permitidas deslocações externas ao local da prova exclusivamente com a
-                            aprovação do coordenador do evento.
+                            Only external movements from the test location will be allowed exclusively with the approval of the event coordinator.
                         </div>
                     </div>
                 </div>
@@ -60,15 +58,14 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
-                                Que penalizações existem durante a prova para os participantes?
+                                What penalties exist during the test for participants?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse4" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Caso se verifique o incumprimento das regras definidas para a competição, a equipa
-                            poderá ser penalizada na pontuação da sua prova ou desqualificada, se for caso para tal.
-                            A equipa poderá também estar sujeita à perda da caução.
+                            In case of infringement of the rules established for the competition, the team may be penalized in the score of their chalenge or disqualified.
+                            The team may also lose their deposit.
                         </div>
                     </div>
                 </div>
@@ -76,15 +73,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
-                                Paga-se para participar na competição?
+                                Do we have to pay to participate in the competition?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse5" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Não, cada equipa terá apenas de deixar uma caução. O valor
-                            ser-te-á devolvido no final da competição, após a sessão de encerramento. Esta caução
-                            tem por objetivo prevenir quaisquer estragos causados.
+                            No, each team will only have to leave a deposit. The value will be returned to you at the end of the competition after the closing session. This deposit is intended to prevent any damage caused.
                         </div>
                     </div>
                 </div>
@@ -92,15 +87,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
-                                Temos direito a alimentação durante o fim de semana da competição?
+                                Are we entitled to food during the competition's weekend?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse6" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Sim, ao longo do fim-de-semana terás direito a todas as refeições enquanto estiveres a
-                            participar na prova. Terás também disponível um coffe break contínuo durante todo o
-                            fim-de-semana.
+                            Yes, through the weekend you will be entitled to all meals while you are taking part in the competition. You will also have a continuous coffee break available through the weekend.
                         </div>
                     </div>
                 </div>
@@ -108,16 +101,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7">
-                                É possível descansar durante a prova?
+                                Can we rest during the chalenge?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse7" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Sim, haverá uma "sala de descanso" para os participantes poderem descansar e até dormir
-                            se assim o desejarem. Estará também disponível uma sala de recreação (sala que irá contar
-                            com algumas atividades de lazer), para usar durante os intervalos das provas, para que os
-                            participantes descontraiam um pouco.
+                            Yes, there will be a "rest room" for participants to rest and even sleep if they wish. There will also be a recreation room (room that will count on some leisure activities), to use during the intervals of the challenge, so that the participants relax a little.
                         </div>
                     </div>
                 </div>
@@ -125,15 +115,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9">
-                                Quem vai avaliar as provas?
+                                Who will evaluate the challenges?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse9" class="panel-collapse collapse">
                         <div class="panel-body">
-                            O júri é composto por professores, elementos do BEST com experiência em competições,
-                            dependendo do teor da prova. Existe ainda a possibilidade de integrarem o júri
-                            representantes das empresas parceiras.
+                            The jury consists on teachers, elements of BEST with experience in competitions, depending on the content of the challenge. There is also the possibility of joining the jury representatives of the partner companies.
                         </div>
                     </div>
                 </div>
@@ -141,14 +129,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10">
-                                Como vão ser avaliados os projetos?
+                                How will the projects be evaluated?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse10" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Os projetos vão ser avaliados conforme o guião de cada prova, atempadamente fornecido
-                            aos participantes.
+                            The projects will be evaluated according to the script of each challenge, in time provided to the participants.
                         </div>
                     </div>
                 </div>
@@ -156,14 +143,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11">
-                                Com quem devo tirar dúvidas durante a prova?
+                                Who should I ask questions during the challenge?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse11" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Só podes tirar dúvidas com pessoas designadas para o efeito: o responsável pela prova e
-                            pelo coordenador do evento..
+                            You can only ask questions with people designated for this purpose: the person responsible for the tests and the coordinator of the event.
                         </div>
                     </div>
                 </div>
@@ -171,14 +157,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12">
-                                Tenho frequência no dia da prova. E agora?
+                                I have an exam on same day as the challenge. What now?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse12" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Deves contactar com a organização para adequar da melhor forma possível a calendarização da
-                            tua prova no dia de avaliação.
+                            You should contact the organization to best fit the timing of your challenge on the day of evaluation.
                         </div>
                     </div>
                 </div>
@@ -210,6 +195,6 @@
         -ms-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         transform: rotate(90deg);
-        color: #454444;
+        color: orange;
     }
 </style>

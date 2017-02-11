@@ -9,14 +9,12 @@
         <div class="row vertical-align">
             <div class="col-md-8">
                 <p class="text-muted text-justify">
-                    O BEST Aveiro volta a organizar mais uma edição dos <b>BEST Training Days</b>, desta vez inserido
-                    nas atividades da EBEC Aveiro terás a oportunidade de desenvolver as tuas capacidades numa
-                    formação.
+                    BEST Aveiro will once again organize another edition of the BEST Training Days, this time inserted in the activities of EBEC Aveiro you will have the opportunity to develop your skills in a training.
                 <p class="text-muted text-justify">
-                    A formação decorrerá durante a tarde do dia <b>10 de março</b> e é restrita aos participantes.
+                    The training will take place during the afternoon of <b>March 10</b>  and is restricted to the participants.
                 </p>
                 <p class="text-muted text-justify">
-                    Todos os participantes do <b>BEST Training Day</b> receberão um certificado de participação na formação.
+                    All participants <b>BEST Training Day</b> will recieve a participation certification.
                 </p>
             </div>
             <div class="col-md-4">
@@ -38,15 +36,11 @@
         <div class="row vertical-align">
             <div class="col-md-12">
                 <p class="text-muted text-justify">
-                    Os <b>BEST Training Days</b> (BTDs) visam proporcionar aos estudantes da Universidade de Aveiro a
-                    possibilidade de participarem em formações de soft skills durante o ano letivo. A seleção dos temas
-                    a abordar é planeada estrategicamente e anualmente consoante as preferências e necessidades dos
-                    estudantes identificadas através de um inquérito e de acordo com a disponibilidade dos formadores que
-                    podem ou não ser da própria organização.
+                    The <b>BEST Training Days (BTDs)</b> aim to provide students of University of Aveiro with the opportunity to participate in soft skills training during the school year. The selection of topics to be addressed is planned strategically and annually according to the preferences and needs of the students through an enquiry and according to the availability of trainers who may or may not be from the organization itself.
                 </p>
                 <p class="text-muted text-justify text-white pull-right">
                     <a href="http://bestaveiro.web.ua.pt/btds.html" target="_blank">
-                        <b>Vê as edições anteriores!</b>
+                        <b>See previous editions!</b>
                     </a>
                 </p>
             </div>

@@ -87,37 +87,37 @@
                                 <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/eventen')?>">Event</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/btd')?>">BEST Training Day</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/btden')?>">BEST Training Day</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/jobfair')?>">Job Fair</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/jobfairen')?>">Job Fair</a>
                             </li>
 
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/schedule')?>">Schedule</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/sheduleen')?>">Schedule</a>
                             </li>
                             <li>
                                 <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/regulation')?>">Regulation</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/team')?>">Team</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/teamen')?>">Team</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/pasteditionen')?>">Past Editions</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/pasteditionen')?>">Previous Editions</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/faqs')?>">FAQs</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/faqsen')?>">FAQs</a>
                             </li>
                         </ul>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/apply')?>">Application</a>
+                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/applyen')?>">Application</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/news')?>">News</a>
+                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/newsen')?>">News</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/media')?>">Media</a>
+                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/mediaen')?>">Media</a>
                     </li>
 
                     <li>
@@ -127,13 +127,13 @@
                                 <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/partners')?>">Partners</a>
                             </li>
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/querparceiro')?>">Do you want to be our partner?</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/wannabe')?>">Do you want to be our partner?</a>
                             </li>
 
                         </ul>
                     </li>
                     <li>
-                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contacts')?>">Contacts</a>
+                        <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/contactsen')?>">Contacts</a>
                 </ul>
                 <ul class="nav2 navbar-nav pull-right">
                     <li>

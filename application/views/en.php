@@ -1,11 +1,3 @@
-<!-- Header -->
-<!--<header>
-    <div class="container">
-        <div class="intro-text">
-            <a href="#services" class="page-scroll btn btn-xl">Sabe mais</a>
-        </div>
-    </div>
-</header>-->
 
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -27,18 +19,9 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 <!-- Google fonts end here -->
 
-
-
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
-<link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css') ?>"/>
-
 <!-- Countdown -->
 <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/demo/js/kinetic.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/jquery.final-countdown.js') ?>"></script>
-
-
-
-
 <script>
     $(document).ready(function(){
 
@@ -64,22 +47,21 @@
     });
 </script>
 
-
-
 <section class="background">
     <div class="container">
         <div class="row">
             <div class="center">
-                <img width="400px" height="250px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
+                <img width="385px" height="230px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
                 >
-                <img width="200px" height="250px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
+                <img width="185px" height="230px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
                 >
+
             </div>
         </div>
 
         <div class="countdown countdown-container container">
             <div class="clock row" style="margin-top:250px;">
-                <div class="clock-item clock-days countdown-time-value col-sm-3 col-md-3">
+                <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3">
                     <div class="wrap">
                         <div class="inner">
                             <div id="canvas-days" class="clock-canvas"></div>
@@ -92,7 +74,7 @@
                     </div><!-- /.wrap -->
                 </div><!-- /.clock-item -->
 
-                <div class="clock-item clock-hours countdown-time-value col-sm-3 col-md-3">
+                <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
                     <div class="wrap">
                         <div class="inner">
                             <div id="canvas-hours" class="clock-canvas"></div>
@@ -105,7 +87,7 @@
                     </div><!-- /.wrap -->
                 </div><!-- /.clock-item -->
 
-                <div class="clock-item clock-minutes countdown-time-value col-sm-3 col-md-3">
+                <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
                     <div class="wrap">
                         <div class="inner">
                             <div id="canvas-minutes" class="clock-canvas"></div>
@@ -131,65 +113,14 @@
                     </div><!-- /.wrap -->
                 </div><!-- /.clock-item -->
             </div><!-- /.clock -->
+            <div class="center">
+                <button href="<?php echo base_url('index.php/frontpage/apply')?>" type="button" class="hvr-sweep-to-right button" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    Apply!
+                </button>
+            </div>
         </div><!-- /.countdown-wrapper -->
-
     </div>
-
 </section>
-
-
-<style>
-    /* jssor slider bullet navigator skin 05 css */
-    /*
-    .jssorb05 div           (normal)
-    .jssorb05 div:hover     (normal mouseover)
-    .jssorb05 .av           (active)
-    .jssorb05 .av:hover     (active mouseover)
-    .jssorb05 .dn           (mousedown)
-    */
-    .jssorb05 {
-        position: absolute;
-    }
-    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-        position: absolute;
-        /* size of bullet elment */
-        width: 16px;
-        height: 16px;
-        background: url("<?php echo base_url('assets/full-width-slider/img/b05.png') ?>") no-repeat;
-        overflow: hidden;
-        cursor: pointer;
-    }
-    .jssorb05 div { background-position: -7px -7px; }
-    .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-    .jssorb05 .av { background-position: -67px -7px; }
-    .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-
-    /* jssor slider arrow navigator skin 22 css */
-    /*
-    .jssora22l                  (normal)
-    .jssora22r                  (normal)
-    .jssora22l:hover            (normal mouseover)
-    .jssora22r:hover            (normal mouseover)
-    .jssora22l.jssora22ldn      (mousedown)
-    .jssora22r.jssora22rdn      (mousedown)
-    */
-    .jssora22l, .jssora22r {
-        display: block;
-        position: absolute;
-        /* size of arrow element */
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        background: url("<?php echo base_url('assets/full-width-slider/img/a22.png') ?>") center center no-repeat;
-        overflow: hidden;
-    }
-    .jssora22l { background-position: -10px -31px; }
-    .jssora22r { background-position: -70px -31px; }
-    .jssora22l:hover { background-position: -130px -31px; }
-    .jssora22r:hover { background-position: -190px -31px; }
-    .jssora22l.jssora22ldn { background-position: -250px -31px; }
-    .jssora22r.jssora22rdn { background-position: -310px -31px; }
-</style>
 
 <!-- Countdown starts here -->
 <script type="text/javascript">
@@ -247,7 +178,6 @@
   </div>
 </div>
 -->
-<a href="" class="scrollToTop"></a>
 
 <!--</div>-->
 

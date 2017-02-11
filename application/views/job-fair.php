@@ -8,12 +8,12 @@
             <div class="row">
                 <div class="col-md-8">
 
-                    <p class="text-muted text-justify">
+                    <p class="text-muted text-justify e">
 
 
                         Englobada na EBEC Aveiro 2017 realizar-se-á uma Feira de Empresas no dia <b>14 de março</b> na <b>Universidade de Aveiro</b> destinada a todo o público académico.
                     </p>
-                    <p class="text-muted text-justify">
+                    <p class="text-muted text-justify e">
                         Será um espaço onde irão marcar presença empresas de diversos setores e permitirá aproximar o tecido
                         empresarial da comunidade académica. Os estudantes terão a oportunidade de conhecer a atividade das
                         entidades presentes, interagir com elas e haverá ainda um espaço dedicado a entrevistas por parte

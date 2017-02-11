@@ -66,16 +66,16 @@
 
 
 
-    <section class="background ">
-        <div class="container ">
+    <section class="background">
+        <div class="container">
             <div class="row ">
-                    <div class="center">
-                        <img width="400px" height="250px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
+                    <div class="center col-xs-12">
+                        <img width="385px" height="230px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
                         >
-                        <img  width="200px" height="250px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
+                        <img  width="185px" height="230px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
                         >
 
-                </div>
+                    </div>
             </div>
 
             <div class="countdown countdown-container container">
@@ -131,67 +131,19 @@
                             </div><!-- /.inner -->
                         </div><!-- /.wrap -->
                     </div><!-- /.clock-item -->
+                    <div class="center">
+                        <a href="<?php echo base_url('index.php/frontpage/apply')?>" class="hvr-sweep-to-right button">
+                            Inscreve-te!
+                        </a>
+                    </div>
                 </div><!-- /.clock -->
-
+            </div>
             </div><!-- /.countdown-wrapper -->
-
         </div>
 
     </section>
 
 
-<style>        
-    /* jssor slider bullet navigator skin 05 css */
-    /*
-    .jssorb05 div           (normal)
-    .jssorb05 div:hover     (normal mouseover)
-    .jssorb05 .av           (active)
-    .jssorb05 .av:hover     (active mouseover)
-    .jssorb05 .dn           (mousedown)
-    */
-    .jssorb05 {
-        position: absolute;
-    }
-    .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
-        position: absolute;
-        /* size of bullet elment */
-        width: 16px;
-        height: 16px;
-        background: url("<?php echo base_url('assets/full-width-slider/img/b05.png') ?>") no-repeat;
-        overflow: hidden;
-        cursor: pointer;
-    }
-    .jssorb05 div { background-position: -7px -7px; }
-    .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
-    .jssorb05 .av { background-position: -67px -7px; }
-    .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
-
-    /* jssor slider arrow navigator skin 22 css */
-    /*
-    .jssora22l                  (normal)
-    .jssora22r                  (normal)
-    .jssora22l:hover            (normal mouseover)
-    .jssora22r:hover            (normal mouseover)
-    .jssora22l.jssora22ldn      (mousedown)
-    .jssora22r.jssora22rdn      (mousedown)
-    */
-    .jssora22l, .jssora22r {
-        display: block;
-        position: absolute;
-        /* size of arrow element */
-        width: 40px;
-        height: 40px;
-        cursor: pointer;
-        background: url("<?php echo base_url('assets/full-width-slider/img/a22.png') ?>") center center no-repeat;
-        overflow: hidden;
-    }
-    .jssora22l { background-position: -10px -31px; }
-    .jssora22r { background-position: -70px -31px; }
-    .jssora22l:hover { background-position: -130px -31px; }
-    .jssora22r:hover { background-position: -190px -31px; }
-    .jssora22l.jssora22ldn { background-position: -250px -31px; }
-    .jssora22r.jssora22rdn { background-position: -310px -31px; }
-</style>
 <!-- Countdown starts here -->
 <script type="text/javascript">
     $(document).ready(function() {
@@ -219,65 +171,4 @@
         });
     });
 </script>
-    <a href="" class="scrollToTop"></a>
 
-
-<!-- News section -->
-<!--<section class="bg-gray">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-              <h2 class="section-heading">Notícias</h2> 
-              <br/>                   
-        </div>-->              
-            
-        <!-- News section -->
-        <!--<div class="col-md-7" id="posts-left">-->
-            
-        	<!-- New -->
-	        <!--<div class="row well news-post" style="margin-right:5px">
-	          <div class="col-md-12">
-
-	          </div>
-	          <div class="col-md-4" style="vertical-align: middle;">
-
-	          </div>
-	          <div class="col-md-8">                
-
-
-	          </div>
-	        </div>
-	        -->
-
-
-        <!--</div>-->
-
-
-        <!-- Facebook page plugin -->
-        <!--<div class="col-md-5" id="posts-right">
-          <div class="fb-page" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline" 
-          data-width="500" data-height="710" data-small-header="false" data-adapt-container-width="true" 
-          data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
-        </div>
-      </div>
-
-
-
-
-  </div>
-
-</section>
-    <a href="" class="scrollToTop"></a>
-
-
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916968148360903";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
