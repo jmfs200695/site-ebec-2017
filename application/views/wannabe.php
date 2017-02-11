@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
 
 
 <script>
@@ -110,7 +110,7 @@
                 <br/>
             </div>
             <div class="col-md-4">
-                <img class="imgsize" src="<?php echo base_url('assets/img/querparceiro/graf2')?>">
+                <img class="imgsize" src="<?php echo base_url('assets/img/querparceiro/graf2.png')?>">
 
             </div>
 

@@ -1,4 +1,4 @@
-﻿<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+﻿<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
 <script>
     $(document).ready(function(){
 
@@ -57,7 +57,6 @@
                 <img src="<?php echo base_url('assets/img/media/2016/2.jpg')?>">
                 <img src="<?php echo base_url('assets/img/media/2016/3.jpg')?>">
                 <img src="<?php echo base_url('assets/img/media/2016/4.jpg')?>">
-                <img src="<?php echo base_url('assets/img/media/2014/5.jpg')?>">
                 <img src="<?php echo base_url('assets/img/media/2016/6.jpg')?>">
                 <img src="<?php echo base_url('assets/img/media/2016/7.jpg')?>">
                 <img src="<?php echo base_url('assets/img/media/2016/8.jpg')?>">

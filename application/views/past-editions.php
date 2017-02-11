@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
 <script>
 	$(document).ready(function(){
 

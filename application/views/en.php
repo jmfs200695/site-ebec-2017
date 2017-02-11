@@ -22,6 +22,7 @@
 <!-- Countdown -->
 <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/demo/js/kinetic.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/jquery.final-countdown.js') ?>"></script>
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
 <script>
     $(document).ready(function(){
 

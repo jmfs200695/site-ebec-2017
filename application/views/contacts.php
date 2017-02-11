@@ -1,5 +1,5 @@
 <!-- Contacts -->
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
 <script>
     $(document).ready(function(){
 
@@ -195,6 +195,5 @@
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568b1027a1f2a864" async="async"></script>
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop') ?>"/>
 
 

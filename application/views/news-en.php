@@ -16,7 +16,7 @@
                     </div>
                     <div class="col-md-4" style="vertical-align: middle;">
                         <img class="img-responsive "
-                             src="<?php echo base_url('assets/img/news/logo-yazaki') ?>" alt="">
+                             src="<?php echo base_url('assets/img/news/logo-yazaki.png') ?>" alt="">
                         </a>
                     </div>
                     <div class="col-md-8">
