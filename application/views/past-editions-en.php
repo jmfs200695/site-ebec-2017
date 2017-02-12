@@ -46,11 +46,11 @@
         <div class="row">
             <div class="col-md-6" style="padding:30px">
                 <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Case Study Winners</b></h3>
-                <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/33')?>">
+                <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/33.jpg')?>">
             </div>
             <div class="col-md-6" style="padding:30px">
                 <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Team Design Winners</b></h3>
-                <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/34')?>">
+                <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/34.jpg')?>">
             </div>
         </div>
         <div class="row">
