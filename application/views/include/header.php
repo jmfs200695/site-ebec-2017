@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    <meta http-equiv="Content-Type" content="text/html" charset="utf-9">
-   <link type="image/x-icon" href="<?php echo base_url('assets/img/logos/roldana laranja-01.png') ?>" rel="shortcut icon">
+   <link type="image/x-icon" href="<?php echo base_url('assets/img/logos/roldana_laranja-01.png') ?>" rel="shortcut icon">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta name="description" content="Website of EBEC Aveiro 2017 - A students engineering competition organized by BEST Aveiro.">
    <meta name="keywords" content="EBEC">
@@ -57,8 +57,8 @@
           <div class="container">
               <div class="navbar-header">
                   <a class="navbar-brand" href="<?php echo base_url('index.php/frontpage/index')?>">
-                    <img class="nav_logo" onmouseover="this.src='../../assets/img/logos/roldana laranja-01.png'"
-                         onmouseout="this.src='../../assets/img/logos/roldana branca-01.png'" src="<?php echo base_url('assets/img/logos/roldana branca-01.png') ?>">
+                      <img class="nav_logo" onmouseover="this.src='../../assets/img/logos/roldana_laranja-01.png'"
+                           onmouseout="this.src='../../assets/img/logos/roldana_branca-01.png'" src="<?php echo base_url('assets/img/logos/roldana_branca-01.png') ?>">
                   </a>
               </div>
               <div class="navbar-header clearfix pull-right">
