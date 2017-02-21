@@ -163,7 +163,7 @@
                     <div id="collapse11" class="panel-collapse collapse">
                         <div class="panel-body">
                             Só podes tirar dúvidas com pessoas designadas para o efeito: o responsável pela prova e
-                            pelo coordenador do evento..
+                            pelo coordenador do evento.
                         </div>
                     </div>
                 </div>

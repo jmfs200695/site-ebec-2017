@@ -14,7 +14,7 @@
                 <ul class="fa-ul">
                     <li class="text-muted">
                         <p class="text-muted text-justify">
-                            <!--                            TODO fazer mais tarde link na palavra-->
+
                             <span class="big-number">1.</span> Sign up on BEST Website.
                             You can do it <a data-toggle="tooltip" title="<img width='600px'  src='<?php echo base_url('assets/img/inscricao1.PNG')?>'/>" target="_blank" href="https://best.eu.org/index.jsp">here</a>.
                         </p>
@@ -22,7 +22,7 @@
                     <li class="text-muted">
                         <p class="text-muted text-justify">
                             <span class="big-number">2.</span> Do a pre-registration on EBEC Aveiro 2017.
-                            You can do it <a target="_blank" href="https://best.eu.org/student/courses/localEventView.jsp?event=i126j2f">here</a>.
+                            You can do it <a data-toggle="tooltip" title="<img width='600px'  src='<?php echo base_url('assets/img/Capturar.PNG')?>'/>" target="_blank" href="https://best.eu.org/event/localDetails.jsp?event=ea7nupg">here</a>.
                         </p>
                     </li>
                     <li class="text-muted">
@@ -63,7 +63,7 @@
             </div>
             <div class="modal-body">
                 <p>To proceed you have to read the regulation
-                    <a class="text-muted" target="_blank" href="<?php echo base_url('index.php/frontpage/regulation')?>" style="color:#0645AD">aqui</a>.</p>
+                    <a class="text-muted" target="_blank" href="<?php echo base_url('index.php/frontpage/regulation')?>" style="color:#0645AD">here</a>.</p>
                 <div class="checkbox">
                     <label><input type="checkbox" id="regulationCheck" value="">I have read the regulation and accept the conditions</label>
                 </div>

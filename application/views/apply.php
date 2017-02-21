@@ -14,7 +14,7 @@
                 <ul class="fa-ul">
                     <li class="text-muted">
                         <p class="text-muted text-justify">
-<!--                            TODO fazer mais tarde link na palavra-->
+
                             <span class="big-number">1.</span> Regista-te no site do BEST.
                             Podes fazê-lo <a data-toggle="tooltip" title="<img width='600px'  src='<?php echo base_url('assets/img/inscricao1.PNG')?>'/>" target="_blank" href="https://best.eu.org/index.jsp">aqui</a>.
                         </p>
@@ -22,7 +22,8 @@
                     <li class="text-muted">
                         <p class="text-muted text-justify">
                             <span class="big-number">2.</span> Efetua a pré-inscrição na EBEC Aveiro 2017.
-                            Podes fazê-lo <a target="_blank" href="https://best.eu.org/student/courses/localEventView.jsp?event=i126j2f">aqui</a>.
+                            Podes fazê-lo <a data-toggle="tooltip" title="<img width='600px'  src='<?php echo base_url('assets/img/Capturar.PNG')?>'/>" target="_blank" href="https://best.eu.org/event/localDetails.jsp?event=ea7nupg">aqui</a>.
+                        </p>
                         </p>
                     </li>
                     <li class="text-muted">
@@ -64,7 +65,7 @@
             </div>
             <div class="modal-body">
                 <p>Antes de continuares lê o regulamento
-                    <a class="text-muted" target="_blank" href="<?php echo base_url('index.php/frontpage/regulation')?>" style="color:#0645AD">aqui</a>.</p>
+                    <a class="text-muted" target="_blank" href="<?php echo base_url('assets/regulation/Regulamento.pdf')?>" style="color:#0645AD">aqui</a>.</p>
                 <div class="checkbox">
                     <label><input type="checkbox" id="regulationCheck" value="">Declaro que li o regulamento e aceito as
                         condições nele referidas.</label>
