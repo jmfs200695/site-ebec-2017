@@ -87,7 +87,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6">
-                                Are we entitled to food during the competition's weekend?
+                                Are we provide with food during the competition's weekend?
                             </a>
                         </h4>
                     </div>
@@ -143,7 +143,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11">
-                                Who should I ask questions during the challenge?
+                                To who should I ask questions during the challenge?
                             </a>
                         </h4>
                     </div>
@@ -163,7 +163,7 @@
                     </div>
                     <div id="collapse12" class="panel-collapse collapse">
                         <div class="panel-body">
-                            You should contact the organization to best fit the timing of your challenge on the day of evaluation.
+                            You should contact the organization to best fit the timing of your challenge on the day of presentation.
                         </div>
                     </div>
                 </div>

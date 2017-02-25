@@ -59,7 +59,7 @@
                 <img class="img-responsive img-center" src="<?php echo base_url('assets/img/partners/ebec/linha.jpg')?>" style="">
             </div>
             <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Parceiros Bronze</h2>
+                <h2 class="section-heading">Parceiros Promo</h2>
                 <br/>
             </div>
             <br/><br/><br/><br/><br/>
@@ -67,26 +67,8 @@
             <div class="row vertical-align">
                 <div class="col-md-3">
                 </div>
-                <div class="col-md-3">
-                    <a href="http://www.atena-ai.pt/" target="_blank">
-                        <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/atena.png')?>" style="">
-                    </a>
-                </div>
-                <div class="col-md-3">
-                    <a href="http://www.jpm.pt/" target="_blank">
-                        <img class="img-responsive img-center" style="max-height:100px" src="<?php echo base_url('assets/img/partners/ebec/base/JPM.jpg')?>" style="">
-                    </a>
-                </div>
+
             </div>
-            <div>
-                <img class="img-responsive img-center" src="<?php echo base_url('assets/img/partners/ebec/linha.jpg')?>" style="">
-            </div>
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">Parceiros de Géneros</h2>
-                <br/>
-            </div>
-            <br/><br/><br/><br/><br/>
-            <br/><br/>
             <div class="col-md-3">
                 <a href="https://www.microsoft.com/pt-pt" target="_blank">
                     <img class="img-responsive img-center" style="max-height:100px" src="<?php echo base_url('assets/img/partners/ebec/base/Microsoft.png')?>" style="">
@@ -107,30 +89,54 @@
                     <img class="img-responsive img-center" style="max-height:100px" src="<?php echo base_url('assets/img/partners/ebec/base/ave.jpg')?>" style="">
                 </a>
             </div>
+        </div>
 
-            <div class="col-md-3">
+
+            <!--            segunda linha
+-->
+
+            <div class="row vertical-align">
+            <div class="col-md-3 top1">
                 <a href="http://www.vieiradecastro.pt/" target="_blank">
-                    <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/vieira.jpg')?>" style="">
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="http://www.paladin.pt/pt-pt" target="_blank">
-                    <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/paladin.png')?>" style="">
-                </a>
-            </div>
-            <div class="col-md-3">
-                <a href="http://canyouescape.pt/pt/index.php/pt/homepage/" target="_blank">
-                    <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/CanYouEscape.png')?>" style="">
+                    <img class="img-responsive img-center"
+                         style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/vieira.jpg')?>" style="">
                 </a>
             </div>
             <div class="col-md-3 top1">
-                <a href="http://taroco.pt/" target="_blank">
-                    <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/taroco.jpg')?>" style="">
+                <a href="http://www.paladin.pt/pt-pt" target="_blank">
+                    <img class="img-responsive img-center"
+                         style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/paladin.png')?>" style="">
                 </a>
             </div>
+            <div class="col-md-3 top1">
+                <a href="http://canyouescape.pt/pt/index.php/pt/homepage/" target="_blank">
+                    <img class="img-responsive img-center"
+                         style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/CanYouEscape.png')?>" style="">
+                </a>
+            </div>
+            <div class="col-md-3 top1">
+                <a href="http://www.jpm.pt/" target="_blank">
+                    <img class="img-responsive img-center" height="100px"
+                         style="max-height:100px" src="<?php echo base_url('assets/img/partners/ebec/base/JPM.jpg')?>" style="">
+                </a>
+            </div>
+            </div>
 
+<!--            terceiralinha-->
+        <div class="row vertical-align">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-3 top2">
+                <a href="http://www.atena-ai.pt/" target="_blank">
+                    <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/atena.png')?>" style="">
+                </a>
+            </div>
+            <div class="col-md-3 top2">
+                <a href="http://taroco.pt/" target="_blank">
+                    <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/taroco.jpg')?>" style="">
+                </a>
+            </div>
         </div>
-
     </div>
 </section>
 
