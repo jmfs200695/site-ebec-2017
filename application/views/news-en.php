@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-md-8">
                         <p class="text-justify text-black">Yazaki at the job fair of EBEC Aveiro 2017.</p>
-                        <p class="text-justify text-black"><a href="" target="_blank" >visit their website</a>.</p>
+                        <p class="text-justify text-black"><a href="https://www.yazaki-europe.com/index.html" target="_blank" >visit their website</a>.</p>
                     </div>
                 </div>
 

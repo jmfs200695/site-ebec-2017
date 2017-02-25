@@ -35,6 +35,7 @@ body {
 .navbar .nav > li a:hover {
   color: white;
   background: orange;
+
 }
 
 /* Dropdown menu */
@@ -46,10 +47,12 @@ body {
 .dropdown-menu-2 {
   float: none;
   background: #111;
+  width: 250px;
 }
 
 .dropdown-menu li a:hover {
-   background-color: grey;
+   background-color: orange;
+  width: 250px;
 }
 
 .navbar-inner {
@@ -1193,6 +1196,9 @@ margin: 0px 10px 10px 10px;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
-.right{
-  margin-right:0px
+.right {
+  margin-right: 100px;
+}
+.top1{
+  margin: 20px;
 }

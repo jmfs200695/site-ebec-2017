@@ -26,10 +26,11 @@
 
 <!-- BTD (especifico) -->
 <section class="bg-gray">
+
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h3 class="section-heading">O que são?</h3>
+                <h3 class="section-heading">What is it?</h3>
                 <br/>
             </div>
         </div>

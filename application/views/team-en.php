@@ -19,7 +19,7 @@
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/img/team/Ana Malta.jpg')?>" class="img-responsive img-circle img-contact" alt="">
                     <h4>Ana Malta</h4>
-                    <p class="text-muted">Competitive Content Responsible</p>
+                    <p class="text-muted">Topic Responsible</p>
                     <p><i class="fa fa-envelope"></i><a href="mailto:ana.malta@BEST.eu.org "> ana.malta@BEST.eu.org  </a></p>
                 </div>
             </div>
@@ -27,11 +27,15 @@
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/img/contacts/Catarina Jorge.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle imag-contact" alt="">
                     <h4>Catarina Jorge</h4>
-                    <p class="text-muted">Business Relations Responsible</p>
+                    <p class="text-muted">Corporate Relations Responsible</p>
                     <p><i class="fa fa-envelope"></i><a href="mailto:catarina.jorge@BEST.eu.org
 "> catarina.jorge@BEST.eu.org
                         </a></p>
                 </div>
+            </div>
+            <div class="col-sm-2">
+
+
             </div>
             <div class="col-sm-4">
                 <div class="team-member">
@@ -45,18 +49,13 @@
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/img/team/Jorge Silva.jpg')?>" class="img-responsive img-circle img-contact" class="img-responsive img-circle img-contact" alt="">
                     <h4>Jorge Silva</h4>
-                    <p class="text-muted">Information and Technology Responsible</p>
+                    <p class="text-muted">Technology of Information Responsible</p>
                     <p><i class="fa fa-envelope"></i><a href="mailto:jorge.silva@BEST.eu.org"> jorge.silva@BEST.eu.org</a></p>
                 </div>
 
             </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="<?php echo base_url('assets/img/team/francisca.jpg')?>" class="img-responsive img-circle img-contact" alt="">
-                    <h4>Francisca Bragança</h4>
-                    <p class="text-muted">Participants Responsible</p>
-                    <p><i class="fa fa-envelope"></i><a href="mailto:franciscabraganca9@gmail.com"> franciscabraganca9@gmail.com</a></p>
-                </div>
+            <div class="col-sm-2">
+
 
             </div>
         </div>

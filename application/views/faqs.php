@@ -20,7 +20,7 @@
                     </div>
                     <div id="collapse1" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Tens 24 horas para construir o teu protótipo ou arranjar uma solução para o problema de
+                            Tens 24 horas para construir o teu protótipo, caso participes no Team Design, ou arranjar uma solução para o problema de
                             <i>Case Study</i>. A apresentação do teu projeto será apenas na quarta-feira seguinte
                             (15 de março).
                         </div>
@@ -67,7 +67,7 @@
                     <div id="collapse4" class="panel-collapse collapse">
                         <div class="panel-body">
                             Caso se verifique o incumprimento das regras definidas para a competição, a equipa
-                            poderá ser penalizada na pontuação da sua prova ou desqualificada, se for caso para tal.
+                            poderá ser penalizada na pontuação da sua prova ou desqualificada.
                             A equipa poderá também estar sujeita à perda da caução.
                         </div>
                     </div>
@@ -131,7 +131,7 @@
                     </div>
                     <div id="collapse9" class="panel-collapse collapse">
                         <div class="panel-body">
-                            O júri é composto por professores, elementos do BEST com experiência em competições,
+                            O júri é composto por professores e elementos do BEST com experiência em competições,
                             dependendo do teor da prova. Existe ainda a possibilidade de integrarem o júri
                             representantes das empresas parceiras.
                         </div>
@@ -163,7 +163,7 @@
                     <div id="collapse11" class="panel-collapse collapse">
                         <div class="panel-body">
                             Só podes tirar dúvidas com pessoas designadas para o efeito: o responsável pela prova e
-                            pelo coordenador do evento.
+                            pelo coordenador do evento..
                         </div>
                     </div>
                 </div>

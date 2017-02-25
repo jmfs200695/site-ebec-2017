@@ -63,7 +63,7 @@
             </div>
             <div class="modal-body">
                 <p>To proceed you have to read the regulation
-                    <a class="text-muted" target="_blank" href="<?php echo base_url('index.php/frontpage/regulation')?>" style="color:#0645AD">here</a>.</p>
+                    <a class="text-muted" target="_blank" href="<?php echo base_url('index.php/frontpage/regulation')?>" style="color:#0645AD">aqui</a>.</p>
                 <div class="checkbox">
                     <label><input type="checkbox" id="regulationCheck" value="">I have read the regulation and accept the conditions</label>
                 </div>

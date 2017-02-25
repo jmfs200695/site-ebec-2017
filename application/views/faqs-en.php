@@ -14,13 +14,13 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
-                                How long does the competition last?
+                                How long does the competition lasts?
                             </a>
                         </h4>
                     </div>
                     <div id="collapse1" class="panel-collapse collapse">
                         <div class="panel-body">
-                            You have 24 hours to build your prototype or get a solution your
+                            You have 24 hours to build your prototype or get a solution for your
                             <i>Case Study</i>. The presentation of your project will be on the next wednesday
                             (march 15).
                         </div>
@@ -36,7 +36,7 @@
                     </div>
                     <div id="collapse2" class="panel-collapse collapse">
                         <div class="panel-body">
-                            The chalenge will be presented at the opening session, however, the script will only be distributed when the competition starts.
+                            The challenge will be presented at the opening session, however, the script will only be distributed when the competition starts.
                         </div>
                     </div>
                 </div>
@@ -64,8 +64,8 @@
                     </div>
                     <div id="collapse4" class="panel-collapse collapse">
                         <div class="panel-body">
-                            In case of infringement of the rules established for the competition, the team may be penalized in the score of their chalenge or disqualified.
-                            The team may also lose their deposit.
+                            In case of infringement of the rules established for the competition, the team may be penalized in the score of their challenge or disqualified.
+                            The team may also lose their caution.
                         </div>
                     </div>
                 </div>
@@ -79,7 +79,7 @@
                     </div>
                     <div id="collapse5" class="panel-collapse collapse">
                         <div class="panel-body">
-                            No, each team will only have to leave a deposit. The value will be returned to you at the end of the competition after the closing session. This deposit is intended to prevent any damage caused.
+                            No, each team will only have to leave a caution. The value will be returned to you at the end of the competition after the closing session. This caution is intended to prevent any damage caused.
                         </div>
                     </div>
                 </div>
@@ -93,7 +93,7 @@
                     </div>
                     <div id="collapse6" class="panel-collapse collapse">
                         <div class="panel-body">
-                            Yes, through the weekend you will be entitled to all meals while you are taking part in the competition. You will also have a continuous coffee break available through the weekend.
+                            Yes, through the weekend you will be provide with all meals while you are taking part in the competition. You will also have a continuous coffee break available through the weekend.
                         </div>
                     </div>
                 </div>
@@ -101,7 +101,7 @@
                     <div class="panel-heading">
                         <h4 class="panel-title text-no-transform">
                             <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7">
-                                Can we rest during the chalenge?
+                                Can we rest during the challenge?
                             </a>
                         </h4>
                     </div>

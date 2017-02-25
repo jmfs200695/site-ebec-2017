@@ -9,7 +9,7 @@
                 <div class="col-md-8">
 
                     <p class="text-muted text-justify d">
-                        Included on EBEC Aveiro 2017 will be a job fair on <b>March 14</b> at <b>University of Aveiro</b> for all academic public.
+                        Integrated in EBEC Aveiro 2017, a job fair will happen between 10 AM and 14PM of March 14th at University of Aveiro.This job fair will be open to the academic public and followed by a cocktail network.
                     </p>
                     <p class="text-muted text-justify e">
 

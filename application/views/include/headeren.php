@@ -122,7 +122,7 @@
                         <a class="page-scroll dropdown-toggle" data-toggle="dropdown" href="#" id="dropdown-ebec">Partnerships <b class="caret"></b></a>
                         <ul class="dropdown-menu dropdown-menu-2">
                             <li>
-                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/partners')?>">Partners</a>
+                                <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/partnersen')?>">Partners</a>
                             </li>
                             <li>
                                 <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/wannabe')?>">Do you want to be our partner?</a>
