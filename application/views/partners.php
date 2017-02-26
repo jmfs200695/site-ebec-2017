@@ -49,7 +49,7 @@
                     </a>
                 </div>
                 <div class="col-md-3">
-                    <a href="http://www.criticalsoftware.com/" target="_blank">
+                    <a href="http://www.torrecid.com/portugal" target="_blank">
                         <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/Logo.jpg')?>" style="">
                     </a>
                 </div>
