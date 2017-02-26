@@ -1,3 +1,31 @@
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
+<script>
+    $(document).ready(function(){
+
+
+        $('.scrollToTop').hide();
+
+        //Check to see if the window is top if not then display button
+        $(window).scroll(function(){
+            console.log((window.innerHeight - $(this).scrollTop())/window.innerHeight);
+            if($(window).scrollTop() + $(window).height() == $(document).height()) {
+                $('.scrollToTop').fadeIn();
+            } else {
+                $('.scrollToTop').fadeOut();
+            }
+        });
+
+        //Click event to scroll to top
+        $('.scrollToTop').click(function(){
+            $('html, body').animate({scrollTop : 0},800);
+            return false;
+        });
+
+    });
+</script>
+
+<a href="" class="scrollToTop"></a>
+
 <section class="bg-white">
     <div class="container">
         <div class="row">
