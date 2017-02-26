@@ -10,8 +10,8 @@
             <div class="col-md-8">
                 <p class="text-muted text-justify">
                     O BEST Aveiro volta a organizar mais uma edição dos <b>BEST Training Days</b>, desta vez inserido
-                    nas atividades da EBEC Aveiro onde terás a oportunidade de desenvolver as tuas capacidades numa
-                    formação em <i><b>"Public Speaking"</b></i>.
+                    nas atividades da EBEC Aveiro terás a oportunidade de desenvolver as tuas capacidades numa
+                    formação.
                 <p class="text-muted text-justify">
                     A formação decorrerá durante a tarde do dia <b>10 de março</b> e é restrita aos participantes.
                 </p>

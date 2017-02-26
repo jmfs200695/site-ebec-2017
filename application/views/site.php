@@ -72,8 +72,7 @@
                     <div class="center col-xs-12">
                         <img width="385px" height="230px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
                         >
-                        <img  width="184px" height="230px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
-
+                        <img  width="185px" height="230px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
                         >
 
                     </div>
@@ -137,12 +136,9 @@
                             Inscreve-te!
                         </a>
                     </div>
-
                 </div><!-- /.clock -->
-
             </div>
             </div><!-- /.countdown-wrapper -->
-
         </div>
 
     </section>

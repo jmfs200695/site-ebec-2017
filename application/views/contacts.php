@@ -66,9 +66,8 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-4">
-
-             </div>
+            <div class="col-sm-2">
+            </div>
             <div class="col-sm-4">
                 <div class="team-member">
                     <img src="<?php echo base_url('assets/img/contacts/Catarina Jorge.jpg')?>" class="img-responsive img-circle img-contact" alt="">
@@ -79,6 +78,21 @@
                         <i class="fa fa-phone"></i> <b>918 945 397</b>
                     </p>
                 </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="<?php echo base_url('assets/img/team/francisca.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Francisca Bragança</h4>
+                    <p class="text-muted">Responsável de Participantes</p>
+                    <p>
+                        <i class="fa fa-envelope"></i><a href="mailto:franciscabraganca9@gmail.com"> franciscabraganca9@gmail.com</a><br/>
+                        <i class="fa fa-phone"></i> <b>917 266 437</b>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-sm-2">
             </div>
         </div>
     </div>
@@ -93,7 +107,7 @@
                 <br/>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-6">
                 <div class="panel panel-default">
@@ -166,29 +180,29 @@
         </div>
     </div>
 </section>
-
+<a href="" class="scrollToTop"></a>
 <!-- Map javascript -->
 <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
 <script type="text/javascript">
     function init_map() {
         var var_location = new google.maps.LatLng(40.636002,-8.6577);
- 
+
         var var_mapoptions = {
-          center: var_location,
-          zoom: 18
+            center: var_location,
+            zoom: 18
         };
- 
+
         var var_marker = new google.maps.Marker({
             position: var_location,
             map: var_map,
             title:"BEST Aveiro"});
- 
+
         var var_map = new google.maps.Map(document.getElementById("map-container"),
             var_mapoptions);
- 
-        var_marker.setMap(var_map); 
+
+        var_marker.setMap(var_map);
     }
- 
+
     google.maps.event.addDomListener(window, 'load', init_map);
 </script>
 

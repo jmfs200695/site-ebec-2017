@@ -65,7 +65,7 @@
                     </p>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-2">
 
             </div>
             <div class="col-sm-4">
@@ -78,6 +78,22 @@
                         <i class="fa fa-phone"></i> <b>918 945 397</b>
                     </p>
                 </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <img src="<?php echo base_url('assets/img/team/francisca.jpg')?>" class="img-responsive img-circle img-contact" alt="">
+                    <h4>Francisca Bragança</h4>
+                    <p class="text-muted">Participants Responsible</p>
+                    <p>
+                        <i class="fa fa-envelope"></i><a href="mailto:franciscabraganca9@gmail.com"> franciscabraganca9@gmail.com</a><br/>
+                        <i class="fa fa-phone"></i> <b>917 266 437</b>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-sm-2">
+
             </div>
         </div>
     </div>

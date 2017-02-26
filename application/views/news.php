@@ -21,7 +21,7 @@
                     </div>
                     <div class="col-md-8">
                         <p class="text-justify text-black">Yazaki presente na feira de empresas da EBEC Aveiro 2017.</p>
-                        <p class="text-justify text-black"><a href="https://www.yazaki-europe.com/index.html" target="_blank" >visite o site aqui</a>.</p>
+                        <p class="text-justify text-black"><a href="" target="_blank" >visite o site aqui</a>.</p>
                     </div>
                 </div>
 

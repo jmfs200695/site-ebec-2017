@@ -275,12 +275,6 @@ class Frontpage extends Main_Controller {
         $this->load->view('media-en');
         $this->load->view('include/footer');
     }
-    public function partnersen()
-    {
-        $this->load->view('include/header');
-        $this->load->view('partners-en');
-        $this->load->view('include/footer');
-    }
 }
 /* End of file frontpage.php */
 /* Location: ./application/controllers/frontpage.php */
