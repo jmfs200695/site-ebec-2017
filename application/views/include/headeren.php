@@ -47,9 +47,6 @@
 </head>
 <body>
 
-
-
-
 <div id="holder">
 
     <!-- Navigation -->
