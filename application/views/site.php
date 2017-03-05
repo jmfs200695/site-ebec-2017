@@ -81,7 +81,7 @@
             <div class="countdown countdown-container container">
                 <div class="clock row" style="margin-top:250px;">
                     <div class="center top3">
-                        <p class="textsize text-gray"><b>A EBEC está a chegar!Faltam:</b></p>
+                        <p class="textsize text-gray"><b>A EBEC está a chegar! Faltam:</b></p>
                     </div>
                     <div class="clock-item clock-days countdown-time-value col-sm-3 col-md-3 hidden-xs">
                         <div class="wrap">
@@ -138,7 +138,7 @@
                         <a href="<?php echo base_url('index.php/frontpage/apply')?>" class="hvr-sweep-to-right button">
                             Inscreve-te!
                         </a>
-                        <p class="textsize">Até dia <b>7 de Março</b></p>
+                        <p class="textsize">Até dia <b>7 de março</b></p>
                     </div>
                 </div><!-- /.clock -->
             </div>
