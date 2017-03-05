@@ -81,6 +81,11 @@
                         <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/Logo.jpg')?>" style="">
                     </a>
                 </div>
+                <div class="col-md-3">
+                    <a href="http://www.asilvamatos.pt/" target="_blank">
+                        <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/ASM.jpg')?>" style="">
+                    </a>
+                </div>
             </div>
             <br/><br/>
             <div>
@@ -152,8 +157,6 @@
 
         <!--            terceiralinha-->
         <div class="row vertical-align">
-            <div class="col-md-3">
-            </div>
             <div class="col-md-3 top2">
                 <a href="http://www.atena-ai.pt/" target="_blank">
                     <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/atena.png')?>" style="">
@@ -162,6 +165,11 @@
             <div class="col-md-3 top2">
                 <a href="http://taroco.pt/" target="_blank">
                     <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/taroco.jpg')?>" style="">
+                </a>
+            </div>
+            <div class="col-md-3 top2">
+                <a href="http://www.licorbeirao.com/pt/idade-legal/?redirectUrl=/pt/" target="_blank">
+                    <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/licor.jpg')?>" style="">
                 </a>
             </div>
         </div>

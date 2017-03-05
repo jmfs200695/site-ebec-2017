@@ -1217,7 +1217,9 @@ margin: 0px 10px 10px 10px;
 .textsite{
   font-size: 12px;
   color: darkgray;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .display{
   float: right;
+  margin-left: 0px;
 }

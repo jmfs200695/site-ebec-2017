@@ -12,7 +12,7 @@
                 <div class="row well news-post display" style="margin-right:5px">
                     <div class="col-md-12">
                         <h4>Main Sponsor da EBEC Aveiro 2017</h4>
-                        <p><span class="fa fa-clock-o"></span>&nbsp; 24 FEVEREIRO 2016</p>
+                        <p><span class="fa fa-clock-o"></span>3 de Março</p>
                     </div>
                     <div class="col-md-4" style="vertical-align: middle;">
                         <a href="<?php echo base_url('index.php/frontpage/news_uniactiva')?>">
@@ -21,20 +21,23 @@
                         </a>
                     </div>
                     <div class="col-md-8">
-                        <p class="text-justify">A MAHLE é Main Sponsor da EBEC Aveiro 2017 patrocinando a prova de <i>Team Design</i> e uma das provas de <i>Case Study</i>.</p>
+                        <p class="text-justify">
+                            A MAHLE é Main Sponsor da EBEC Aveiro 2017 patrocinando a prova de Team Design e uma das provas de Case Study.</p>
                         <a class="hvr-sweep-to-right button2" href="<?php echo base_url('index.php/frontpage/newsmahle')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
                     </div>
                 </div>
+
                 </div>
-            </div>
-            <!-- Facebook page plugin -->
-            <div class="display" id="posts-right">
-                <div class="fb-page" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline"
-                     data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true"
-                     data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
+
             </div>
 
+
         </div>
+    </div>
+    <div class="display" id="posts-right">
+        <div class="" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline"
+             data-width="1000" data-height="600" data-small-header="false" data-adapt-container-width="true"
+             data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
     </div>
 </section>
 

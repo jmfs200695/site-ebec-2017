@@ -63,7 +63,7 @@
             <div class="row vertical-align">
                 <div class="col-md-3">
                     <a href="https://www.yazaki-europe.com/index.html" target="_blank">
-                        <img class="img-responsive img-center" style="max-height:400px" src="<?php echo base_url('assets/img/news/logo-yazaki.png')?>" style="">
+                        <img class="img-center" height="50px" style="max-height:400px" src="<?php echo base_url('assets/img/news/logo-yazaki.png')?>" style="">
                     </a>
                 </div>
                 <div class="col-md-3">
@@ -73,7 +73,7 @@
                 </div>
                 <div class="col-md-3">
                     <a href="https://www.noesis.pt/" target="_blank">
-                        <img class="img-responsive img-center" style="max-height:100px" src="<?php echo base_url('assets/img/partners/ebec/base/noesis1.jpg')?>" style="">
+                        <img class="img-center" height="60px" style="max-height:100px" src="<?php echo base_url('assets/img/partners/ebec/base/noesis1.jpg')?>" style="">
                     </a>
                 </div>
                 <div class="col-md-3">
@@ -81,6 +81,21 @@
                         <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/Logo.jpg')?>" style="">
                     </a>
                 </div>
+            </div>
+            <div class="row vertical-align">
+                <div class="col-md-3">
+
+                </div>
+                <div class="col-md-1">
+
+                </div>
+
+                <div class="col-md-3 top1">
+                    <a href="http://www.asilvamatos.pt/" target="_blank">
+                        <img class="img-center" style="max-height:150px" height="150px" src="<?php echo base_url('assets/img/partners/ebec/base/ASM.jpg')?>" style="">
+                    </a>
+                </div>
+
             </div>
             <br/><br/>
             <div>
@@ -152,8 +167,6 @@
 
 <!--            terceiralinha-->
         <div class="row vertical-align">
-            <div class="col-md-3">
-            </div>
             <div class="col-md-3 top2">
                 <a href="http://www.atena-ai.pt/" target="_blank">
                     <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/atena.png')?>" style="">
@@ -162,6 +175,11 @@
             <div class="col-md-3 top2">
                 <a href="http://taroco.pt/" target="_blank">
                     <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/taroco.jpg')?>" style="">
+                </a>
+            </div>
+            <div class="col-md-3 top2">
+                <a href="http://www.licorbeirao.com/pt/idade-legal/?redirectUrl=/pt/" target="_blank">
+                    <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/licor.jpg')?>" style="">
                 </a>
             </div>
         </div>

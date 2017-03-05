@@ -7,70 +7,31 @@
             </div>
 
             <!-- News section -->
-            <div class="col-md-7" id="posts-left">
-                <!-- New -->
-                <div class="row well news-post" style="margin-right:5px">
-                    <div class="col-md-12 text-black">
-                        <h4>Yazaki at the job fair</h4>
-                        <p><span class="fa fa-clock-o"></span>February 9, 2017</p>
-                    </div>
-                    <div class="col-md-4" style="vertical-align: middle;">
-                        <img class="img-responsive "
-                             src="<?php echo base_url('assets/img/news/logo-yazaki.png') ?>" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="text-justify text-black">Yazaki at the job fair of EBEC Aveiro 2017.</p>
-                        <p class="text-justify text-black"><a href="" target="_blank" >visit their website</a>.</p>
-                    </div>
-                </div>
+            <div class="col-md-6" id="posts-left">
 
-                <!-- New -->
-                <div class="row well news-post" style="margin-right:5px">
+                <div class="row well news-post display" style="margin-right:5px">
                     <div class="col-md-12">
-                        <h4>OLI at the job fair</h4>
-                        <p><span class="fa fa-clock-o"></span>&nbsp;February 10, 2017</p>
+                        <h4>Main Sponsor of EBEC Aveiro 2017</h4>
+                        <p><span class="fa fa-clock-o"></span>March 3</p>
                     </div>
                     <div class="col-md-4" style="vertical-align: middle;">
-                        <img class="img-responsive "
-                             src="<?php echo base_url('assets/img/news/OLI.png') ?>" alt="">
+                        <a href="<?php echo base_url('index.php/frontpage/news_uniactiva')?>">
+                            <img class="img-responsive top2 "
+                                 src="<?php echo base_url('assets/img/partners/ebec/main_sponsor/Mahle.jpg') ?>" alt="">
                         </a>
                     </div>
                     <div class="col-md-8">
-                        <p class="text-justify">OlI at the job fair of EBEC Aveiro 2017.</p>
-                        <p class="text-justify text-black"><a href="http://www.oli-world.com/pt/" target="_blank" >visit their website</a>.</p>
-
+                        <p class="text-justify">
+                            MAHLE is Main Sponsor of EBEC Aveiro 2017 sponsoring the <i>Team Design</i> challenge and one of the <i>Case Study</i> challenge.</p>
+                        <a class="hvr-sweep-to-right button2" href="<?php echo base_url('index.php/frontpage/newsmahleen')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
                     </div>
                 </div>
-
-                <!-- New -->
-                <div class="row well news-post" style="margin-right:5px">
-                    <div class="col-md-12">
-                        <h4>CGI at the job fair</h4>
-                        <p><span class="fa fa-clock-o"></span> February 11, 2017</p>
-                    </div>
-                    <div class="col-md-4" style="vertical-align: middle;">
-                        <img class="img-responsive "
-                             src="<?php echo base_url('assets/img/news/CGI.png') ?>" alt="">
-                        </a>
-                    </div>
-                    <div class="col-md-8">
-                        <p class="text-justify">CGI at the job fair of EBEC Aveiro 2017.</p>
-                        <p class="text-justify text-black"><a href="https://www.cgi.com.pt/" target="_blank" >visite their website</a>.</p>
-                    </div>
-                </div>
-
-
             </div>
-
-
-
         </div>
-
         <!-- Facebook page plugin -->
-        <div class="col-md-5" id="posts-right">
+        <div class="display" id="posts-right">
             <div class="fb-page" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline"
-                 data-width="500" data-height="330" data-small-header="false" data-adapt-container-width="true"
+                 data-width="500" data-height="600" data-small-header="false" data-adapt-container-width="true"
                  data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
         </div>
 
