@@ -12,7 +12,7 @@
                 <div class="row well news-post display" style="margin-right:5px">
                     <div class="col-md-12">
                         <h4>Main Sponsor da EBEC Aveiro 2017</h4>
-                        <p><span class="fa fa-clock-o"></span>&nbsp; 24 FEVEREIRO 2016</p>
+                        <p><span class="fa fa-clock-o"></span> 3 MARÇO 2017 </p>
                     </div>
                     <div class="col-md-4" style="vertical-align: middle;">
                         <a href="<?php echo base_url('index.php/frontpage/news_uniactiva')?>">
