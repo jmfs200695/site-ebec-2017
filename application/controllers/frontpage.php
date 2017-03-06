@@ -289,7 +289,7 @@ class Frontpage extends Main_Controller {
     }
     public function newsmahleen()
     {
-        $this->load->view('include/header');
+        $this->load->view('include/headeren');
         $this->load->view('news_mahle_en');
         $this->load->view('include/footer');
     }

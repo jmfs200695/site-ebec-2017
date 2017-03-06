@@ -22,8 +22,8 @@
                     </div>
                     <div class="col-md-8">
                         <p class="text-justify">
-                            MAHLE is Main Sponsor of EBEC Aveiro 2017 sponsoring the <i>Team Design</i> challenge and one of the <i>Case Study</i> challenge.</p>
-                        <a class="hvr-sweep-to-right button2" href="<?php echo base_url('index.php/frontpage/newsmahleen')?>"> Continua &nbsp;<span class="fa fa-chevron-right"></span></a>
+                            MAHLE is the Main Sponsor of EBEC Aveiro 2017 sponsoring the <i>Team Design</i> challenge and one of the <i>Case Study</i> challenges.</p>
+                        <a class="hvr-sweep-to-right button2" href="<?php echo base_url('index.php/frontpage/newsmahleen')?>"> Continue &nbsp;<span class="fa fa-chevron-right"></span></a>
                     </div>
                 </div>
             </div>

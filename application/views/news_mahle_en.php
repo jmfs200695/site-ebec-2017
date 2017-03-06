@@ -29,7 +29,7 @@
                 <p class="text-justify">Currently, half the cars produced in the world have MAHLE components..</p>
 
 
-                <p>Mais informações:
+                <p>More info:
                     <a href="http://www.mahle.com/mahle/en/index.jsp" target="_blank">http://www.mahle.com/mahle/en/index.jsp</a>.</p>
 
                 <br>
@@ -40,7 +40,7 @@
                 <hr>
 
                 <!-- Facebook Comments -->
-                <h4>Comentários</h4>
+                <h4>Comments</h4>
                 <div class="fb-comments"
                      data-href="http://bestaveiro.web.ua.pt/ebec/index.php/frontpage/news_bold_international"
                      data-numposts="5"

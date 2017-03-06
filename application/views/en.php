@@ -63,7 +63,7 @@
         <div class="countdown countdown-container container">
             <div class="clock row" style="margin-top:250px;">
                 <div class="center top3">
-                    <p class="textsize text-gray"><b>EBEC is comming!Missing:</b></p>
+                    <p class="textsize text-gray"><b>EBEC is coming in:</b></p>
                 </div>
                 <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3 hidden-xs">
                     <div class="wrap">
