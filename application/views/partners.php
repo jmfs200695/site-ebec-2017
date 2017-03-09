@@ -182,6 +182,12 @@
                     <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/licor.jpg')?>" style="">
                 </a>
             </div>
+
+            <div class="col-md-3 top2">
+                <a href="https://www.tryvertty.com/pages/home" target="_blank">
+                    <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/vertty.png')?>" style="">
+                </a>
+            </div>
         </div>
     </div>
 </section>

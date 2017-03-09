@@ -2,9 +2,8 @@
  * All your custom CSS should go into this file
  */
 
-body {
-  padding-top: 40px;
-
+.body{
+  margin-top: 20px;
 }
 
 .navbar {
@@ -1221,5 +1220,5 @@ margin: 0px 10px 10px 10px;
 }
 .display{
   float: right;
-  margin-left: 0px;
+
 }
