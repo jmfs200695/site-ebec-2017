@@ -189,6 +189,26 @@
                 </a>
             </div>
         </div>
+        <div class="row vertical-align">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+
+            <div class="col-md-3 top1">
+                <a href="http://www.casadaprisca.com/index.php/pt/" target="_blank">
+                    <img class="img-center" style="max-height:150px" width="200px" src="<?php echo base_url('assets/img/partners/ebec/base/Prisca.png')?>" style="">
+                </a>
+            </div>
+
+
+            <div>
+            </div>
     </div>
 </section>
 

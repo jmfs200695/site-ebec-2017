@@ -81,11 +81,22 @@
                         <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/Logo.jpg')?>" style="">
                     </a>
                 </div>
+
+            </div>
+            <div class="row vertical-align">
                 <div class="col-md-3">
+
+                </div>
+                <div class="col-md-1">
+
+                </div>
+
+                <div class="col-md-3 top1">
                     <a href="http://www.asilvamatos.pt/" target="_blank">
-                        <img class="img-responsive img-center" style="max-height:150px" src="<?php echo base_url('assets/img/partners/ebec/base/ASM.jpg')?>" style="">
+                        <img class="img-center" style="max-height:150px" height="150px" src="<?php echo base_url('assets/img/partners/ebec/base/ASM.jpg')?>" style="">
                     </a>
                 </div>
+
             </div>
             <br/><br/>
             <div>
@@ -172,6 +183,30 @@
                     <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/licor.jpg')?>" style="">
                 </a>
             </div>
+            <div class="col-md-3 top2">
+                <a href="https://www.tryvertty.com/pages/home" target="_blank">
+                    <img class="img-responsive img-center"  style="max-height:150px " src="<?php echo base_url('assets/img/partners/ebec/base/vertty.png')?>" style="">
+                </a>
+            </div>
         </div>
+        <div class="row vertical-align">
+            <div class="col-md-3">
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-1">
+
+            </div>
+
+            <div class="col-md-3 top1">
+                <a href="http://www.casadaprisca.com/index.php/pt/" target="_blank">
+                    <img class="img-center" style="max-height:150px" height="150px" src="<?php echo base_url('assets/img/partners/ebec/base/Prisca.png')?>" style="">
+                </a>
+            </div>
+
+
+            <div>
     </div>
 </section>
