@@ -4,7 +4,7 @@ class Frontpage extends Main_Controller {
    public function index()
 	{
       	$this->load->view('include/header');
-      	$this->load->view('site');
+      	$this->load->view('index');
       	$this->load->view('include/footer');
 	}
 
@@ -190,7 +190,7 @@ class Frontpage extends Main_Controller {
     public function en()
     {
         $this->load->view('include/headeren');
-        $this->load->view('en');
+        $this->load->view('indexEn');
         $this->load->view('include/footer');
     }
     public function besten()
