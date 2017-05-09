@@ -3,7 +3,7 @@
  */
 
 .body{
-  margin-top: 20px;
+  margin-top: 70px;
 }
 
 .navbar {
@@ -1214,11 +1214,19 @@ margin: 0px 10px 10px 10px;
   margin-top: 80px;
 }
 .textsite{
-  font-size: 12px;
-  color: darkgray;
+  font-size: 20px;
+  color: #666666;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .display{
   float: right;
 
+}
+.he{
+  margin-top: 80px;
+}
+.teasertitle{
+  font-size: 30px;
+  color: #FFFFFF;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
