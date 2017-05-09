@@ -66,112 +66,124 @@
 
 
 
-<section class="background">
+<section class="background" height="700px">
     <div class="container">
         <div class="row ">
             <div class="center col-xs-12">
-                <img width="385px" height="230px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
+                <img  width="440px" height="270px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
                 >
-                <img  width="185px" height="230px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
+                <img  width="230px" height="270px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
                 >
 
             </div>
-        </div>
 
-<!--        <div class="countdown countdown-container container">-->
-<!--            <div class="clock row" style="margin-top:250px;">-->
-<!--                <div class="center top3">-->
-<!--                    <p class="textsize text-gray"><b>A EBEC está a chegar! Faltam:</b></p>-->
-<!--                </div>-->
-<!--                <div class="clock-item clock-days countdown-time-value col-sm-3 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-days" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-days type-time">DIAS</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!---->
-<!--                <div class="clock-item clock-hours countdown-time-value col-sm-3 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-hours" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-hours type-time">HORAS</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!---->
-<!--                <div class="clock-item clock-minutes countdown-time-value col-sm-3 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-minutes" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-minutes type-time">MINUTOS</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!---->
-<!--                <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-seconds" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-seconds type-time">SEGUNDOS</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!--                <div class="center">-->
-<!--                    <a href="--><?php //echo base_url('index.php/frontpage/apply')?><!--" class="hvr-sweep-to-right button">-->
-<!--                        Inscreve-te!-->
-<!--                    </a>-->
-<!--                    <p class="textsize">Até dia <b>7 de março</b></p>-->
-<!--                </div>-->
-<!--            </div><!-- /.clock -->
-<!--        </div>-->
-    </div><!-- /.countdown-wrapper -->
+        </div>
+    </div>
+    <!--
+                <div class="countdown countdown-container container">
+                    <div class="clock row" style="margin-top:250px;">
+                        <div class="center top3">
+                            <p class="textsize text-gray"><b>A EBEC está a chegar! Faltam:</b></p>
+                        </div>
+                        <div class="clock-item clock-days countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-days" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-days type-time">DIAS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+    <!--
+                        <div class="clock-item clock-hours countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-hours" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-hours type-time">HORAS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+    <!--
+                        <div class="clock-item clock-minutes countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-minutes type-time">MINUTOS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+    <!--
+                        <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-seconds type-time">SEGUNDOS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+
+    <div class="center he">
+        <p class="textsite"><b>Não percas a póxima edição da maior competição de engenharia da europa!</b></p>
+    </div>
+
 
 </section>
+<section class="bg-ebec-orange">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="center teasertitle"><b>Edição 2017</b></p>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/osqsy-kDcU4" allowfullscreen="" frameborder="0" width="100px" height="300px"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568b1027a1f2a864" async="async"></script>
 
 
 <!-- Countdown starts here -->
-<!--<script type="text/javascript">-->
-<!--    $(document).ready(function() {-->
-<!--        $('.countdown').final_countdown({-->
-<!--            'start': $.now() / 1000,-->
-<!--            'end': 1489104000,-->
-<!--            'now': $.now() / 1000,-->
-<!--            seconds: {-->
-<!--                borderColor: '#3C6F9B',-->
-<!--                borderWidth: '20'-->
-<!--            },-->
-<!--            minutes: {-->
-<!--                borderColor: '#69963F',-->
-<!--                borderWidth: '20'-->
-<!--            },-->
-<!--            hours: {-->
-<!--                borderColor: '#EEA225',-->
-<!--                borderWidth: '20'-->
-<!--            },-->
-<!--            days: {-->
-<!--                borderColor: '#B26912',-->
-<!--                borderWidth: '20'-->
-<!--            }}, function() {-->
-<!--            // Finish callback-->
-<!--        });-->
-<!--    });-->
-<!--</script>-->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.countdown').final_countdown({
+            'start': $.now() / 1000,
+            'end': 1489104000,
+            'now': $.now() / 1000,
+            seconds: {
+                borderColor: '#3C6F9B',
+                borderWidth: '20'
+            },
+            minutes: {
+                borderColor: '#69963F',
+                borderWidth: '20'
+            },
+            hours: {
+                borderColor: '#EEA225',
+                borderWidth: '20'
+            },
+            days: {
+                borderColor: '#B26912',
+                borderWidth: '20'
+            }}, function() {
+            // Finish callback
+        });
+    });
+</script>
 

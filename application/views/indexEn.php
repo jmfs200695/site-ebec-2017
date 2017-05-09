@@ -1,4 +1,13 @@
 
+<!-- Header -->
+<!--<header>
+    <div class="container">
+        <div class="intro-text">
+            <a href="#services" class="page-scroll btn btn-xl">Sabe mais</a>
+        </div>
+    </div>
+</header>-->
+
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title></title>
@@ -19,10 +28,18 @@
 <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 <!-- Google fonts end here -->
 
+
+
+<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
+<link rel="stylesheet" href="<?php echo base_url('assets/css/custom.css') ?>"/>
+
 <!-- Countdown -->
 <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/demo/js/kinetic.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/modern-countdown/jquery.final-countdown.js') ?>"></script>
-<link rel="stylesheet" href="<?php echo base_url('assets/css/scrollToTop.css') ?>"/>
+
+
+
+
 <script>
     $(document).ready(function(){
 
@@ -48,170 +65,125 @@
     });
 </script>
 
-<section class="background">
+
+
+<section class="background" height="700px">
     <div class="container">
-        <div class="row">
-            <div class="center">
-                <img width="385px" height="230px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
+        <div class="row ">
+            <div class="center col-xs-12">
+                <img  width="440px" height="270px" src="<?php echo base_url('assets/img/home/ebec1.png')?>"
                 >
-                <img width="185px" height="230px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
+                <img  width="230px" height="270px" src="<?php echo base_url('assets/css/fundo9.gif')?>"
                 >
 
             </div>
-        </div>
 
-<!--        <div class="countdown countdown-container container">-->
-<!--            <div class="clock row" style="margin-top:250px;">-->
-<!--                <div class="center top3">-->
-<!--                    <p class="textsize text-gray"><b>EBEC is coming in:</b></p>-->
-<!--                </div>-->
-<!--                <div class="clock-item clock-days countdown-time-value col-sm-6 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-days" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-days type-time">DAYS</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!---->
-<!--                <div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-hours" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-hours type-time">HOURS</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!---->
-<!--                <div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-minutes" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-minutes type-time">MINUTES</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!---->
-<!--                <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3 hidden-xs">-->
-<!--                    <div class="wrap">-->
-<!--                        <div class="inner">-->
-<!--                            <div id="canvas-seconds" class="clock-canvas"></div>-->
-<!---->
-<!--                            <div class="text">-->
-<!--                                <p class="val">0</p>-->
-<!--                                <p class="type-seconds type-time">SECONDS</p>-->
-<!--                            </div><!-- /.text -->
-<!--                        </div><!-- /.inner -->
-<!--                    </div><!-- /.wrap -->
-<!--                </div><!-- /.clock-item -->
-<!--            </div><!-- /.clock -->
-<!--            <div class="center">-->
-<!--                <a href="--><?php //echo base_url('index.php/frontpage/applyen')?><!--" class="hvr-sweep-to-right button">-->
-<!--                    Apply!-->
-<!--                </a>-->
-<!--                <p class="textsize">Until <b>March 7</b></p>-->
-<!--            </div>-->
-<!--        </div><!-- /.countdown-wrapper -->
+        </div>
+    </div>
+    <!--
+                <div class="countdown countdown-container container">
+                    <div class="clock row" style="margin-top:250px;">
+                        <div class="center top3">
+                            <p class="textsize text-gray"><b>A EBEC está a chegar! Faltam:</b></p>
+                        </div>
+                        <div class="clock-item clock-days countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-days" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-days type-time">DIAS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+    <!--
+                        <div class="clock-item clock-hours countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-hours" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-hours type-time">HORAS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+    <!--
+                        <div class="clock-item clock-minutes countdown-time-value col-sm-3 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-minutes" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-minutes type-time">MINUTOS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+    <!--
+                        <div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3 hidden-xs">
+                            <div class="wrap">
+                                <div class="inner">
+                                    <div id="canvas-seconds" class="clock-canvas"></div>
+
+                                    <div class="text">
+                                        <p class="val">0</p>
+                                        <p class="type-seconds type-time">SEGUNDOS</p>
+                                    </div><!-- /.text -->
+    <!-- /.inner -->
+    <!-- /.wrap -->
+    <!-- /.clock-item -->
+
+    <div class="center he">
+        <p class="textsite"><b>Do not miss the next edition of the biggest european engineering competition!</b></p>
+    </div>
+
+
+</section>
+<section class="bg-ebec-orange">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <p class="center teasertitle"><b>Edition 2017</b></p>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/osqsy-kDcU4" allowfullscreen="" frameborder="0" width="100px" height="300px"></iframe>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568b1027a1f2a864" async="async"></script>
+
+
 <!-- Countdown starts here -->
-<!--<script type="text/javascript">-->
-<!--    $(document).ready(function() {-->
-<!--        $('.countdown').final_countdown({-->
-<!--            'start': $.now() / 1000,-->
-<!--            'end': 1489104000,-->
-<!--            'now': $.now() / 1000,-->
-<!--            seconds: {-->
-<!--                borderColor: '#3C6F9B',-->
-<!--                borderWidth: '20'-->
-<!--            },-->
-<!--            minutes: {-->
-<!--                borderColor: '#69963F',-->
-<!--                borderWidth: '20'-->
-<!--            },-->
-<!--            hours: {-->
-<!--                borderColor: '#EEA225',-->
-<!--                borderWidth: '20'-->
-<!--            },-->
-<!--            days: {-->
-<!--                borderColor: '#B26912',-->
-<!--                borderWidth: '20'-->
-<!--            }}, function() {-->
-<!--            // Finish callback-->
-<!--        });-->
-<!--    });-->
-<!--</script>-->
-
-
-
-<!-- News section -->
-<!--<section class="bg-gray">
-  <div class="container">
-    <div class="row">
-        <div class="col-lg-12 text-center">
-              <h2 class="section-heading">Notícias</h2>
-              <br/>
-        </div>-->
-
-<!-- News section -->
-<!--<div class="col-md-7" id="posts-left">-->
-
-<!-- New -->
-<!--<div class="row well news-post" style="margin-right:5px">
-  <div class="col-md-12">
-
-  </div>
-  <div class="col-md-4" style="vertical-align: middle;">
-
-  </div>
-  <div class="col-md-8">
-
-
-  </div>
-</div>
--->
-
-<!--</div>-->
-
-
-<!-- Facebook page plugin -->
-<!--<div class="col-md-5" id="posts-right">
-  <div class="fb-page" data-href="https://www.facebook.com/EBEC.Aveiro" data-tabs="timeline"
-  data-width="500" data-height="710" data-small-header="false" data-adapt-container-width="true"
-  data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EBEC.Aveiro"><a href="https://www.facebook.com/EBEC.Aveiro">EBEC Aveiro</a></blockquote></div></div>
-</div>
-</div>
-
-
-
-
-</div>
-
-</section>
-<a href="" class="scrollToTop"></a>
-
-
-
-
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-var js, fjs = d.getElementsByTagName(s)[0];
-if (d.getElementById(id)) return;
-js = d.createElement(s); js.id = id;
-js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=916968148360903";
-fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.countdown').final_countdown({
+            'start': $.now() / 1000,
+            'end': 1489104000,
+            'now': $.now() / 1000,
+            seconds: {
+                borderColor: '#3C6F9B',
+                borderWidth: '20'
+            },
+            minutes: {
+                borderColor: '#69963F',
+                borderWidth: '20'
+            },
+            hours: {
+                borderColor: '#EEA225',
+                borderWidth: '20'
+            },
+            days: {
+                borderColor: '#B26912',
+                borderWidth: '20'
+            }}, function() {
+            // Finish callback
+        });
+    });
+</script>
