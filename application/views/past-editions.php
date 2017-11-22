@@ -25,6 +25,81 @@
 
 
 
+<!-- Edição 2017 -->
+
+<section class="bg-gray">
+    <div class="container">
+        <div class="row">
+            <br>
+            <br>
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Edição 2017</h2>
+                <br/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted text-justify">
+                    Nos dias 11, 12 e 15 de março de 2016 decorreu no campus da Universidade de Aveiro a <b>VIII Edição da
+                        EBEC Aveiro</b> que contou com a participação de [quantos?] estudantes de ciências e tecnologias e [quantas?] equipas.
+                </p>
+                <p class="text-muted text-justify">
+                    A competição de Team Design foi apoiada pela empresa [qual?], enquanto que a competição de Case Study pela empresa
+                    [qual?]. Os vencedores da EBEC Aveiro 2017 representaram Aveiro na fase nacional da competição, que se
+                    realizou em [onde?].
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" style="padding:30px">
+                <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Case Study</b></h3>
+                <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/33.jpg')?>">
+            </div>
+            <div class="col-md-6" style="padding:30px">
+                <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Team Design</b></h3>
+                <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/media/2016/34.jpg')?>">
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Testemunho</b></h3>
+            <div class='col-md-12'>
+                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+
+                    <!-- Carousel Slides / Quotes -->
+                    <div class="carousel-inner">
+
+                        <!-- Quote 1 -->
+                        <div class="item active">
+                            <blockquote>
+                                <div class="row">
+                                    <div class="col-sm-3 text-center">
+                                        <img class="img-circle" src="<?php echo base_url('assets/img/contacts/PedroReis.jpg')?>">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <p class="text-justify">
+                                            Após ter sido participante da EBEC Aveiro 2016, surgiu a oportunidade de ser Coordenador da EBEC Aveiro 2017. Desde então, passaram-se 6 meses em que todos os dias eram diferentes. Era necessário organizar-me diariamente, para conseguir conciliar os estudos e o trabalho que tinha para a EBEC Aveiro, sem nunca perder a motivação para nenhum destes aspetos.
+                                            Nesta edição, contámos com a presença de um Main Sponsor do evento - a Mahle; reformulamos a modalidade de Case Study - fizemos 2 provas em 24h; mantivemos a existência de um workshop e de uma feira de empresas, desta vez com um espaço de Cocktail Network. A experiência tornou-se assim enriquecedora - criar e coordenar uma equipa, manter todos motivados, encontrar e resolver problemas que apareciam todas as semanas - pode parecer duro (e é) mas, na verdade, hoje sou facilmente capaz de dizer que valeu a pena por todas as aprendizagens que eu e a minha equipa trouxemos para nós, como estudantes, como futuros trabalhadores e também como pessoas.
+                                            Por último, gostaria de deixar um apelo a todos: explorem áreas de conhecimento que não conhecem, saiam da vossa zona de conforto e agarrem as oportunidades que aparecem.
+                                        </p>
+
+                                        <small>
+                                            Pedro Reis<br/>
+                                            Coordenador da EBEC Aveiro 2017
+                                        </small>
+                                    </div>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Edição 2016 -->
+
 <section class="bg-gray">
 	<div class="container">
 		<div class="row">
@@ -243,110 +318,5 @@
     </div>
 </section>
 
-<!-- V Edição -->
-<section class="">
-	<div class="container">
-		<div class="row">
-	    	<div class="col-lg-12 text-center">
-	            <h2 class="section-heading">Edição 2013</h2>
-	            <br/>
-	        </div>
-	    </div>
-	    <div class="row">	    	     
-		        <div class="col-md-12">                
-		            <p class="text-muted text-justify">
-		            	A V Edição da EBEC Aveiro realizou-se nos dias 9, 10 e 11 de março de 2013, esta edição teve 
-		            	a participação de 92 participantes.
-		            </p>
-		            <p class="text-muted text-justify">
-		            	A competição de Case Study contou com o apoio da empresa Bosch, que pelo 2º ano consecutivo foi parceira
-		            	da EBEC Aveiro.
-		            </p>
-		        </div>
-		    </div>
-		    <div class="row">	    	     
-		        <div class="col-md-6" style="padding:30px">                
-		            <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Case Study</b></h3>
-		            <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/past-editions/cs_winners_2013.jpg')?>">
-		        </div>
-		        <div class="col-md-6" style="padding:30px">                
-		            <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Team Design</b></h3>
-		            <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/past-editions/td_winners_2013.jpg')?>">
-		        </div>
-		    </div>
-	    <div class="row">
-	    	<h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Testemunho</b></h3>
-		    <div class='col-md-12'>
-		      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-		        
-		        <!-- Carousel Slides / Quotes -->
-		        <div class="carousel-inner">
-		        
-		          <!-- Quote 1 -->
-		          <div class="item active">
-		            <blockquote>
-		              <div class="row">
-		                <div class="col-sm-3 text-center">
-		                  <img class="img-circle" src="<?php echo base_url('assets/img/past-editions/testimonials/mo_2013.jpg')?>">
-		                </div>
-		                <div class="col-sm-8">
-		                  <p class="text-justify">Ser Coordenador da EBEC foi não ter um dia normal durante uns meses. Foi maior
-		                  	desafio que já tive, vi-me obrigado a criar métodos de trabalho mais rígidos para conciliar
-		                  	as aulas com as tarefas a que me propunha. Tive que aprender a delegar, num cargo como este
-		                  	nada é possível se não soubermos delegar.
-						  </p>
-		                  <small>
-		                  	José Aquino<br/>
-		                  	Coordenador da EBEC Aveiro 2013
-		                  </small>
-		                </div>
-		              </div>
-		            </blockquote>
-		          </div>
-	          </div>
-	      	</div>                          
-	    </div>
-		</div>
-</div>
-</section>
 
-<!-- IV Edição -->
-<section class="bg-gray">
-	<div class="container">
-		<div class="row">
-	        <div class="col-lg-12 text-center">
-	            <h2 class="section-heading">Edição 2012</h2>
-	            <br/>
-	        </div>
-	    </div>
-	    <div class="row">	    	     
-	        <div class="col-md-12">                
-	            <p class="text-muted text-justify">
-	            	A IV Edição da EBEC Aveiro decorreu nos dias 3, 4 e 7 março de 2012, tendo esta edição a
-	            	particularidade de a denominação anteriormente utilizada - BEST Engineering Competition - 
-	            	passar agora a ser European BEST Engineering Competition e assim estar envolvida na competição 
-	            	internacional EBEC. O formato da competição manteve-se, continuando a duração a ser de 24h e iria 
-	            	manter-se para as edições seguintes.
-	            </p>
-	            <p class="text-muted text-justify">
-	            	A competição de Case Study foi apoiada pela empresa Bosch e a competição de Team Design foi desenvolvida
-	            	apenas pelos membros do BEST Aveiro. O evento contou com a participação de 72 estudantes, num total 
-	            	de 18 equipas. 
-	            </p>
-	        </div>
-	    </div>
-	    <div class="row">	    	     
-	        <div class="col-md-6" style="padding:30px">                
-	            <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Case Study</b></h3>
-	            <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/past-editions/cs_winners_2012.jpg')?>">
-	        </div>
-	        <div class="col-md-6" style="padding:30px">                
-	            <h3 class="section-subheading text-center text-muted" style="margin-bottom:30px"><b>Vencedores Team Design</b></h3>
-	            <img class="img-responsive" alt="" src="<?php echo base_url('assets/img/past-editions/td_winners_2012.jpg')?>">
-	        </div>
-	    </div>
-
-		</div>
-    </div>
-</section>
 <a href="" class="scrollToTop"></a>

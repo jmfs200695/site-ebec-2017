@@ -293,6 +293,12 @@ class Frontpage extends Main_Controller {
         $this->load->view('news_mahle_en');
         $this->load->view('include/footer');
     }
+    public function pag1()
+    {
+        $this->load->view('include/header');
+        $this->load->view('pag1');
+        $this->load->view('include/footer');
+    }
 }
 /* End of file frontpage.php */
 /* Location: ./application/controllers/frontpage.php */

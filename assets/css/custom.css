@@ -843,7 +843,7 @@ p.large {
     -webkit-transition: all .6s ease;  /* Transition for Webkit browsers */
 }
 
-.img-grayscale:hover { 
+.img-grayscale:hover {
     filter: grayscale(0%);
     -webkit-filter: grayscale(0%);
     filter: none;
@@ -1229,4 +1229,7 @@ margin: 0px 10px 10px 10px;
   font-size: 30px;
   color: #FFFFFF;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.text-color{
+  color:
 }

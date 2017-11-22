@@ -106,6 +106,9 @@
                            <li>
                               <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/faqs')?>">FAQs</a>
                            </li>
+                              <li>
+                                  <a class="page-scroll" href="<?php echo base_url('index.php/frontpage/pag1')?>">Pagina</a>
+                              </li>
                           </ul>
                       </li>
                       <li>
